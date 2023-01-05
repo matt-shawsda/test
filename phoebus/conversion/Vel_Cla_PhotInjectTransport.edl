@@ -1,0 +1,8164 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 50
+y 50
+w 1610
+h 950
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 435
+w 88
+h 86
+
+beginGroup
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 435
+w 84
+h 86
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 202
+y 468
+w 11
+h 19
+lineColor index 3
+fill
+fillColor index 3
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 789
+y 682
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PICO-05,title=VELA Mirror Box 2:PM7B,motorA=PM7B-V,motorB=PM7B-H,motorC=PM6-V"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 583
+y 727
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PICO-07,title=VELA Mirror Box 2:PM7A,motorA=PM7A-V,motorB=PM7A-H,motorC=SPARE"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 593
+y 689
+w 206
+h 48
+lineColor index 47
+fill
+fillColor index 47
+lineWidth 2
+numPoints 2
+xPoints {
+  0 799
+  1 593
+}
+yPoints {
+  0 689
+  1 737
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 522
+y 574
+w 70
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 592
+  1 522
+}
+yPoints {
+  0 574
+  1 574
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1051
+y 75
+w 535
+h 407
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 589
+y 549
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PICO-03,title=VELA Mirror Box 3:PM1,motorA=PM1-V, motorB=PM1-H,motorC=PM8-V, "
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 373
+y 507
+w 23
+h 18
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "pico8742.edl"
+}
+symbols {
+  0 "device=CLA-LAS-OPT-PICO-4B,title=CLARA Mirror Box 4:PM5,motorA=PM-3:V,motorB=PM-3:H,motorC=PM-5:V,motorD=PM-5:H"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 374
+y 528
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "pico8742.edl"
+}
+symbols {
+  0 "device=CLA-LAS-OPT-PICO-4A,title=CLARA Mirror Box 4:FM1,motorA=PM-2:V,motorB=PM-2:H,motorC=FM-1:V,motorD=FM-1:H"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 705
+y 542
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PICO-01,title=VELA Mirror Box 3:BS2,motorA=BS2-V,motorB=BS2-H,motorC=PM11-V"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1170
+y 729
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotors16Jan2017.edl"
+}
+symbols {
+  0 "deviceA=EBT-LAS-OPT-PICO-05,deviceB=EBT-LAS-OPT-PICO-06,title=VELA Mirror Box 1:PM6,AmotorA=FM2-V,AmotorB=FM2-H,AmotorC=PM6-V,BmotorA=M7-V,BmotorB=M7-V,BmotorC=PM6-H,"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 275
+y 334
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "pico8742.edl"
+}
+symbols {
+  0 "device=CLA-LAS-OPT-PICO-4C,title=CLARA Mirror Box 4:PM4,motorA=PM-4:V,motorB=PM-4:H,motorC=PM-6:V,motorD=PM-6:H,"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 279
+y 530
+w 23
+h 18
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "pico8742.edl"
+}
+symbols {
+  0 "device=CLA-LAS-OPT-PICO-4B,title=CLARA Mirror Box 4:PM3,motorA=PM-3:V,motorB=PM-3:H,motorC=PM-5:V,motorD=PM-5:H"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 326
+y 549
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "pico8742.edl"
+}
+symbols {
+  0 "device=CLA-LAS-OPT-PICO-4A,title=CLARA Mirror Box 4:PM2,motorA=PM-2:V,motorB=PM-2:H,motorC=FM-1:V,motorD=FM-1:H"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 588
+y 480
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotors16Jan2017.edl"
+}
+symbols {
+  0 "deviceA=EBT-LAS-OPT-PICO-03,deviceB=EBT-LAS-OPT-PICO-04,title=VELA Mirror Box 3:PM8,AmotorA=PM1-H, AmotorB=PM1-V,AmotorC=PM8-V, BmotorA=PM8-H, BmotorB=PM12-V, BmotorC=PM12-H, "
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 695
+y 483
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PICO-02,title=VELA Mirror Box 3:FM3,motorA=PM11-H,motorB=FM3-V,motorC=FM3-H,"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 645
+y 600
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PICO-04,title=VELA Mirror Box 3:PM12,motorA=PM8-H,motorB=PM12-V,motorC=PM12-H,"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 584
+y 680
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PICO-06,title=VELA Mirror Box 2:PM7,motorA=PM7-V,motorB=PM7-H,motorC=PM6-H"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 744
+y 447
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotors16Jan2017.edl"
+}
+symbols {
+  0 "deviceA=EBT-LAS-OPT-PICO-01,deviceB=EBT-LAS-OPT-PICO-02,deviceC=EBT-LAS-OPT-FM-3, title=VELA Mirror Box 3:PM11,AmotorA=PM2-V,AmotorB=PM2-H,AmotorC=PM11-V,BmotorA=PM11-H,BmotorB=FM3-H,BmotorC=FM3-V"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1366
+y 365
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "picoMotor.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PICO-03,title=VELA Main Laser Table:PM1,motorA=PM1-V,motorB=PM1-H,motorC=PM8-V"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1188
+y 151
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "pico8742.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT,title=VELA Main Laser Table:PM5:M,motorA=PM-5:M:V,motorB=PM-5:M:H,motorC=PM-5:W:V,motorD=PM-5:W:H"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1182
+y 677
+w 0
+h 56
+lineColor index 19
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1182
+  1 1182
+}
+yPoints {
+  0 733
+  1 677
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 529
+y 739
+w 64
+h 0
+lineColor index 19
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 529
+  1 593
+}
+yPoints {
+  0 739
+  1 739
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 338
+y 342
+w 108
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 2
+xPoints {
+  0 338
+  1 446
+}
+yPoints {
+  0 342
+  1 342
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1119
+y 231
+w 212
+h 0
+lineColor index 19
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1119
+  1 1331
+}
+yPoints {
+  0 231
+  1 231
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1380
+y 433
+w 75
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1380
+  1 1455
+}
+yPoints {
+  0 433
+  1 433
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 167
+y 86
+w 113
+h 56
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 384
+y 86
+w 222
+h 56
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 167
+y 68
+w 77
+h 16
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Gun Cavity"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 384
+y 68
+w 134
+h 16
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLARA Accelerator"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 316
+y 86
+w 35
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 316
+  1 351
+}
+yPoints {
+  0 86
+  1 86
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 350
+y 87
+w 0
+h 55
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 350
+  1 350
+}
+yPoints {
+  0 142
+  1 87
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 316
+y 142
+w 7
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 316
+  1 323
+}
+yPoints {
+  0 142
+  1 142
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 310
+y 188
+w 0
+h 71
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 310
+  1 310
+}
+yPoints {
+  0 259
+  1 188
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 311
+y 258
+w 11
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 311
+  1 322
+}
+yPoints {
+  0 258
+  1 258
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 340
+y 258
+w 12
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 340
+  1 352
+}
+yPoints {
+  0 258
+  1 258
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 321
+y 258
+w 0
+h 54
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 321
+  1 321
+}
+yPoints {
+  0 312
+  1 258
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 340
+y 259
+w 0
+h 53
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 340
+  1 340
+}
+yPoints {
+  0 312
+  1 259
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 341
+y 311
+w 65
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 341
+  1 406
+}
+yPoints {
+  0 311
+  1 311
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 260
+y 311
+w 62
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 260
+  1 322
+}
+yPoints {
+  0 311
+  1 311
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 260
+y 311
+w 0
+h 158
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 260
+  1 260
+}
+yPoints {
+  0 469
+  1 311
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 405
+y 312
+w 0
+h 236
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 405
+  1 405
+}
+yPoints {
+  0 548
+  1 312
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 258
+y 613
+w 147
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 258
+  1 405
+}
+yPoints {
+  0 613
+  1 613
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 405
+y 567
+w 0
+h 47
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 405
+  1 405
+}
+yPoints {
+  0 614
+  1 567
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 522
+y 409
+w 0
+h 139
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 522
+  1 522
+}
+yPoints {
+  0 548
+  1 409
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 405
+y 567
+w 118
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 523
+  1 405
+}
+yPoints {
+  0 567
+  1 567
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 831
+y 542
+w 72
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 903
+  1 831
+}
+yPoints {
+  0 542
+  1 542
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 831
+y 558
+w 0
+h 17
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 831
+  1 831
+}
+yPoints {
+  0 575
+  1 558
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 831
+y 558
+w 77
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 908
+  1 831
+}
+yPoints {
+  0 558
+  1 558
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 550
+y 664
+w 0
+h 115
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 550
+  1 550
+}
+yPoints {
+  0 779
+  1 664
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 550
+y 779
+w 285
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 835
+  1 550
+}
+yPoints {
+  0 779
+  1 779
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 551
+y 664
+w 42
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 593
+  1 551
+}
+yPoints {
+  0 664
+  1 664
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 835
+y 664
+w 0
+h 65
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 835
+  1 835
+}
+yPoints {
+  0 729
+  1 664
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 836
+y 728
+w 310
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 1146
+  1 836
+}
+yPoints {
+  0 728
+  1 728
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 835
+y 748
+w 0
+h 32
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 835
+  1 835
+}
+yPoints {
+  0 780
+  1 748
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 835
+y 748
+w 311
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 1146
+  1 835
+}
+yPoints {
+  0 748
+  1 748
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 607
+y 664
+w 228
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 835
+  1 607
+}
+yPoints {
+  0 664
+  1 664
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 592
+y 574
+w 0
+h 90
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 592
+  1 592
+}
+yPoints {
+  0 664
+  1 574
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 606
+y 574
+w 0
+h 91
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 606
+  1 606
+}
+yPoints {
+  0 665
+  1 574
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 607
+y 574
+w 224
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 831
+  1 607
+}
+yPoints {
+  0 574
+  1 574
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 340
+y 142
+w 10
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 340
+  1 350
+}
+yPoints {
+  0 142
+  1 142
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 316
+y 87
+w 0
+h 55
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 316
+  1 316
+}
+yPoints {
+  0 142
+  1 87
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 340
+y 143
+w 0
+h 45
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 340
+  1 340
+}
+yPoints {
+  0 188
+  1 143
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 340
+y 187
+w 11
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 340
+  1 351
+}
+yPoints {
+  0 187
+  1 187
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 351
+y 187
+w 0
+h 72
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 351
+  1 351
+}
+yPoints {
+  0 259
+  1 187
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 310
+y 187
+w 13
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 310
+  1 323
+}
+yPoints {
+  0 187
+  1 187
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 322
+y 142
+w 0
+h 46
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 322
+  1 322
+}
+yPoints {
+  0 188
+  1 142
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 668
+y 301
+w 0
+h 71
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 668
+  1 668
+}
+yPoints {
+  0 372
+  1 301
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 668
+y 371
+w 12
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 668
+  1 680
+}
+yPoints {
+  0 371
+  1 371
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 698
+y 371
+w 14
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 698
+  1 712
+}
+yPoints {
+  0 371
+  1 371
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 679
+y 372
+w 0
+h 38
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 679
+  1 679
+}
+yPoints {
+  0 410
+  1 372
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 698
+y 372
+w 0
+h 38
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 698
+  1 698
+}
+yPoints {
+  0 410
+  1 372
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 696
+y 257
+w 0
+h 44
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 696
+  1 696
+}
+yPoints {
+  0 301
+  1 257
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 697
+y 300
+w 15
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 697
+  1 712
+}
+yPoints {
+  0 300
+  1 300
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 711
+y 300
+w 0
+h 71
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 711
+  1 711
+}
+yPoints {
+  0 371
+  1 300
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 668
+y 300
+w 12
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 668
+  1 680
+}
+yPoints {
+  0 300
+  1 300
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 680
+y 257
+w 0
+h 43
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 680
+  1 680
+}
+yPoints {
+  0 300
+  1 257
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 13
+y 783
+w 1161
+h 29
+lineColor index 14
+fill
+fillColor index 58
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 304
+y 68
+w 65
+h 16
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Light Box"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 726
+y 307
+w 75
+h 48
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Differential"
+  "Pumping"
+  "Section"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 353
+y 194
+w 75
+h 48
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Differential"
+  "Pumping"
+  "Section"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 208
+y 487
+w 50
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 208
+  1 258
+}
+yPoints {
+  0 487
+  1 487
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 208
+y 468
+w 52
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 208
+  1 260
+}
+yPoints {
+  0 468
+  1 468
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 987
+y 748
+w 26
+h 35
+lineColor index 14
+fill
+fillColor index 58
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 986
+y 625
+w 26
+h 103
+lineColor index 14
+fill
+fillColor index 58
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1012
+y 625
+w 407
+h 17
+lineColor index 14
+fill
+fillColor index 58
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1419
+y 625
+w 26
+h 160
+lineColor index 14
+fill
+fillColor index 58
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1191
+y 783
+w 396
+h 29
+lineColor index 14
+fill
+fillColor index 58
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 713
+y 389
+w 111
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Vacuum Valve (Window)"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 354
+y 286
+w 111
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Vacuum Valve (Window)"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 546
+y 594
+w 38
+h 24
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Vacuum "
+  "Valve"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 542
+y 390
+w 86
+h 16
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror Box 3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 503
+y 645
+w 86
+h 16
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror Box 2"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1146
+y 695
+w 68
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 1214
+  1 1146
+}
+yPoints {
+  0 695
+  1 695
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1214
+y 695
+w 0
+h 65
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 1214
+  1 1214
+}
+yPoints {
+  0 760
+  1 695
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1190
+y 760
+w 25
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 1215
+  1 1190
+}
+yPoints {
+  0 760
+  1 760
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1145
+y 760
+w 29
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 1174
+  1 1145
+}
+yPoints {
+  0 760
+  1 760
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1145
+y 748
+w 0
+h 12
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 1145
+  1 1145
+}
+yPoints {
+  0 760
+  1 748
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1145
+y 695
+w 0
+h 33
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 1145
+  1 1145
+}
+yPoints {
+  0 728
+  1 695
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 120
+y 466
+w 8
+h 25
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 903
+y 542
+w 8
+h 16
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 915
+y 506
+w 94
+h 28
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELA Virtual"
+  "Cathode Camera"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 18
+y 439
+w 94
+h 28
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLARA Virtual"
+  "Cathode Camera"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 52
+y 369
+w 100
+h 32
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLARA Virtual"
+  "Cathode"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 225
+y 507
+w 10
+h 21
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 407
+y 580
+w 45
+h 36
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Vacuum "
+  "Valve "
+  "(Window)"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1164
+y 687
+w 28
+h 7
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1164
+y 672
+w 29
+h 6
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 159
+y 790
+w 108
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Radiation Shielding"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1090
+y 686
+w 44
+h 32
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror"
+  "Box 1"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 700
+y 574
+w 26
+h 11
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 888
+y 542
+w 11
+h 16
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 680
+y 600
+w 12
+h 21
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 704
+y 609
+w 17
+h 11
+lineColor index 22
+fill
+fillColor index 22
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 732
+y 608
+w 76
+h 28
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELA Orphir"
+  "Energy Meter"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 667
+y 625
+w 43
+h 28
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "HeNe"
+  "Camera"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1175
+y 760
+w 0
+h 138
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 1175
+  1 1175
+}
+yPoints {
+  0 898
+  1 760
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1190
+y 760
+w 0
+h 138
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 1190
+  1 1190
+}
+yPoints {
+  0 898
+  1 760
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1171
+y 812
+w 22
+h 6
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1040
+y 54
+w 117
+h 16
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Main Laser Table"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 128
+y 406
+w 82
+h 28
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLARA Virtual"
+  "Cathode"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 443
+y 365
+w 16
+h 10
+lineColor index 22
+fill
+fillColor index 22
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 405
+y 329
+w 11
+h 29
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1140
+y 654
+w 79
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "HeNe Camera"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 326
+y 118
+w 15
+h 14
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 326
+  1 341
+}
+yPoints {
+  0 118
+  1 132
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 278
+y 529
+w 18
+h 18
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 278
+  1 296
+}
+yPoints {
+  0 529
+  1 547
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 405
+y 548
+w 119
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 524
+  1 405
+}
+yPoints {
+  0 548
+  1 548
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 371
+y 468
+w 18
+h 19
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 371
+  1 389
+}
+yPoints {
+  0 487
+  1 468
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 527
+w 0
+h 21
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 385
+  1 385
+}
+yPoints {
+  0 548
+  1 527
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 653
+y 451
+w 15
+h 19
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 653
+  1 668
+}
+yPoints {
+  0 470
+  1 451
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 590
+y 482
+w 15
+h 16
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 590
+  1 605
+}
+yPoints {
+  0 498
+  1 482
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 467
+y 355
+w 81
+h 28
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLARA Orphir"
+  "Energy Meter"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1109
+y 300
+w 14
+h 12
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1109
+  1 1123
+}
+yPoints {
+  0 300
+  1 312
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 747
+y 450
+w 15
+h 13
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 747
+  1 762
+}
+yPoints {
+  0 450
+  1 463
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 751
+y 504
+w 13
+h 13
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 751
+  1 764
+}
+yPoints {
+  0 517
+  1 504
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 653
+y 546
+w 16
+h 14
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 653
+  1 669
+}
+yPoints {
+  0 546
+  1 560
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 702
+y 544
+w 21
+h 16
+lineColor index 91
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 702
+  1 723
+}
+yPoints {
+  0 544
+  1 560
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1318
+y 222
+w 119
+h 18
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 707
+y 483
+w 0
+h 22
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 707
+  1 707
+}
+yPoints {
+  0 505
+  1 483
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 638
+y 498
+w 0
+h 23
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 638
+  1 638
+}
+yPoints {
+  0 521
+  1 498
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 831
+y 409
+w 0
+h 133
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 831
+  1 831
+}
+yPoints {
+  0 542
+  1 409
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 679
+y 450
+w 16
+h 17
+lineColor index 91
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 679
+  1 695
+}
+yPoints {
+  0 450
+  1 467
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 206
+y 530
+w 43
+h 28
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "HeNe"
+  "Camera"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1186
+y 82
+w 26
+h 11
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1190
+y 150
+w 16
+h 19
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1190
+  1 1206
+}
+yPoints {
+  0 150
+  1 169
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1107
+y 353
+w 156
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1107
+y 353
+w 156
+h 85
+lineColor index 14
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1139
+y 379
+w 85
+h 28
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Third Harmonic"
+  "Generation"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1110
+y 223
+w 15
+h 14
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1110
+  1 1125
+}
+yPoints {
+  0 237
+  1 223
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1340
+y 199
+w 73
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "543nm HeNe"
+}
+autoSize
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1316
+y 358
+w 8
+h 29
+lineColor index 14
+fill
+fillColor index 14
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1316
+y 356
+w 8
+h 33
+lineColor index 14
+fill
+fillColor index 14
+startAngle 180
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1367
+y 365
+w 21
+h 19
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1367
+  1 1388
+}
+yPoints {
+  0 365
+  1 384
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1200
+y 96
+w 0
+h 64
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1200
+  1 1200
+}
+yPoints {
+  0 160
+  1 96
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1200
+y 161
+w 324
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1200
+  1 1524
+}
+yPoints {
+  0 161
+  1 161
+}
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1478
+y 145
+w 8
+h 29
+lineColor index 14
+fill
+fillColor index 14
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1478
+y 147
+w 8
+h 29
+lineColor index 14
+fill
+fillColor index 14
+startAngle 180
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1120
+y 898
+w 140
+h 46
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1142
+y 906
+w 76
+h 32
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Main Laser"
+  "Table"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1120
+y 898
+w 140
+h 46
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1058
+y 813
+w 111
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CaF2 Vacuum (Window)"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1220
+y 77
+w 137
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CaF2 Vacuum (Window)"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1521
+y 162
+w 0
+h 144
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1521
+  1 1521
+}
+yPoints {
+  0 306
+  1 162
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1476
+y 305
+w 46
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1476
+  1 1522
+}
+yPoints {
+  0 305
+  1 305
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1466
+y 295
+w 19
+h 17
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1466
+  1 1485
+}
+yPoints {
+  0 312
+  1 295
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1447
+y 422
+w 19
+h 17
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1447
+  1 1466
+}
+yPoints {
+  0 439
+  1 422
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1456
+y 300
+w 22
+h 132
+lineColor index 47
+fill
+fillColor index 47
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1478
+  1 1456
+}
+yPoints {
+  0 300
+  1 432
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1378
+y 372
+w 0
+h 62
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1378
+  1 1378
+}
+yPoints {
+  0 434
+  1 372
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1264
+y 372
+w 115
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1264
+  1 1379
+}
+yPoints {
+  0 372
+  1 372
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1118
+y 230
+w 0
+h 76
+lineColor index 19
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1118
+  1 1118
+}
+yPoints {
+  0 306
+  1 230
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1101
+y 259
+w 40
+h 17
+lineColor index 14
+fill
+fillColor index 48
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1115
+y 306
+w 358
+h 0
+lineColor index 19
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1115
+  1 1473
+}
+yPoints {
+  0 306
+  1 306
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1067
+y 382
+w 39
+h 0
+lineColor index 41
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1067
+  1 1106
+}
+yPoints {
+  0 382
+  1 382
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1067
+y 381
+w 0
+h 89
+lineColor index 41
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1067
+  1 1067
+}
+yPoints {
+  0 470
+  1 381
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1068
+y 468
+w 118
+h 0
+lineColor index 41
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1068
+  1 1186
+}
+yPoints {
+  0 468
+  1 468
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 234
+y 518
+w 147
+h 0
+lineColor index 19
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 234
+  1 381
+}
+yPoints {
+  0 518
+  1 518
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 380
+y 478
+w 0
+h 40
+lineColor index 19
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 380
+  1 380
+}
+yPoints {
+  0 518
+  1 478
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 277
+y 334
+w 20
+h 17
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 277
+  1 297
+}
+yPoints {
+  0 351
+  1 334
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 332
+y 550
+w 0
+h 19
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 332
+  1 332
+}
+yPoints {
+  0 569
+  1 550
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 334
+y 537
+w 51
+h 22
+lineColor index 47
+fill
+fillColor index 47
+lineWidth 2
+numPoints 2
+xPoints {
+  0 385
+  1 334
+}
+yPoints {
+  0 537
+  1 559
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 333
+y 559
+w 267
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 333
+  1 600
+}
+yPoints {
+  0 559
+  1 559
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 289
+y 537
+w 96
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 289
+  1 385
+}
+yPoints {
+  0 537
+  1 537
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 288
+y 342
+w 45
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 288
+  1 333
+}
+yPoints {
+  0 342
+  1 342
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 331
+y 124
+w 0
+h 218
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 331
+  1 331
+}
+yPoints {
+  0 342
+  1 124
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 370
+y 334
+w 17
+h 18
+lineColor index 91
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 370
+  1 387
+}
+yPoints {
+  0 334
+  1 352
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 141
+y 478
+w 239
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 2
+xPoints {
+  0 141
+  1 380
+}
+yPoints {
+  0 478
+  1 478
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 379
+y 338
+w 0
+h 137
+lineColor index 47
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 2
+xPoints {
+  0 379
+  1 379
+}
+yPoints {
+  0 475
+  1 338
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 451
+y 343
+w 0
+h 20
+lineColor index 47
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 2
+xPoints {
+  0 451
+  1 451
+}
+yPoints {
+  0 363
+  1 343
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 141
+y 470
+w 4
+h 17
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1182
+y 739
+w 0
+h 159
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 1182
+  1 1182
+}
+yPoints {
+  0 898
+  1 739
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 688
+y 241
+w 0
+h 220
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 688
+  1 688
+}
+yPoints {
+  0 461
+  1 241
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 199
+y 114
+w 376
+h 0
+lineColor index 20
+fillColor index 0
+lineWidth 2
+arrows "to"
+numPoints 2
+xPoints {
+  0 199
+  1 575
+}
+yPoints {
+  0 114
+  1 114
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 542
+y 128
+w 52
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Electrons"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 688
+y 460
+w 68
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 688
+  1 756
+}
+yPoints {
+  0 460
+  1 460
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 756
+y 459
+w 0
+h 53
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 756
+  1 756
+}
+yPoints {
+  0 512
+  1 459
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 639
+y 511
+w 118
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 639
+  1 757
+}
+yPoints {
+  0 511
+  1 511
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 640
+y 492
+w 67
+h 18
+lineColor index 47
+fill
+fillColor index 47
+lineWidth 2
+numPoints 2
+xPoints {
+  0 707
+  1 640
+}
+yPoints {
+  0 492
+  1 510
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 599
+y 491
+w 108
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 599
+  1 707
+}
+yPoints {
+  0 491
+  1 491
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 599
+y 492
+w 0
+h 70
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 599
+  1 599
+}
+yPoints {
+  0 562
+  1 492
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 599
+y 559
+w 0
+h 133
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 599
+  1 599
+}
+yPoints {
+  0 692
+  1 559
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 589
+y 681
+w 18
+h 19
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 589
+  1 607
+}
+yPoints {
+  0 681
+  1 700
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 544
+y 730
+w 11
+h 15
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 522
+y 729
+w 11
+h 17
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 590
+y 739
+w 593
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 590
+  1 1183
+}
+yPoints {
+  0 739
+  1 739
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 651
+y 603
+w 15
+h 15
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 651
+  1 666
+}
+yPoints {
+  0 603
+  1 618
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 658
+y 609
+w 22
+h 0
+lineColor index 19
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 658
+  1 680
+}
+yPoints {
+  0 609
+  1 609
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 659
+y 552
+w 0
+h 58
+lineColor index 19
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 659
+  1 659
+}
+yPoints {
+  0 610
+  1 552
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 714
+y 554
+w 0
+h 18
+lineColor index 47
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 2
+xPoints {
+  0 714
+  1 714
+}
+yPoints {
+  0 572
+  1 554
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 713
+y 585
+w 0
+h 26
+lineColor index 47
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 2
+xPoints {
+  0 713
+  1 713
+}
+yPoints {
+  0 611
+  1 585
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 660
+y 464
+w 0
+h 85
+lineColor index 47
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 2
+xPoints {
+  0 660
+  1 660
+}
+yPoints {
+  0 549
+  1 464
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 660
+y 551
+w 51
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 2
+xPoints {
+  0 660
+  1 711
+}
+yPoints {
+  0 551
+  1 551
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 660
+y 460
+w 28
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 2
+xPoints {
+  0 660
+  1 688
+}
+yPoints {
+  0 460
+  1 460
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 718
+y 551
+w 170
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 2
+xPoints {
+  0 718
+  1 888
+}
+yPoints {
+  0 551
+  1 551
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 597
+y 690
+w 200
+h 0
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 597
+  1 797
+}
+yPoints {
+  0 690
+  1 690
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1203
+y 459
+w 90
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "800nm Ti:Sapph"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 711
+y 437
+w 103
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-11"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 714
+y 521
+w 103
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-10"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 714
+y 534
+w 95
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-BS-2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 661
+y 428
+w 24
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "BS-1"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 523
+y 409
+w 156
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 679
+  1 523
+}
+yPoints {
+  0 409
+  1 409
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 699
+y 409
+w 132
+h 0
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 831
+  1 699
+}
+yPoints {
+  0 409
+  1 409
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 626
+y 523
+w 26
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM-9"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 491
+y 545
+w 99
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLA-LAS-OPT-PM-1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 631
+y 619
+w 32
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM-12"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 525
+y 464
+w 97
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-8"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1172
+y 730
+w 22
+h 20
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1172
+  1 1194
+}
+yPoints {
+  0 730
+  1 750
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 445
+y 685
+w 105
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-7C"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 811
+y 685
+w 104
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-7B"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1220
+y 717
+w 97
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-6"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1082
+y 158
+w 109
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-5:M"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1102
+y 184
+w 109
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-5:W"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1480
+y 130
+w 97
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-4"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x -2
+y 0
+w 1622
+h 40
+lineColor index 14
+fill
+fillColor index 53
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 320
+y 96
+w 22
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LBM"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 426
+y 313
+w 99
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLA-LAS-OPT-PM-6"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 263
+y 318
+w 51
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLA-PM-4"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 317
+y 354
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "BS"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 351
+y 352
+w 14
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "BS"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 289
+y 571
+w 99
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLA-LAS-OPT-PM-2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 398
+y 528
+w 50
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLA-FM-1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 260
+y 550
+w 51
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLA-PM-3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 354
+y 452
+w 16
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 551
+y 751
+w 104
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-7A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 323
+y 498
+w 51
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLA-PM-5"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 849
+y 460
+w 87
+h 32
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELA Virtual"
+  "Cathode"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 705
+y 468
+w 48
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-FM-3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 633
+y 556
+w 16
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1493
+y 317
+w 67
+h 24
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT"
+  "-PM-3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 470
+y 724
+w 43
+h 28
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "HeNe"
+  "Camera"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1153
+y 261
+w 85
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-SHUT-1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1346
+y 347
+w 97
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1303
+y 448
+w 97
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1406
+y 280
+w 95
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-BP-2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1462
+y 440
+w 95
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-BP-1"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1512
+y 297
+w 18
+h 17
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1512
+  1 1530
+}
+yPoints {
+  0 314
+  1 297
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 258
+y 487
+w 0
+h 127
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 258
+  1 258
+}
+yPoints {
+  0 614
+  1 487
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 630
+y 455
+w 16
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PM"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 286
+y 615
+w 86
+h 16
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mirror Box 4"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 322
+y 334
+w 17
+h 18
+lineColor index 91
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 322
+  1 339
+}
+yPoints {
+  0 352
+  1 334
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 580
+y 10
+w 398
+h 21
+font "arial-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELA / CLARA Photoinjector Laser Transport"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1214
+y 135
+w 37
+h 56
+lineColor index 14
+fillColor index 0
+arrows "both"
+numPoints 2
+xPoints {
+  0 1214
+  1 1251
+}
+yPoints {
+  0 135
+  1 191
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 453
+y 579
+w 136
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLA-LAS-OPT-PM-1:TRANS"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1208
+y 122
+w 134
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-OPT-PM-5:TRANS"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 575
+y 576
+w 53
+h 0
+lineColor index 14
+fillColor index 0
+arrows "both"
+numPoints 2
+xPoints {
+  0 575
+  1 628
+}
+yPoints {
+  0 576
+  1 576
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1221
+y 153
+w 20
+h 20
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "newportSmc100.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PM-5:TRANS,title=VELA Main Laser Table:FM2:TRANS,motorA=PM-5:TRANS,motorB=FM7:TRANS,motorC=SPARE"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 592
+y 572
+w 20
+h 20
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "/home/controls/edl/CLARA/Commissioning/CLARA_Pop_In_Mirror.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PM-5:W,title=VELA Main Laser Table:FM2:TRANS,motorA=FM2:TRANS,motorB=FM7:TRANS,"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 375
+y 506
+w 17
+h 19
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 375
+  1 392
+}
+yPoints {
+  0 525
+  1 506
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 289
+y 341
+w 0
+h 197
+lineColor index 47
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 289
+  1 289
+}
+yPoints {
+  0 538
+  1 341
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 592
+y 550
+w 15
+h 17
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 592
+  1 607
+}
+yPoints {
+  0 550
+  1 567
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 750
+y 672
+w 45
+h 10
+lineColor index 14
+fillColor index 0
+arrows "both"
+numPoints 2
+xPoints {
+  0 795
+  1 750
+}
+yPoints {
+  0 672
+  1 682
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 764
+y 668
+w 20
+h 20
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "PM600_FM_2.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-FM-2:TRANS,title=VELA Main Laser Table:FM2:TRANS,motorA=FM2:TRANS,motorB=FM7:TRANS,"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 754
+y 653
+w 62
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "FM-2:TRANS"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1214
+y 178
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "pico8742.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT,title=VELA Main Laser Table:PM5:M,motorA=PM-5:M:V,motorB=PM-5:M:H,motorC=PM-5:W:V,motorD=PM-5:W:H"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 439
+y 332
+w 23
+h 21
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "pico8742.edl"
+}
+symbols {
+  0 "device=CLA-LAS-OPT-PICO-4C,title=CLARA Mirror Box 4:PM6,motorA=PM-4:V,motorB=PM-4:H,motorC=PM-6:V,motorD=PM-6:H,"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 441
+y 333
+w 17
+h 16
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 441
+  1 458
+}
+yPoints {
+  0 333
+  1 349
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1215
+y 180
+w 19
+h 19
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1215
+  1 1234
+}
+yPoints {
+  0 180
+  1 199
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1510
+y 151
+w 22
+h 18
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1510
+  1 1532
+}
+yPoints {
+  0 151
+  1 169
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1366
+y 421
+w 20
+h 20
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 1366
+  1 1386
+}
+yPoints {
+  0 421
+  1 441
+}
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1098
+y 257
+w 46
+h 23
+fgColor index 20
+onColor index 25
+offColor index 25
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "EBT-OPT-LAS-SHUT-01:On"
+onLabel "Flip"
+offLabel "Flip"
+labelType "literal"
+buttonType "push"
+3d
+font "courier-bold-r-12.0"
+objType "controls"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1169
+y 830
+w 108
+h 26
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1169
+y 830
+w 32
+h 24
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1169
+y 830
+w 30
+h 23
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-LSR-SHUT-01"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1169
+y 831
+w 32
+h 23
+file "shutter.edl"
+gateUpPv "EBT-INJ-LSR-SHUT-01:Sta"
+gateDownPv "EBT-INJ-LSR-SHUT-01:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 9
+initialIndex 1
+colorPv "EBT-INJ-LSR-SHUT-01:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1207
+y 832
+w 70
+h 24
+font "arial-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "EBT-INJ"
+  "LSR-SHUT-01"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1168
+y 865
+w 102
+h 25
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1168
+y 865
+w 31
+h 25
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1170
+y 865
+w 29
+h 25
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "courier-bold-r-12.0"
+invisible
+buttonLabel "Q1"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "StatusControl.edl"
+}
+symbols {
+  0 "device=EBT-INJ-LSR-SHUT-02"
+}
+endObjectProperties
+
+# (Dynamic Symbol)
+object activeDynSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1168
+y 865
+w 31
+h 25
+file "shutter.edl"
+gateUpPv "EBT-INJ-LSR-SHUT-02:Sta"
+gateDownPv "EBT-INJ-LSR-SHUT-02:Sta"
+useGate
+gateUpValue 1
+rate 1
+numStates 9
+initialIndex 1
+colorPv "EBT-INJ-LSR-SHUT-02:Sta"
+fgColor index 14
+bgColor index 85
+showOOBState
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1203
+y 866
+w 67
+h 24
+font "arial-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "EBT-INJ"
+  "LSR-SHUT-02"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1208
+y 337
+w 81
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EBT-LAS-HWP-2"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1240
+y 357
+w 20
+h 26
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "newportSmc100.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-HWP-2:ROT"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1380
+y 118
+w 54
+h 0
+lineColor index 14
+fillColor index 0
+arrows "both"
+numPoints 2
+xPoints {
+  0 1380
+  1 1434
+}
+yPoints {
+  0 118
+  1 118
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1003
+y 166
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+arrows "from"
+numPoints 1
+xPoints {
+  0 1003
+}
+yPoints {
+  0 166
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1434
+y 118
+w 0
+h 58
+lineColor index 14
+fillColor index 0
+arrows "both"
+numPoints 2
+xPoints {
+  0 1434
+  1 1434
+}
+yPoints {
+  0 118
+  1 176
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1371
+y 94
+w 119
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CLA-LAS-OPT-UVAPP-1"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1397
+y 109
+w 20
+h 20
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "newportSmc100.edl"
+}
+symbols {
+  0 "device=CLA-LAS-OPT-UVAPP-1:HOR,title=VELA Main Laser Table UV Apperture Horizontal"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 1425
+y 136
+w 20
+h 20
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "newportSmc100.edl"
+}
+symbols {
+  0 "device=CLA-LAS-OPT-UVAPP-1:VER,title=VELA Main Laser Table UV Apperture Horizontal"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1233
+y 356
+w 25
+h 26
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1233
+y 356
+w 25
+h 26
+lineColor index 14
+fillColor index 0
+startAngle 90
+totalAngle 280
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1247
+y 357
+w 7
+h 0
+lineColor index 14
+fillColor index 0
+arrows "to"
+numPoints 2
+xPoints {
+  0 1247
+  1 1254
+}
+yPoints {
+  0 357
+  1 357
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 250
+y 507
+w 10
+h 21
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 309
+y 286
+w 44
+h 12
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 309
+y 286
+w 44
+h 12
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 309
+y 286
+w 44
+h 12
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 311
+y 286
+w 42
+h 12
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 353
+  1 311
+}
+yPoints {
+  0 286
+  1 298
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 309
+y 286
+w 43
+h 12
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 309
+  1 352
+}
+yPoints {
+  0 286
+  1 298
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 290
+w 19
+h 5
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 668
+y 389
+w 43
+h 12
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 668
+y 389
+w 43
+h 12
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 668
+y 389
+w 43
+h 12
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 670
+y 389
+w 41
+h 12
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 711
+  1 670
+}
+yPoints {
+  0 389
+  1 401
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 668
+y 389
+w 42
+h 12
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 668
+  1 710
+}
+yPoints {
+  0 389
+  1 401
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 679
+y 393
+w 19
+h 5
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 423
+y 537
+w 12
+h 43
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 423
+y 537
+w 12
+h 43
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 423
+y 537
+w 12
+h 43
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 423
+y 539
+w 12
+h 41
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 435
+  1 423
+}
+yPoints {
+  0 580
+  1 539
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 423
+y 537
+w 12
+h 42
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 435
+  1 423
+}
+yPoints {
+  0 537
+  1 579
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 427
+y 548
+w 5
+h 19
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 522
+y 567
+w 0
+h 8
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 522
+  1 522
+}
+yPoints {
+  0 575
+  1 567
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 584
+y 591
+w 30
+h 14
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 584
+y 591
+w 30
+h 14
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 586
+y 591
+w 28
+h 14
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 614
+  1 586
+}
+yPoints {
+  0 591
+  1 605
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 584
+y 591
+w 29
+h 14
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 584
+  1 613
+}
+yPoints {
+  0 591
+  1 605
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 285
+y 93
+w 23
+h 43
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 285
+y 93
+w 23
+h 43
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 285
+y 95
+w 23
+h 41
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 308
+  1 285
+}
+yPoints {
+  0 136
+  1 95
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 285
+y 93
+w 23
+h 42
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 308
+  1 285
+}
+yPoints {
+  0 93
+  1 135
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 198
+y 114
+w 133
+h 11
+lineColor index 47
+fill
+fillColor index 47
+lineWidth 2
+numPoints 2
+xPoints {
+  0 198
+  1 331
+}
+yPoints {
+  0 114
+  1 125
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 524
+y 201
+w 113
+h 56
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 741
+y 201
+w 222
+h 56
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 524
+y 183
+w 77
+h 16
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Gun Cavity"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 741
+y 183
+w 121
+h 16
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "VELA Accelerator"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 673
+y 201
+w 35
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 673
+  1 708
+}
+yPoints {
+  0 201
+  1 201
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 707
+y 202
+w 0
+h 55
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 707
+  1 707
+}
+yPoints {
+  0 257
+  1 202
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 673
+y 257
+w 7
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 673
+  1 680
+}
+yPoints {
+  0 257
+  1 257
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 697
+y 257
+w 10
+h 0
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 697
+  1 707
+}
+yPoints {
+  0 257
+  1 257
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 673
+y 202
+w 0
+h 55
+lineColor index 26
+lineAlarm
+fillColor index 0
+numPoints 2
+xPoints {
+  0 673
+  1 673
+}
+yPoints {
+  0 257
+  1 202
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 661
+y 183
+w 65
+h 16
+font "arial-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Light Box"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 683
+y 233
+w 15
+h 14
+lineColor index 92
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 683
+  1 698
+}
+yPoints {
+  0 233
+  1 247
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 556
+y 229
+w 376
+h 0
+lineColor index 20
+fillColor index 0
+lineWidth 2
+arrows "to"
+numPoints 2
+xPoints {
+  0 556
+  1 932
+}
+yPoints {
+  0 229
+  1 229
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 899
+y 243
+w 52
+h 14
+font "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Electrons"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 677
+y 211
+w 22
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LBM"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 642
+y 208
+w 23
+h 43
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 642
+y 208
+w 23
+h 43
+lineColor index 26
+fillColor index 0
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 642
+y 210
+w 23
+h 41
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 665
+  1 642
+}
+yPoints {
+  0 251
+  1 210
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 642
+y 208
+w 23
+h 42
+lineColor index 26
+fillColor index 0
+numPoints 2
+xPoints {
+  0 665
+  1 642
+}
+yPoints {
+  0 208
+  1 250
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 555
+y 229
+w 133
+h 11
+lineColor index 47
+fill
+fillColor index 47
+lineWidth 2
+numPoints 2
+xPoints {
+  0 555
+  1 688
+}
+yPoints {
+  0 229
+  1 240
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 646
+y 574
+w 26
+h 11
+lineColor index 41
+fill
+fillColor index 41
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 559
+y 665
+w 20
+h 47
+
+beginGroup
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 568
+y 665
+w 0
+h 47
+lineColor index 14
+fillColor index 0
+arrows "both"
+numPoints 2
+xPoints {
+  0 568
+  1 568
+}
+yPoints {
+  0 665
+  1 712
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 559
+y 681
+w 20
+h 20
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "PM600_PM_7.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-PM-7:TRANS,title=VELA Main Laser Table:PM7:TRANS,motorA=FM2:TRANS,motorB=FM7:TRANS"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 682
+y 728
+w 20
+h 20
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "newportSmc100.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-LENS-1:TRANS"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 689
+y 730
+w 4
+h 18
+lineColor index 47
+fillColor index 0
+lineWidth 4
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 666
+y 744
+w 52
+h 0
+lineColor index 14
+fillColor index 0
+arrows "both"
+numPoints 2
+xPoints {
+  0 718
+  1 666
+}
+yPoints {
+  0 744
+  1 744
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 723
+y 700
+w 47
+h 11
+lineColor index 14
+fillColor index 0
+arrows "both"
+numPoints 2
+xPoints {
+  0 770
+  1 723
+}
+yPoints {
+  0 700
+  1 711
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 736
+y 691
+w 20
+h 20
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "arial-medium-r-18.0"
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "newportSmc100.edl"
+}
+symbols {
+  0 "device=EBT-LAS-OPT-LENS-2:TRANS"
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 743
+y 693
+w 4
+h 18
+lineColor index 47
+fillColor index 0
+lineWidth 4
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 680
+y 751
+w 38
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LENS-1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 740
+y 713
+w 38
+h 11
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LENS-2"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 591
+y 728
+w 0
+h 22
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 591
+  1 591
+}
+yPoints {
+  0 750
+  1 728
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 799
+y 683
+w 0
+h 18
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 799
+  1 799
+}
+yPoints {
+  0 701
+  1 683
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 916
+y 541
+w 68
+h 24
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 924
+y 541
+w 31
+h 18
+lineColor index 19
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 916
+y 544
+w 8
+h 12
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 955
+y 553
+w 29
+h 12
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 970
+y 554
+w 14
+h 11
+lineColor index 19
+fillColor index 0
+lineWidth 2
+startAngle 360
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 955
+y 553
+w 15
+h 11
+lineColor index 19
+fillColor index 0
+lineWidth 2
+startAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 47
+y 469
+w 69
+h 25
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 76
+y 469
+w 31
+h 18
+lineColor index 19
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 108
+y 472
+w 8
+h 12
+lineColor index 19
+fill
+fillColor index 19
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 47
+y 480
+w 29
+h 14
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 62
+y 480
+w 14
+h 11
+lineColor index 19
+fillColor index 0
+lineWidth 2
+startAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 47
+y 483
+w 15
+h 11
+lineColor index 19
+fillColor index 0
+lineWidth 2
+startAngle 360
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 196
+y 105
+w 0
+h 20
+lineColor index 47
+fillColor index 0
+lineWidth 4
+numPoints 2
+xPoints {
+  0 196
+  1 196
+}
+yPoints {
+  0 105
+  1 125
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 181
+y 125
+w 40
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cathode"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 539
+y 239
+w 40
+h 12
+font "arial-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cathode"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 554
+y 219
+w 0
+h 20
+lineColor index 47
+fillColor index 0
+lineWidth 4
+numPoints 2
+xPoints {
+  0 554
+  1 554
+}
+yPoints {
+  0 219
+  1 239
+}
+endObjectProperties
+
