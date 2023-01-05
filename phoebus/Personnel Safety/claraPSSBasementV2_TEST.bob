@@ -1,0 +1,5230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>PS CLARA BA2</name>
+  <y>49</y>
+  <width>1750</width>
+  <height>920</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>30</x>
+    <y>430</y>
+    <width>30</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="30.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>10</x>
+    <y>10</y>
+    <width>1711</width>
+    <height>51</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="yellow-38" red="160" green="160" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>PSS - Basement Search</text>
+    <x>610</x>
+    <y>20</y>
+    <width>206</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>40</x>
+    <y>220</y>
+    <width>20</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="20.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>40</x>
+    <y>130</y>
+    <width>0</width>
+    <height>90</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="90.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Emergency
+Beam Off
+1</text>
+    <x>40</x>
+    <y>140</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Emergency
+Beam Off
+2</text>
+    <x>130</x>
+    <y>140</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Shielding 
+Key</text>
+    <x>780</x>
+    <y>140</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>End Door
+Crashout</text>
+    <x>1170</x>
+    <y>120</y>
+    <width>90</width>
+    <height>80</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Final
+Search Point</text>
+    <x>540</x>
+    <y>590</y>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>End Door
+Keybox</text>
+    <x>1090</x>
+    <y>120</y>
+    <width>80</width>
+    <height>80</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>EndDoor
+Magnetic
+Switch</text>
+    <x>980</x>
+    <y>120</y>
+    <width>90</width>
+    <height>80</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>End Door
+Mechanical
+Switch</text>
+    <x>880</x>
+    <y>120</y>
+    <width>90</width>
+    <height>80</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Emergency
+Beam Off
+3</text>
+    <x>230</x>
+    <y>140</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Emergency
+Beam Off
+4</text>
+    <x>330</x>
+    <y>140</y>
+    <width>90</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>2010</x>
+    <y>540</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = ERL-PS-CRATE-01:M19:ILKS1
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>ERL-PS-CRATE-01:M19:ILKS1</pv_name>
+      </script>
+    </scripts>
+    <tooltip>ERL-PS-CRATE-01:M19:ILKS1</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Middle Door
+Crashout</text>
+    <x>30</x>
+    <y>350</y>
+    <width>80</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>2100</x>
+    <y>540</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = ERL-PS-CRATE-01:M19:ILKS1
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>ERL-PS-CRATE-01:M19:ILKS1</pv_name>
+      </script>
+    </scripts>
+    <tooltip>ERL-PS-CRATE-01:M19:ILKS1</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Recorded
+Message</text>
+    <x>870</x>
+    <y>590</y>
+    <width>90</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>2200</x>
+    <y>540</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = ERL-PS-CRATE-01:M19:ILKS1
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>ERL-PS-CRATE-01:M19:ILKS1</pv_name>
+      </script>
+    </scripts>
+    <tooltip>ERL-PS-CRATE-01:M19:ILKS1</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>2310</x>
+    <y>540</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = ERL-PS-CRATE-01:M19:ILKS1
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>ERL-PS-CRATE-01:M19:ILKS1</pv_name>
+      </script>
+    </scripts>
+    <tooltip>ERL-PS-CRATE-01:M19:ILKS1</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>2440</x>
+    <y>540</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = ERL-PS-CRATE-01:M19:ILKS1
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>ERL-PS-CRATE-01:M19:ILKS1</pv_name>
+      </script>
+    </scripts>
+    <tooltip>ERL-PS-CRATE-01:M19:ILKS1</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>'Do Not
+Open Door'
+Sign</text>
+    <x>660</x>
+    <y>590</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Main Door
+Crashout</text>
+    <x>430</x>
+    <y>590</y>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Main Door
+Keybox</text>
+    <x>330</x>
+    <y>590</y>
+    <width>80</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Main Door
+Magnetic
+Switch</text>
+    <x>210</x>
+    <y>580</y>
+    <width>80</width>
+    <height>70</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Main Door
+Mechanical
+Switch</text>
+    <x>120</x>
+    <y>580</y>
+    <width>80</width>
+    <height>70</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1660</x>
+    <y>220</y>
+    <width>0</width>
+    <height>80</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="80.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>2550</x>
+    <y>560</y>
+    <width>0</width>
+    <height>90</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="90.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>30</x>
+    <y>300</y>
+    <width>1630</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="1630.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>30</x>
+    <y>550</y>
+    <width>1640</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="1640.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>30</x>
+    <y>300</y>
+    <width>0</width>
+    <height>130</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="130.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>30</x>
+    <y>550</y>
+    <width>0</width>
+    <height>130</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="130.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Emergency
+Beam Off
+5</text>
+    <x>450</x>
+    <y>140</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Emergency
+Beam Off
+6</text>
+    <x>550</x>
+    <y>140</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Emergency
+Beam Off
+7</text>
+    <x>660</x>
+    <y>140</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Middle Door
+Keybox</text>
+    <x>1510</x>
+    <y>130</y>
+    <width>90</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Middle Door
+Magnetic
+Switch</text>
+    <x>1390</x>
+    <y>120</y>
+    <width>90</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Middle Door
+Mechanical
+Switch</text>
+    <x>1270</x>
+    <y>120</y>
+    <width>90</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Shielding 
+Key</text>
+    <x>130</x>
+    <y>360</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Search
+Point 1</text>
+    <x>1190</x>
+    <y>350</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Search
+Point 2</text>
+    <x>1290</x>
+    <y>350</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Search
+Point 3</text>
+    <x>1400</x>
+    <y>350</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Search
+Point 4</text>
+    <x>1500</x>
+    <y>350</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1670</x>
+    <y>430</y>
+    <width>0</width>
+    <height>120</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="120.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Search
+Point 5</text>
+    <x>1600</x>
+    <y>350</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>'Danger Press
+Beam Off'
+Signs</text>
+    <x>770</x>
+    <y>590</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1010</x>
+    <y>680</y>
+    <width>0</width>
+    <height>70</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="70.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Basement
+Search Complete</text>
+    <x>1040</x>
+    <y>720</y>
+    <height>70</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>80</x>
+    <y>220</y>
+    <width>70</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="70.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>170</x>
+    <y>220</y>
+    <width>80</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>270</x>
+    <y>220</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>380</x>
+    <y>220</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>490</x>
+    <y>220</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>600</x>
+    <y>220</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>710</x>
+    <y>220</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>820</x>
+    <y>220</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>930</x>
+    <y>220</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1040</x>
+    <y>220</y>
+    <width>80</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1140</x>
+    <y>220</y>
+    <width>70</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="70.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1230</x>
+    <y>220</y>
+    <width>80</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1330</x>
+    <y>220</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1440</x>
+    <y>220</y>
+    <width>110</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="110.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1570</x>
+    <y>220</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>80</x>
+    <y>430</y>
+    <width>70</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="70.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>170</x>
+    <y>430</y>
+    <width>80</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>270</x>
+    <y>430</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>380</x>
+    <y>430</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>490</x>
+    <y>430</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>600</x>
+    <y>430</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>710</x>
+    <y>430</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>820</x>
+    <y>430</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>930</x>
+    <y>430</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1040</x>
+    <y>430</y>
+    <width>80</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1140</x>
+    <y>430</y>
+    <width>70</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="70.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1330</x>
+    <y>430</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1440</x>
+    <y>430</y>
+    <width>80</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1540</x>
+    <y>430</y>
+    <width>80</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>30</x>
+    <y>680</y>
+    <width>124</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="124.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>170</x>
+    <y>680</y>
+    <width>70</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="70.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>260</x>
+    <y>680</y>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="100.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>380</x>
+    <y>680</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>490</x>
+    <y>680</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>600</x>
+    <y>680</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>710</x>
+    <y>680</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>820</x>
+    <y>680</y>
+    <width>80</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>920</x>
+    <y>680</y>
+    <width>90</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1000</x>
+    <y>740</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1640</x>
+    <y>430</y>
+    <width>32</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="32.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Warning Signs On</text>
+    <x>1070</x>
+    <y>460</y>
+    <width>120</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1650</x>
+    <y>430</y>
+    <width>0</width>
+    <height>90</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="90.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>650</x>
+    <y>520</y>
+    <width>470</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="470.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1140</x>
+    <y>520</y>
+    <width>510</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="510.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Light
+Sensor 7</text>
+    <x>220</x>
+    <y>340</y>
+    <width>80</width>
+    <height>80</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Light
+Sensor 8</text>
+    <x>340</x>
+    <y>340</y>
+    <width>70</width>
+    <height>80</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Light
+Sensor 9</text>
+    <x>450</x>
+    <y>340</y>
+    <width>60</width>
+    <height>80</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Light
+Sensor 10</text>
+    <x>560</x>
+    <y>340</y>
+    <width>70</width>
+    <height>80</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Selector
+Switch</text>
+    <x>670</x>
+    <y>360</y>
+    <width>50</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Card Reader</text>
+    <x>770</x>
+    <y>350</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>'Search in
+Progress' 
+Signs</text>
+    <x>870</x>
+    <y>340</y>
+    <width>90</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>'Searching 
+Keep Out'
+Signs</text>
+    <x>980</x>
+    <y>340</y>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Search
+Bleeper</text>
+    <x>1090</x>
+    <y>340</y>
+    <width>80</width>
+    <height>70</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>650</x>
+    <y>430</y>
+    <width>0</width>
+    <height>90</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="90.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1120</x>
+    <y>500</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BA1:CALSIGNSON
+# pvs[1] = CLA-SFT-PSS-DNET-01:BA1:CALSIGNSON
+# pvs[2] = CLA-SFT-PSS-DNET-01:BA1:CALSIGNSON
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BA1:CALSIGNSON</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BA1:CALSIGNSON</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BA1:CALSIGNSON</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>60</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALEBO1
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALEBO1
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALEBO1
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO1</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO1</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO1</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1120</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALFDRKEY
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALFDRKEY
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALFDRKEY
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRKEY</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRKEY</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRKEY</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1210</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALFDRCRSH
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALFDRCRSH
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALFDRCRSH
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRCRSH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRCRSH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRCRSH</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>580</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALFSPLED
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALFSPLED
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALFSPLED
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFSPLED</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFSPLED</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFSPLED</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>690</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALDNODS
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALDNODS
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALDNODS
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALDNODS</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALDNODS</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALDNODS</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>800</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALDPEOS
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALDPEOS
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALDPEOS
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALDPEOS</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALDPEOS</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALDPEOS</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>900</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALRECMES
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALRECMES
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALRECMES
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALRECMES</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALRECMES</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALRECMES</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1230</x>
+    <y>430</y>
+    <width>80</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>150</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALEBO2
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALEBO2
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALEBO2
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO2</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO2</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO2</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>250</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALEBO3
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALEBO3
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALEBO3
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO3</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO3</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO3</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>360</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALEBO4
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALEBO4
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALEBO4
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO4</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO4</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO4</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>470</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALEBO5
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALEBO5
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALEBO5
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO5</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO5</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO5</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>580</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALEBO6
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALEBO6
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALEBO6
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO6</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO6</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO6</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>690</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALEBO7
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALEBO7
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALEBO7
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO7</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO7</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALEBO7</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>800</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY
+# pvs[1] = CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY
+# pvs[2] = CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1020</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALFDRMAG
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALFDRMAG
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALFDRMAG
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRMAG</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRMAG</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRMAG</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>470</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALMDRCRSH
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALMDRCRSH
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALMDRCRSH
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRCRSH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRCRSH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRCRSH</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>360</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALMDRKEY
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALMDRKEY
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALMDRKEY
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRKEY</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRKEY</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRKEY</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>240</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALMDRMAG
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALMDRMAG
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALMDRMAG
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRMAG</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRMAG</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRMAG</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>150</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALMDRMECH
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALMDRMECH
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALMDRMECH
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRMECH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRMECH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMDRMECH</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1310</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRMECH
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRMECH
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRMECH
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRMECH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRMECH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRMECH</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1420</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRMAG
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRMAG
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRMAG
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRMAG</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRMAG</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRMAG</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1550</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRKEY
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRKEY
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRKEY
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRKEY</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRKEY</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRKEY</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>60</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRCRSH
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRCRSH
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALMIDRCRSH
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRCRSH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRCRSH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALMIDRCRSH</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>150</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY
+# pvs[1] = CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY
+# pvs[2] = CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALSHLDKEY</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>250</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN7
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN7
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN7
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN7</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN7</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN7</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>360</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN8
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN8
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN8
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN8</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN8</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN8</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>470</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN9
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN9
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN9
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN9</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN9</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN9</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>580</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN10
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN10
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALLSEN10
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN10</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN10</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALLSEN10</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>690</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:CR:CALBMTSW
+# pvs[1] = CLA-SFT-PSS-DNET-01:CR:CALBMTSW
+# pvs[2] = CLA-SFT-PSS-DNET-01:CR:CALBMTSW
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALBMTSW</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALBMTSW</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALBMTSW</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>800</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:CR:CALCARDRD
+# pvs[1] = CLA-SFT-PSS-DNET-01:CR:CALCARDRD
+# pvs[2] = CLA-SFT-PSS-DNET-01:CR:CALCARDRD
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALCARDRD</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALCARDRD</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:CR:CALCARDRD</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>910</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSIPS
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALESIPS
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSIPS
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSIPS</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALESIPS</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSIPS</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1020</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSKOS
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALSKOS
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSKOS
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSKOS</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSKOS</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSKOS</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1120</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHBL
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHBL
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHBL
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHBL</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHBL</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHBL</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1210</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSP1
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALSP1
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSP1
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP1</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP1</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP1</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1310</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSP2
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALSP2
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSP2
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP2</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP2</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP2</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1420</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSP3
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALAP3
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSP3
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP3</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALAP3</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP3</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1520</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSP4
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALSP4
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSP4
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP4</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP4</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP4</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>1620</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSP5
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALSP5
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSP5
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP5</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP5</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSP5</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>910</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALFDRMECH
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALFDRMECH
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALFDRMECH
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRMECH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRMECH</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALFDRMECH</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>900</x>
+    <y>740</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>pss_ILKSym.bob</file>
+    <x>400</x>
+    <y>500</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP
+# pvs[1] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP
+# pvs[2] = CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+val += ( PVUtil.getInt(pvs[0]))
+val += ( PVUtil.getInt(pvs[1]))
+val += ( PVUtil.getInt(pvs[2]))
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP</pv_name>
+        <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Search Complete</text>
+    <x>360</x>
+    <y>460</y>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Search Com</text>
+    <x>870</x>
+    <y>700</y>
+    <width>80</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>630</x>
+    <y>430</y>
+    <width>0</width>
+    <height>90</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="90.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>420</x>
+    <y>520</y>
+    <width>210</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="210.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>210</x>
+    <y>520</y>
+    <width>190</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="190.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>210</x>
+    <y>430</y>
+    <width>0</width>
+    <height>90</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="90.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>960</x>
+    <y>680</y>
+    <width>0</width>
+    <height>80</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="80.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>860</x>
+    <y>680</y>
+    <width>0</width>
+    <height>80</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="80.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>860</x>
+    <y>760</y>
+    <width>40</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="40.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>920</x>
+    <y>760</y>
+    <width>40</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="40.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BA1:SIGNSONA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BA1:SIGNSONB</GLB>
+          <module>Basement-Signs On</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1120</x>
+    <y>500</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SRCHCMPA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:SRCHCMPB</GLB>
+          <module>Basement-Search Complete</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>990</x>
+    <y>750</y>
+    <width>40</width>
+    <height>20</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:FIREON</GLA>
+          <GLB>BMT:NOTFIREOFF</GLB>
+          <module>Basement-Recorded Message</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>900</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:DPEOSON</GLA>
+          <GLB>BMT:NOTDPEOSOFF</GLB>
+          <module>Basement-Danger Sign</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>800</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:DNODSON</GLA>
+          <GLB>BMT:NOTDNODSOFF</GLB>
+          <module>Basement-Door Sign</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>690</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:FSPLED</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:FSPLED</GLB>
+          <module>Basement-Final Search Point</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>580</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SP1A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:SP1B</GLB>
+          <module>Basement-Search Point 1</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1210</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:FDRCRSHA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:FDRCRSHB</GLB>
+          <module>Basement-Far Door:Crashout</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1210</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:FDRKEYA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:FDRKEYB</GLB>
+          <module>Basement-Far Door:Keybox</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1120</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:FDRMAGA</GLA>
+          <GLB>BMT:NOTFDRMAGB</GLB>
+          <module>Basement-Far Door:Magnetic Switch</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1020</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:FDRMECHA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:FDRMECHB</GLB>
+          <module>Basement-Far Door:Mechanical Switch</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>910</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:CR:SHLDKEYA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:CR:SHLDKEYB</GLB>
+          <module>Basement-Shielding Key</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>800</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:EBO1A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:EBO1B</GLB>
+          <module>Basement-NOT EBO1</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>60</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:LSEN7A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:LSEN7B</GLB>
+          <module>Basement-Light Sensor 7</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>250</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:CR:BMTSWA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:CR:BMTSWB</GLB>
+          <module>Basement-Selector Switch</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>690</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:CR:CARDRDA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:CR:CARDRDB</GLB>
+          <module>Basement-Card Reader</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>800</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SIPSON</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:NOTSIPSOFF</GLB>
+          <module>Basement-Searching Sign</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>910</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SKOSON</GLA>
+          <GLB>BMT:NOTSKOSOFF</GLB>
+          <module>Basement-Keep Out Sign</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1020</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SRCHBLON</GLA>
+          <GLB>BMT:NOTSRCHBLOFF</GLB>
+          <module>Basement-Search Bleeper</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1120</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:EBO2A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:EBO2B</GLB>
+          <module>Basement-NOT EBO2</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>150</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:EBO3A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:EBO3B</GLB>
+          <module>Basement-NOT EBO3</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>250</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:EBO4A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:EBO4B</GLB>
+          <module>Basement-NOT EBO4</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>360</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:EBO5A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:EBO5B</GLB>
+          <module>Basement-NOT EBO5</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>470</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:EBO6A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:EBO6B</GLB>
+          <module>Basement-NOT EBO6</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>580</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:EBO7A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:EBO7B</GLB>
+          <module>Basement-NOT EBO7</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>690</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:CR:SHLDKEYA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:CR:SHLDKEYB</GLB>
+          <module>Basement-Shielding Key</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>150</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:MDRMECHA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:MDRMECHB</GLB>
+          <module>Basement-Main Door:Mechanical Switch</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>150</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:MIDRMECHA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:MIDRMECHB</GLB>
+          <module>Basement-Far Door:Mechanical Switch</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1310</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:MIDRMAGA</GLA>
+          <GLB>BMT:NOTMIDRMAGB</GLB>
+          <module>Basement-Far Door:Magnetic Switch</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1420</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:MDRMAGA</GLA>
+          <GLB>BMT:NOTMDRMAGB</GLB>
+          <module>Basement-Main Door:Magnetic Switch</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>240</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:MIDRKEYA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:MIDRKEYB</GLB>
+          <module>Basement-Far Door:Keybox</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1550</x>
+    <y>200</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:MDRKEYA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:MDRKEYB</GLB>
+          <module>Basement-Main Door:Keybox</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>360</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:MIDRCRSHA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:MIDRCRSHB</GLB>
+          <module>Basement-Far Door:Crashout</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>60</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:LSEN8A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:LSEN8B</GLB>
+          <module>Basement-Light Sensor 8</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>360</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:LSEN9A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:LSEN9B</GLB>
+          <module>Basement-Light Sensor 9</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>470</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:LSEN10A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:LSEN10B</GLB>
+          <module>Basement-Light Sensor 10</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>580</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SP2A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:SP2B</GLB>
+          <module>Basement-Search Point 2</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1310</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SP3A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:SP3B</GLB>
+          <module>Basement-Search Point 3</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1420</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SP4A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:SP4B</GLB>
+          <module>Basement-Search Point 4</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1520</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SP5A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:SP5B</GLB>
+          <module>Basement-Search Point 5</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1620</x>
+    <y>410</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:MDRCRSHA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:MDRCRSHB</GLB>
+          <module>Basement-Main Door:Crashout</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>470</x>
+    <y>660</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SRCHCMPA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:SRCHCMPB</GLB>
+          <module>Basement-Search Complete</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>900</x>
+    <y>740</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SRCHCMPA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:SRCHCMPB</GLB>
+          <module>Basement-Search Complete</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>400</x>
+    <y>500</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+</display>

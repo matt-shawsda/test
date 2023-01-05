@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Remote Power</name>
+  <x>996</x>
+  <y>551</y>
+  <width>270</width>
+  <height>400</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>VELA Remote Power Switches</text>
+    <y>3</y>
+    <width>279</width>
+    <height>35</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="FE title" red="183" green="164" blue="126">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>RemotePowerSwitch.bob</file>
+        <macros>
+          <a1>CS1A</a1>
+          <a2>CS1B</a2>
+          <a3>CS1C</a3>
+          <a4>CS1D</a4>
+          <b1>MKS937A-1</b1>
+          <b2>MKS937B-2</b2>
+          <b3>Ethercat</b3>
+          <b4>VME Crate</b4>
+          <d1>BrainBox01</d1>
+          <d2>Brainbox2&amp;3</d2>
+          <d3>BrainBox4</d3>
+          <d4>BrainBox5</d4>
+          <device>EBT-INJ-CTRL-REMP-01</device>
+        </macros>
+        <target>tab</target>
+        <description>Relay 1</description>
+      </action>
+    </actions>
+    <text>VELA REM 01</text>
+    <x>50</x>
+    <y>51</y>
+    <width>163</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

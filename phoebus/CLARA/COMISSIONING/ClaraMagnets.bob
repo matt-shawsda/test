@@ -1,0 +1,2810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>CLARA Magnet Commissioning</name>
+  <x>469</x>
+  <y>393</y>
+  <width>435</width>
+  <height>480</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>4</x>
+    <y>35</y>
+    <width>428</width>
+    <height>58</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>CLARA Magnet Commissioning</text>
+    <width>435</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="FE title" red="183" green="164" blue="126">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>390</x>
+    <y>45</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_50</name>
+      <macros>
+        <VALV_COLOUR_PV>EBT-HRG1-MAG-SOL-01:STA</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="=VISIBILITY" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-HRG1-MAG-SOL-01:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-HRG1-MAG-SOL-01:ALM
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>EBT-HRG1-MAG-SOL-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 1</name>
+    <x>390</x>
+    <y>110</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_52</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-GUN-MAG-SOL-02:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>true</value>
+          </exp>
+          <pv_name>CLA-GUN-MAG-SOL-02:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-GUN-MAG-SOL-02:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-GUN-MAG-SOL-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 2</name>
+    <x>390</x>
+    <y>145</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_53</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-L01-MAG-SOL-01:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-L01-MAG-SOL-01:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-L01-MAG-SOL-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-L01-MAG-SOL-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 3</name>
+    <x>390</x>
+    <y>170</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_55</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-L01-MAG-SOL-02:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-L01-MAG-SOL-02:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-L01-MAG-SOL-02:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-L01-MAG-SOL-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 4</name>
+    <x>390</x>
+    <y>205</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_54</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-S02-MAG-QUAD-01:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-S02-MAG-QUAD-01:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-S02-MAG-QUAD-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-S02-MAG-QUAD-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 5</name>
+    <x>390</x>
+    <y>230</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_56</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-S02-MAG-QUAD-02:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-S02-MAG-QUAD-02:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-S02-MAG-QUAD-02:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-S02-MAG-QUAD-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 6</name>
+    <x>390</x>
+    <y>255</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_58</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-S02-MAG-QUAD-03:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-S02-MAG-QUAD-03:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-S02-MAG-QUAD-03:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-S02-MAG-QUAD-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 7</name>
+    <x>390</x>
+    <y>280</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_57</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-S02-MAG-QUAD-04:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-S02-MAG-QUAD-04:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-S02-MAG-QUAD-04:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-S02-MAG-QUAD-04</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 8</name>
+    <x>390</x>
+    <y>315</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_59</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-SCU-MAG-DIP-01:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-SCU-MAG-DIP-01:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-SCU-MAG-DIP-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-SCU-MAG-DIP-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 9</name>
+    <x>390</x>
+    <y>340</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_60</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-S02-MAG-QUAD-05:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-S02-MAG-QUAD-05:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-S02-MAG-QUAD-05:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-S02-MAG-QUAD-05</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 10</name>
+    <x>390</x>
+    <y>400</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_62</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-SCU-MAG-QUAD-01:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-SCU-MAG-QUAD-01:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-SCU-MAG-QUAD-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-SCU-MAG-QUAD-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 11</name>
+    <x>390</x>
+    <y>425</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_63</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-SCU-MAG-QUAD-02:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-SCU-MAG-QUAD-02:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-SCU-MAG-QUAD-02:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-SCU-MAG-QUAD-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 12</name>
+    <x>390</x>
+    <y>450</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_64</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-SCU-MAG-QUAD-03:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="VISIBILITY" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0 = NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-SCU-MAG-QUAD-03:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-SCU-MAG-QUAD-03:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-SCU-MAG-QUAD-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>42</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>EBT-HRG1-MAG-SOL-01:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-HRG1-MAG-SOL-01:READI</pv_name>
+    <x>257</x>
+    <y>43</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-HRG1-MAG-SOL-01:RILK</pv_name>
+    <x>230</x>
+    <y>42</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-HRG1-MAG-SOL-01:RPOWER</pv_name>
+    <x>205</x>
+    <y>42</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>EBT-HRG1-MAG-SOL-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>EBT-HRG1-MAG-SOL-01</text>
+    <x>10</x>
+    <y>40</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>107</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-GUN-MAG-SOL-02:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-GUN-MAG-SOL-02:READI</pv_name>
+    <x>257</x>
+    <y>108</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-GUN-MAG-SOL-02:RILK</pv_name>
+    <x>230</x>
+    <y>107</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-GUN-MAG-SOL-02:POWER</pv_name>
+    <x>205</x>
+    <y>107</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-GUN-MAG-SOL-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-GUN-MAG-SOL-02</text>
+    <x>10</x>
+    <y>105</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>142</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-L01-MAG-SOL-01:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-L01-MAG-SOL-01:READI</pv_name>
+    <x>257</x>
+    <y>143</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-L01-MAG-SOL-01:RILK</pv_name>
+    <x>230</x>
+    <y>142</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-L01-MAG-SOL-01:RPOWER</pv_name>
+    <x>205</x>
+    <y>142</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-L01-MAG-SOL-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-L01-MAG-SOL-01</text>
+    <x>10</x>
+    <y>140</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>167</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-L01-MAG-SOL-02:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-L01-MAG-SOL-02:READI</pv_name>
+    <x>257</x>
+    <y>168</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-L01-MAG-SOL-02:RILK</pv_name>
+    <x>230</x>
+    <y>167</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-L01-MAG-SOL-02:RPOWER</pv_name>
+    <x>205</x>
+    <y>167</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-L01-MAG-SOL-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-L01-MAG-SOL-02</text>
+    <x>10</x>
+    <y>165</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>202</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-S02-MAG-QUAD-01:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-01:READI</pv_name>
+    <x>257</x>
+    <y>203</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-01:RILK</pv_name>
+    <x>230</x>
+    <y>202</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-01:RPOWER</pv_name>
+    <x>205</x>
+    <y>202</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-QUAD-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-S02-MAG-QUAD-01</text>
+    <x>10</x>
+    <y>200</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>227</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-S02-MAG-QUAD-02:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-02:READI</pv_name>
+    <x>257</x>
+    <y>228</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-02:RILK</pv_name>
+    <x>230</x>
+    <y>227</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-02:RPOWER</pv_name>
+    <x>205</x>
+    <y>227</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-QUAD-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-S02-MAG-QUAD-02</text>
+    <x>10</x>
+    <y>225</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>252</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-S02-MAG-QUAD-03:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-03:READI</pv_name>
+    <x>257</x>
+    <y>253</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-03:RILK</pv_name>
+    <x>230</x>
+    <y>252</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-03:RPOWER</pv_name>
+    <x>205</x>
+    <y>252</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-QUAD-03</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-S02-MAG-QUAD-03</text>
+    <x>10</x>
+    <y>250</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>277</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-S02-MAG-QUAD-04:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-04:READI</pv_name>
+    <x>257</x>
+    <y>278</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-04:RILK</pv_name>
+    <x>230</x>
+    <y>277</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-04:RPOWER</pv_name>
+    <x>205</x>
+    <y>277</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-QUAD-04</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-S02-MAG-QUAD-04</text>
+    <x>10</x>
+    <y>275</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>312</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-SCU-MAG-DIP-01:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-SCU-MAG-DIP-01:READI</pv_name>
+    <x>257</x>
+    <y>313</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-SCU-MAG-DIP-01:RILK</pv_name>
+    <x>230</x>
+    <y>312</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-SCU-MAG-DIP-01:RPOWER</pv_name>
+    <x>205</x>
+    <y>312</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-SCU-MAG-DIP-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-SCU-MAG-DIP-01</text>
+    <x>10</x>
+    <y>310</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>337</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-S02-MAG-QUAD-05:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-05:READI</pv_name>
+    <x>257</x>
+    <y>338</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-05:RILK</pv_name>
+    <x>230</x>
+    <y>337</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-S02-MAG-QUAD-05:RPOWER</pv_name>
+    <x>205</x>
+    <y>337</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-QUAD-05</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-S02-MAG-QUAD-05</text>
+    <x>10</x>
+    <y>335</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>397</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-SCU-MAG-QUAD-01:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-SCU-MAG-QUAD-01:READI</pv_name>
+    <x>257</x>
+    <y>398</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-SCU-MAG-QUAD-01:RILK</pv_name>
+    <x>230</x>
+    <y>397</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-SCU-MAG-QUAD-01:RPOWER</pv_name>
+    <x>205</x>
+    <y>397</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-SCU-MAG-QUAD-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-SCU-MAG-QUAD-01</text>
+    <x>10</x>
+    <y>395</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>422</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-SCU-MAG-QUAD-02:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-SCU-MAG-QUAD-02:READI</pv_name>
+    <x>257</x>
+    <y>423</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-SCU-MAG-QUAD-02:RILK</pv_name>
+    <x>230</x>
+    <y>422</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-SCU-MAG-QUAD-02:RPOWER</pv_name>
+    <x>205</x>
+    <y>422</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-SCU-MAG-QUAD-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-SCU-MAG-QUAD-02</text>
+    <x>10</x>
+    <y>420</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>447</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-SCU-MAG-QUAD-03:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-SCU-MAG-QUAD-03:READI</pv_name>
+    <x>257</x>
+    <y>448</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-SCU-MAG-QUAD-03:RILK</pv_name>
+    <x>230</x>
+    <y>447</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-SCU-MAG-QUAD-03:RPOWER</pv_name>
+    <x>205</x>
+    <y>447</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-SCU-MAG-QUAD-03</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-SCU-MAG-QUAD-03</text>
+    <x>10</x>
+    <y>445</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 13</name>
+    <x>390</x>
+    <y>365</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_61</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-SCU-MAG-DIP-02:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="New Rule" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-SCU-MAG-DIP-02:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-SCU-MAG-DIP-02:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-SCU-MAG-DIP-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>362</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-SCU-MAG-DIP-02:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-SCU-MAG-DIP-02:READI</pv_name>
+    <x>257</x>
+    <y>363</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-SCU-MAG-DIP-02:RILK</pv_name>
+    <x>230</x>
+    <y>362</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-SCU-MAG-DIP-02:RPOWER</pv_name>
+    <x>205</x>
+    <y>362</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-SCU-MAG-DIP-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-SCU-MAG-DIP-02</text>
+    <x>10</x>
+    <y>360</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 14</name>
+    <x>390</x>
+    <y>70</y>
+    <width>36</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_51</name>
+      <macros>
+        <VALV_COLOUR_PV>CLA-LRG1-MAG-SOL-01:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>4</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <rules>
+        <rule name="visibiloty" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0=NULL">
+            <value>false</value>
+          </exp>
+          <pv_name>CLA-LRG1-MAG-SOL-01:ALM</pv_name>
+        </rule>
+      </rules>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = CLA-LRG1-MAG-SOL-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>CLA-S03-MAG-QUAD-01:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>CLA-LRG1-MAG-SOL-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>4</x>
+      <width>31</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>360</x>
+    <y>67</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# EDM Alarm-sensitive color
+from org.csstudio.display.builder.runtime.script import PVUtil
+from org.csstudio.display.builder.model.persist import WidgetColorService
+sevr = PVUtil.getSeverity(pvs[0])
+cn = ( 'OK', 'MINOR', 'MAJOR', 'INVALID', 'DISCONNECTED' )[sevr]
+widget.setPropertyValue('background_color', WidgetColorService.getColor(cn))]]></text>
+        <pv_name>CLA-LRG1-MAG-SOL-01:ALM</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-LRG1-MAG-SOL-01:READI</pv_name>
+    <x>257</x>
+    <y>68</y>
+    <width>96</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-LRG1-MAG-SOL-01:RILK</pv_name>
+    <x>230</x>
+    <y>67</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color red="153" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-LRG1-MAG-SOL-01:RPOWER</pv_name>
+    <x>205</x>
+    <y>67</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-LRG1-MAG-SOL-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-LRG1-MAG-SOL-01</text>
+    <x>10</x>
+    <y>65</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

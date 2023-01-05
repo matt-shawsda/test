@@ -1,0 +1,4375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>VELA BA1 Vacuum</name>
+  <x>873</x>
+  <y>188</y>
+  <width>920</width>
+  <height>623</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1</x>
+    <y>226</y>
+    <width>670</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="670.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <macros>
+      <VALV_COLOUR_PV>EBT-BA1-VAC-VALV-02:Sta</VALV_COLOUR_PV>
+    </macros>
+    <file>../../MISC(SYMBOLS)/valve-symbol.bob</file>
+    <x>207</x>
+    <y>209</y>
+    <width>34</width>
+    <height>26</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = EBT-INJ-VAC-VALV-01:Sta
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        <pv_name>EBT-BA1-VAC-VALV-02:Sta</pv_name>
+      </script>
+    </scripts>
+    <tooltip>EBT-BA1-VAC-VALV-02:Sta</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>211</x>
+    <y>416</y>
+    <width>689</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="689.0" y="0.0">
+      </point>
+    </points>
+    <line_width>8</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>341</x>
+    <y>385</y>
+    <width>561</width>
+    <height>186</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <macros>
+      <VALV_COLOUR_PV>EBT-LAL-VAC-VALV-01:Sta</VALV_COLOUR_PV>
+    </macros>
+    <file>../../MISC(SYMBOLS)/valve-symbol.bob</file>
+    <x>610</x>
+    <y>398</y>
+    <width>34</width>
+    <height>26</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = EBT-INJ-VAC-VALV-01:Sta
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        <pv_name>EBT-LAL-VAC-VALV-01:Sta</pv_name>
+      </script>
+    </scripts>
+    <tooltip>EBT-LAL-VAC-VALV-01:Sta</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <macros>
+      <VALV_COLOUR_PV>EBT-BA1-VAC-VALV-05:Sta</VALV_COLOUR_PV>
+    </macros>
+    <file>../../MISC(SYMBOLS)/valve-symbol.bob</file>
+    <x>610</x>
+    <y>208</y>
+    <width>34</width>
+    <height>26</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = EBT-INJ-VAC-VALV-01:Sta
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        <pv_name>EBT-BA1-VAC-VALV-05:Sta</pv_name>
+      </script>
+    </scripts>
+    <tooltip>EBT-BA1-VAC-VALV-05:Sta</tooltip>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 12</name>
+    <x>610</x>
+    <y>208</y>
+    <width>34</width>
+    <height>26</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/StatusControlDouble.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-VALV-05</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <width>34</width>
+      <height>26</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>212</x>
+    <y>281</y>
+    <width>34</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="34.0" y="0.0">
+      </point>
+    </points>
+    <line_width>8</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>262</x>
+    <y>281</y>
+    <width>20</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="20.0" y="0.0">
+      </point>
+    </points>
+    <line_width>8</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <macros>
+      <VALV_COLOUR_PV>EBT-BA1-VAC-VALV-03:Sta</VALV_COLOUR_PV>
+    </macros>
+    <file>../../MISC(SYMBOLS)/valve-symbol.bob</file>
+    <x>234</x>
+    <y>264</y>
+    <width>34</width>
+    <height>26</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = EBT-INJ-VAC-VALV-01:Sta
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        <pv_name>EBT-BA1-VAC-VALV-03:Sta</pv_name>
+      </script>
+    </scripts>
+    <tooltip>EBT-BA1-VAC-VALV-03:Sta</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_1</name>
+    <macros>
+      <VALV_COLOUR_PV>EBT-BA1-VAC-VALV-01:Sta</VALV_COLOUR_PV>
+    </macros>
+    <file>../../MISC(SYMBOLS)/valve-symbol.bob</file>
+    <x>40</x>
+    <y>208</y>
+    <width>34</width>
+    <height>26</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = EBT-INJ-VAC-VALV-01:Sta
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        <pv_name>EBT-BA1-VAC-VALV-01:Sta</pv_name>
+      </script>
+    </scripts>
+    <tooltip>EBT-BA1-VAC-VALV-01:Sta</tooltip>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>691</x>
+    <y>307</y>
+    <width>85</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="85.0" y="0.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>152</x>
+    <y>196</y>
+    <width>1</width>
+    <height>22</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="22.0">
+      </point>
+    </points>
+    <line_width>4</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>152</x>
+    <y>213</y>
+    <width>1</width>
+    <height>22</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="22.0">
+      </point>
+    </points>
+    <line_width>4</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>1</x>
+    <width>921</width>
+    <height>36</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>VELA Beam Area 1 Vacuum</text>
+    <x>333</x>
+    <y>6</y>
+    <width>228</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>98</x>
+    <y>127</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aImg-symbol.bob</file>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-BA1-VAC-IMG-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-BA1-VAC-IMG-01:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-IMG-01:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aImg.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-IMG-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-VAC-IMG-01:P</pv_name>
+    <x>138</x>
+    <y>135</y>
+    <width>66</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 1</name>
+    <x>93</x>
+    <y>167</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aPirg-symbol.bob</file>
+      <x>3</x>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-BA1-VAC-PIRG-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-BA1-VAC-PIRG-01:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-PIRG-01:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aPirg.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-PIRG-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>1</x>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-VAC-PIRG-01:P</pv_name>
+    <x>137</x>
+    <y>173</y>
+    <width>70</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 2</name>
+    <x>117</x>
+    <y>226</y>
+    <width>71</width>
+    <height>87</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 4</name>
+      <x>22</x>
+      <width>29</width>
+      <height>17</height>
+      <style>3</style>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <macros>
+        <VALV_COLOUR_PV>EBT-BA1-VAC-AUXL-01:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>22</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = SHK78-INJ-VAC-VALV-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-AUXL-01:Sta</tooltip>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 3</name>
+      <x>16</x>
+      <y>18</y>
+      <width>41</width>
+      <height>41</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="embedded" version="2.0.0">
+        <name>EDM activeSymbolClass</name>
+        <file>../../MISC(SYMBOLS)/digitelMpcIonp-symbol.bob</file>
+        <x>2</x>
+        <y>2</y>
+        <width>33</width>
+        <height>33</height>
+        <resize>3</resize>
+        <group_name>EDM Group 0</group_name>
+        <transparent>true</transparent>
+        <scripts>
+          <script file="EmbeddedPy">
+            <text><![CDATA[# pvs[0] = EBT-BA1-VAC-IONP-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+            <pv_name>EBT-BA1-VAC-IONP-01:STA</pv_name>
+          </script>
+        </scripts>
+        <tooltip>EBT-BA1-VAC-IONP-01:STA</tooltip>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../VACUUM/digitelMpcIonp.bob</file>
+            <macros>
+              <device>EBT-BA1-VAC-IONP-01</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text></text>
+        <y>1</y>
+        <width>38</width>
+        <height>38</height>
+        <font>
+          <font family="Liberation Sans" style="REGULAR" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="brown-44" red="128" green="88" blue="48">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-VAC-IONP-01:P</pv_name>
+      <x>2</x>
+      <y>60</y>
+      <width>66</width>
+      <height>24</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-AUXL-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>22</x>
+      <width>26</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-IONP-01</text>
+    <x>111</x>
+    <y>313</y>
+    <width>75</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-IMG-01
+BA1-PIRG-01</text>
+    <x>104</x>
+    <y>91</y>
+    <width>88</width>
+    <height>35</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 5</name>
+    <x>40</x>
+    <y>208</y>
+    <width>33</width>
+    <height>26</height>
+    <style>3</style>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-VALV-01</text>
+    <x>23</x>
+    <y>234</y>
+    <width>78</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>269</x>
+    <y>200</y>
+    <width>98</width>
+    <height>56</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 6</name>
+    <x>207</x>
+    <y>209</y>
+    <width>34</width>
+    <height>26</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-VALV-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <width>34</width>
+      <height>26</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-VALV-02</text>
+    <x>182</x>
+    <y>238</y>
+    <width>78</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>325</x>
+    <y>147</y>
+    <width>1</width>
+    <height>56</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="56.0">
+      </point>
+    </points>
+    <line_width>4</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 7</name>
+    <x>277</x>
+    <y>98</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aImg-symbol.bob</file>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-BA1-VAC-IMG-02:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-BA1-VAC-IMG-02:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-IMG-02:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aImg.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-IMG-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-VAC-IMG-02:P</pv_name>
+    <x>317</x>
+    <y>106</y>
+    <width>66</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 8</name>
+    <x>272</x>
+    <y>138</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aPirg-symbol.bob</file>
+      <x>3</x>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-BA1-VAC-PIRG-02:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-BA1-VAC-PIRG-02:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-PIRG-02:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aPirg.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-PIRG-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>1</x>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-VAC-PIRG-02:P</pv_name>
+    <x>316</x>
+    <y>144</y>
+    <width>70</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-IMG-02
+BA1-PIRG-02</text>
+    <x>279</x>
+    <y>62</y>
+    <width>88</width>
+    <height>35</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-VALV-03</text>
+    <x>219</x>
+    <y>294</y>
+    <width>78</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 9</name>
+    <x>394</x>
+    <y>208</y>
+    <width>34</width>
+    <height>26</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <macros>
+        <VALV_COLOUR_PV>EBT-BA1-VAC-VALV-04:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/valve-symbol.bob</file>
+      <width>34</width>
+      <height>26</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-INJ-VAC-VALV-01:Sta
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+          <pv_name>EBT-BA1-VAC-VALV-04:Sta</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-VALV-04:Sta</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/StatusControlDouble.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-VALV-04</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <width>34</width>
+      <height>26</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-VALV-04</text>
+    <x>377</x>
+    <y>237</y>
+    <width>78</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>552</x>
+    <y>335</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>463</x>
+    <y>189</y>
+    <width>128</width>
+    <height>72</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>518</x>
+    <y>141</y>
+    <width>1</width>
+    <height>56</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="56.0">
+      </point>
+    </points>
+    <line_width>4</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 10</name>
+    <x>470</x>
+    <y>92</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aImg-symbol.bob</file>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-BA1-VAC-IMG-03:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-BA1-VAC-IMG-03:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-IMG-03:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aImg.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-IMG-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-VAC-IMG-03:P</pv_name>
+    <x>510</x>
+    <y>100</y>
+    <width>66</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 11</name>
+    <x>465</x>
+    <y>132</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aPirg-symbol.bob</file>
+      <x>3</x>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-BA1-VAC-PIRG-03:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-BA1-VAC-PIRG-03:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-PIRG-03:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aPirg.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-PIRG-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>1</x>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-VAC-PIRG-03:P</pv_name>
+    <x>509</x>
+    <y>138</y>
+    <width>70</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-IMG-03
+BA1-PIRG-03</text>
+    <x>468</x>
+    <y>57</y>
+    <width>88</width>
+    <height>35</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-VALV-05</text>
+    <x>599</x>
+    <y>240</y>
+    <width>78</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 13</name>
+    <x>758</x>
+    <y>276</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aImg-symbol.bob</file>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-BA1-VAC-IMG-04:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-BA1-VAC-IMG-04:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-IMG-04:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aImg.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-IMG-04</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-VAC-IMG-04:P</pv_name>
+    <x>798</x>
+    <y>284</y>
+    <width>66</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 14</name>
+    <x>753</x>
+    <y>316</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aPirg-symbol.bob</file>
+      <x>3</x>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-BA1-VAC-PIRG-04:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-BA1-VAC-PIRG-04:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-PIRG-04:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aPirg.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-PIRG-04</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>1</x>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-VAC-PIRG-04:P</pv_name>
+    <x>797</x>
+    <y>322</y>
+    <width>70</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-IMG-04
+BA1-PIRG-04</text>
+    <x>756</x>
+    <y>241</y>
+    <width>88</width>
+    <height>35</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 15</name>
+    <x>648</x>
+    <y>273</y>
+    <width>71</width>
+    <height>87</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass_8</name>
+      <macros>
+        <VALV_COLOUR_PV>EBT-BA1-VAC-AUXL-02:Sta</VALV_COLOUR_PV>
+      </macros>
+      <file>../../MISC(SYMBOLS)/auxl.bob</file>
+      <x>22</x>
+      <width>30</width>
+      <height>15</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = SHK78-INJ-VAC-VALV-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+]]></text>
+        </script>
+      </scripts>
+      <tooltip>EBT-BA1-VAC-AUXL-02:Sta</tooltip>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 16</name>
+      <x>16</x>
+      <y>18</y>
+      <width>41</width>
+      <height>41</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="embedded" version="2.0.0">
+        <name>EDM activeSymbolClass</name>
+        <file>../../MISC(SYMBOLS)/digitelMpcIonp-symbol.bob</file>
+        <x>2</x>
+        <y>2</y>
+        <width>33</width>
+        <height>33</height>
+        <resize>3</resize>
+        <group_name>EDM Group 0</group_name>
+        <transparent>true</transparent>
+        <scripts>
+          <script file="EmbeddedPy">
+            <text><![CDATA[# pvs[0] = EBT-BA1-VAC-IONP-02:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+            <pv_name>EBT-BA1-VAC-IONP-02:STA</pv_name>
+          </script>
+        </scripts>
+        <tooltip>EBT-BA1-VAC-IONP-02:STA</tooltip>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../VACUUM/digitelMpcIonp.bob</file>
+            <macros>
+              <device>EBT-BA1-VAC-IONP-02</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text></text>
+        <y>1</y>
+        <width>38</width>
+        <height>38</height>
+        <font>
+          <font family="Liberation Sans" style="REGULAR" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="brown-44" red="128" green="88" blue="48">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-VAC-IONP-02:P</pv_name>
+      <x>2</x>
+      <y>60</y>
+      <width>66</width>
+      <height>24</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 17</name>
+      <x>22</x>
+      <width>29</width>
+      <height>17</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../VACUUM/StatusControl.bob</file>
+            <macros>
+              <device>EBT-BA1-VAC-AUXL-02</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text></text>
+        <width>26</width>
+        <height>16</height>
+        <font>
+          <font family="Liberation Mono" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1-IONP-02</text>
+    <x>565</x>
+    <y>340</y>
+    <width>75</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Mirror
+ Box</text>
+    <x>297</x>
+    <y>213</y>
+    <width>35</width>
+    <height>31</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Chamber</text>
+    <x>498</x>
+    <y>214</y>
+    <width>53</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TMP ON</text>
+    <x>343</x>
+    <y>263</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>393</x>
+    <y>259</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TMP Error</text>
+    <x>343</x>
+    <y>278</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>465</x>
+    <y>265</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>2</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TMP ON</text>
+    <x>483</x>
+    <y>265</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>533</x>
+    <y>261</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>465</x>
+    <y>280</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>3</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TMP Error</text>
+    <x>483</x>
+    <y>280</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>541</x>
+    <y>264</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>4</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TMP ON</text>
+    <x>559</x>
+    <y>264</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>609</x>
+    <y>260</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>541</x>
+    <y>279</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>5</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TMP Error</text>
+    <x>559</x>
+    <y>279</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 18</name>
+    <x>610</x>
+    <y>398</y>
+    <width>34</width>
+    <height>26</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>EBT-LAL-VAC-VALV-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <width>34</width>
+      <height>26</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>LAL-VALV-01</text>
+    <x>597</x>
+    <y>427</y>
+    <width>77</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>424</x>
+    <y>416</y>
+    <width>1</width>
+    <height>75</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="75.0">
+      </point>
+    </points>
+    <line_width>4</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 19</name>
+    <x>410</x>
+    <y>470</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aImg-symbol.bob</file>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-LAL-VAC-IMG-02:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-LAL-VAC-IMG-02:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-LAL-VAC-IMG-02:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aImg.bob</file>
+          <macros>
+            <device>EBT-LAL-VAC-IMG-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-LAL-VAC-IMG-02:P</pv_name>
+    <x>450</x>
+    <y>478</y>
+    <width>66</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 20</name>
+    <x>405</x>
+    <y>510</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aPirg-symbol.bob</file>
+      <x>3</x>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-LAL-VAC-PIRG-02:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-LAL-VAC-PIRG-02:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-LAL-VAC-PIRG-02:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aPirg.bob</file>
+          <macros>
+            <device>EBT-LAL-VAC-PIRG-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>1</x>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-LAL-VAC-PIRG-02:P</pv_name>
+    <x>449</x>
+    <y>516</y>
+    <width>70</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>LAL-IMG-02
+LAL-PIRG-02</text>
+    <x>408</x>
+    <y>435</y>
+    <width>87</width>
+    <height>35</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>689</x>
+    <y>419</y>
+    <width>1</width>
+    <height>75</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="75.0">
+      </point>
+    </points>
+    <line_width>4</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 21</name>
+    <x>675</x>
+    <y>473</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aImg-symbol.bob</file>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-LAL-VAC-IMG-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-LAL-VAC-IMG-01:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-LAL-VAC-IMG-01:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aImg.bob</file>
+          <macros>
+            <device>EBT-LAL-VAC-IMG-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-LAL-VAC-IMG-01:P</pv_name>
+    <x>715</x>
+    <y>481</y>
+    <width>66</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 22</name>
+    <x>670</x>
+    <y>513</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aPirg-symbol.bob</file>
+      <x>3</x>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-LAL-VAC-PIRG-01:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-LAL-VAC-PIRG-01:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-LAL-VAC-PIRG-01:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aPirg.bob</file>
+          <macros>
+            <device>EBT-LAL-VAC-PIRG-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>1</x>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-LAL-VAC-PIRG-01:P</pv_name>
+    <x>714</x>
+    <y>519</y>
+    <width>70</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>LAL-IMG-01
+LAL-PIRG-01</text>
+    <x>673</x>
+    <y>438</y>
+    <width>87</width>
+    <height>35</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>LATTE LAB</text>
+    <x>531</x>
+    <y>393</y>
+    <width>67</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>325</x>
+    <y>263</y>
+    <width>14</width>
+    <height>13</height>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>325</x>
+    <y>277</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>1</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR ON</text>
+    <x>343</x>
+    <y>291</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>325</x>
+    <y>291</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>10</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>465</x>
+    <y>295</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>12</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR ON</text>
+    <x>483</x>
+    <y>295</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>541</x>
+    <y>293</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>14</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR ON</text>
+    <x>559</x>
+    <y>293</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR Error</text>
+    <x>343</x>
+    <y>306</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>325</x>
+    <y>306</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>11</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR Error</text>
+    <x>483</x>
+    <y>310</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>465</x>
+    <y>310</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>13</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR Error</text>
+    <x>559</x>
+    <y>308</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>541</x>
+    <y>308</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>15</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>118</x>
+    <y>330</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>6</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TMP ON</text>
+    <x>136</x>
+    <y>330</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>186</x>
+    <y>326</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>118</x>
+    <y>345</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>7</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TMP Error</text>
+    <x>136</x>
+    <y>345</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-02:Sta</pv_name>
+    <x>118</x>
+    <y>360</y>
+    <width>14</width>
+    <height>13</height>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR ON</text>
+    <x>136</x>
+    <y>360</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR Error</text>
+    <x>136</x>
+    <y>375</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-02:Sta</pv_name>
+    <x>118</x>
+    <y>375</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>1</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>802</x>
+    <y>425</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>8</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TMP ON</text>
+    <x>820</x>
+    <y>425</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>870</x>
+    <y>421</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-01:Sta</pv_name>
+    <x>802</x>
+    <y>440</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>9</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TMP Error</text>
+    <x>820</x>
+    <y>440</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-02:Sta</pv_name>
+    <x>802</x>
+    <y>455</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>2</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR ON</text>
+    <x>820</x>
+    <y>455</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR Error</text>
+    <x>820</x>
+    <y>470</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-02:Sta</pv_name>
+    <x>802</x>
+    <y>470</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>3</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-02:Sta</pv_name>
+    <x>549</x>
+    <y>445</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>4</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR ON</text>
+    <x>567</x>
+    <y>445</y>
+    <width>39</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCR Error</text>
+    <x>567</x>
+    <y>460</y>
+    <width>49</width>
+    <height>12</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-BA1-VAC-SIMS-02:Sta</pv_name>
+    <x>549</x>
+    <y>460</y>
+    <width>14</width>
+    <height>13</height>
+    <startBit>5</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 23</name>
+    <x>234</x>
+    <y>264</y>
+    <width>34</width>
+    <height>26</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/StatusControl.bob</file>
+          <macros>
+            <device>EBT-BA1-VAC-VALV-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <width>34</width>
+      <height>26</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>221</x>
+    <y>416</y>
+    <width>1</width>
+    <height>75</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="75.0">
+      </point>
+    </points>
+    <line_width>4</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 24</name>
+    <x>207</x>
+    <y>470</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aImg-symbol.bob</file>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-LAL-VAC-IMG-03:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-LAL-VAC-IMG-03:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-LAL-VAC-IMG-03:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aImg.bob</file>
+          <macros>
+            <device>EBT-LAL-VAC-IMG-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-LAL-VAC-IMG-03:P</pv_name>
+    <x>247</x>
+    <y>478</y>
+    <width>66</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 25</name>
+    <x>202</x>
+    <y>510</y>
+    <width>39</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EDM activeSymbolClass</name>
+      <file>../../MISC(SYMBOLS)/mks937aPirg-symbol.bob</file>
+      <x>3</x>
+      <y>2</y>
+      <width>33</width>
+      <height>33</height>
+      <resize>3</resize>
+      <group_name>EDM Group 0</group_name>
+      <transparent>true</transparent>
+      <scripts>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# pvs[0] = EBT-LAL-VAC-PIRG-03:STA
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+elif 3.0 <= val < 4.0:
+    widget.setPropertyValue('group_name', 'EDM Group 4')
+elif 4.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 5')
+elif 5.0 <= val < 6.0:
+    widget.setPropertyValue('group_name', 'EDM Group 6')
+elif 6.0 <= val < 7.0:
+    widget.setPropertyValue('group_name', 'EDM Group 7')
+elif 7.0 <= val < 8.0:
+    widget.setPropertyValue('group_name', 'EDM Group 8')
+elif 8.0 <= val < 9.0:
+    widget.setPropertyValue('group_name', 'EDM Group 9')
+elif 9.0 <= val < 10.0:
+    widget.setPropertyValue('group_name', 'EDM Group 10')
+elif 10.0 <= val < 11.0:
+    widget.setPropertyValue('group_name', 'EDM Group 11')
+elif 11.0 <= val < 12.0:
+    widget.setPropertyValue('group_name', 'EDM Group 12')
+elif 12.0 <= val < 13.0:
+    widget.setPropertyValue('group_name', 'EDM Group 13')
+elif 14.0 <= val < 15.0:
+    widget.setPropertyValue('group_name', 'EDM Group 14')
+elif 15.0 <= val < 16.0:
+    widget.setPropertyValue('group_name', 'EDM Group 15')
+elif 16.0 <= val < 17.0:
+    widget.setPropertyValue('group_name', 'EDM Group 16')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+          <pv_name>EBT-LAL-VAC-PIRG-03:STA</pv_name>
+        </script>
+      </scripts>
+      <tooltip>EBT-LAL-VAC-PIRG-03:STA</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../VACUUM/mks937aPirg.bob</file>
+          <macros>
+            <device>EBT-LAL-VAC-PIRG-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>1</x>
+      <y>1</y>
+      <width>38</width>
+      <height>38</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-LAL-VAC-PIRG-03:P</pv_name>
+    <x>246</x>
+    <y>516</y>
+    <width>70</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>LAL-IMG-03
+LAL-PIRG-03</text>
+    <x>205</x>
+    <y>435</y>
+    <width>87</width>
+    <height>35</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-VAC-PG-01:RP</pv_name>
+    <x>650</x>
+    <y>114</y>
+    <width>85</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Gas Jet Pressure</text>
+    <x>631</x>
+    <y>96</y>
+    <width>115</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_1</name>
+    <x>680</x>
+    <y>190</y>
+    <width>50</width>
+    <height>40</height>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_2</name>
+    <x>668</x>
+    <y>226</y>
+    <width>62</width>
+    <height>124</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="62.0" y="24.0">
+      </point>
+      <point x="62.0" y="124.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color red="0" green="192" blue="192">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_3</name>
+    <x>210</x>
+    <y>277</y>
+    <width>1</width>
+    <height>143</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="143.0">
+      </point>
+      <point x="0.0" y="98.99999999999999">
+      </point>
+    </points>
+    <line_width>8</line_width>
+    <line_color>
+      <color red="0" green="192" blue="192">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_4</name>
+    <x>282</x>
+    <y>235</y>
+    <width>1</width>
+    <height>50</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="50.0">
+      </point>
+      <point x="0.0" y="34.615384615384606">
+      </point>
+    </points>
+    <line_width>8</line_width>
+    <line_color>
+      <color red="0" green="192" blue="192">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../VACUUM/StatusControl.bob</file>
+        <macros>
+          <device>EBT-BA1-VAC-VALV-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>40</x>
+    <y>208</y>
+    <width>34</width>
+    <height>26</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

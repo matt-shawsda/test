@@ -1,0 +1,2840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>PS CLARA BA2</name>
+  <x>600</x>
+  <y>126</y>
+  <width>1656</width>
+  <height>737</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_24</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:CALRADMON6</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>400</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_25</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:CALRMRST</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>510</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_26</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:BA1:CALRADMON2</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>610</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_27</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:BA1:CALRMRST</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>710</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_28</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALRADMON1</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>810</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_29</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALRADMON3</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>900</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_30</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALRADMON7</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>1000</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_31</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALRADMON8</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>1110</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_32</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALRADMON9</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>1210</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_33</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALRMRST</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>1310</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_23</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:BA1:CALSRCHCMP</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>290</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_35</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:CALRECMES</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>1500</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_20</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALPMTVTDCRF</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSymH.bob</file>
+    <x>1020</x>
+    <y>480</y>
+    <width>40</width>
+    <height>20</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:ROOF:CALPMTGUNRF
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALPMTGUNRF</pv_name>
+      </script>
+    </scripts>
+    <tooltip>CLA-SFT-PSS-DNET-01:ROOF:CALPMTGUNRF</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_19</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALPMTL1RF</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSymH.bob</file>
+    <x>880</x>
+    <y>480</y>
+    <width>40</width>
+    <height>20</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:ROOF:CALPMTGUNRF
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALPMTGUNRF</pv_name>
+      </script>
+    </scripts>
+    <tooltip>CLA-SFT-PSS-DNET-01:ROOF:CALPMTGUNRF</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>130</x>
+    <y>420</y>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="100.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>20</x>
+    <y>200</y>
+    <width>60</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="60.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <width>1651</width>
+    <height>51</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="yellow-38" red="160" green="160" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>PSS - Enable Accelerator</text>
+    <x>530</x>
+    <y>10</y>
+    <width>216</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>NOT
+Laser 
+Alignment</text>
+    <x>120</x>
+    <y>500</y>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>20</x>
+    <y>120</y>
+    <width>1</width>
+    <height>80</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="80.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Accelerator Room
+'Beam On'
+Signs</text>
+    <x>370</x>
+    <y>500</y>
+    <width>120</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Request
+Beam On</text>
+    <x>1390</x>
+    <y>120</y>
+    <width>60</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Recorded
+Message</text>
+    <x>1480</x>
+    <y>120</y>
+    <width>60</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Radiation
+Monitor 1</text>
+    <x>780</x>
+    <y>120</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Radiation
+Monitor 3</text>
+    <x>870</x>
+    <y>120</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Acc. Room
+Radiation
+Monitor (6)</text>
+    <x>370</x>
+    <y>120</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Basement
+Search
+Complete</text>
+    <x>50</x>
+    <y>110</y>
+    <width>90</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>RF
+Mode Key</text>
+    <x>190</x>
+    <y>340</y>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>'Supervised
+Area' Sign</text>
+    <x>320</x>
+    <y>330</y>
+    <height>70</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Acc Room
+Search
+Complete</text>
+    <x>160</x>
+    <y>110</y>
+    <width>70</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>'RF On'
+Signs</text>
+    <x>580</x>
+    <y>330</y>
+    <width>60</width>
+    <height>70</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Run Key</text>
+    <x>260</x>
+    <y>520</y>
+    <width>80</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Basement
+'Beam On'
+Signs</text>
+    <x>520</x>
+    <y>490</y>
+    <width>80</width>
+    <height>70</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Permit PI
+Laser Shutters</text>
+    <x>710</x>
+    <y>670</y>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>40</x>
+    <y>320</y>
+    <width>1550</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="1550.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1590</x>
+    <y>200</y>
+    <width>1</width>
+    <height>120</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="120.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Radiation
+Monitor 7</text>
+    <x>980</x>
+    <y>120</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Radiation
+Monitor 8</text>
+    <x>1080</x>
+    <y>120</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Radiation
+Monitor 9</text>
+    <x>1180</x>
+    <y>120</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>760</x>
+    <y>420</y>
+    <width>1</width>
+    <height>60</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="60.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>900</x>
+    <y>420</y>
+    <width>1</width>
+    <height>60</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="60.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Permit
+Gun RF</text>
+    <x>720</x>
+    <y>500</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Permit VELA
+TDC RF</text>
+    <x>990</x>
+    <y>500</y>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Permit
+LINAC 1 RF</text>
+    <x>850</x>
+    <y>500</y>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>NOT 
+'Free Access'
+Signs</text>
+    <x>450</x>
+    <y>330</y>
+    <width>80</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1040</x>
+    <y>420</y>
+    <width>1</width>
+    <height>60</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="60.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>100</x>
+    <y>200</y>
+    <width>80</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>200</x>
+    <y>200</y>
+    <width>90</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>310</x>
+    <y>200</y>
+    <width>90</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>420</x>
+    <y>200</y>
+    <width>90</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>530</x>
+    <y>200</y>
+    <width>80</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>630</x>
+    <y>200</y>
+    <width>80</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>730</x>
+    <y>200</y>
+    <width>80</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1230</x>
+    <y>200</y>
+    <width>80</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1330</x>
+    <y>200</y>
+    <width>80</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1430</x>
+    <y>200</y>
+    <width>70</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="70.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1520</x>
+    <y>200</y>
+    <width>70</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="70.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>40</x>
+    <y>590</y>
+    <width>120</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="120.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>250</x>
+    <y>420</y>
+    <width>110</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="110.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>380</x>
+    <y>420</y>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="100.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>500</x>
+    <y>420</y>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="100.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>620</x>
+    <y>420</y>
+    <width>420</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="420.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>570</x>
+    <y>590</y>
+    <width>190</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="190.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>310</x>
+    <y>590</y>
+    <width>110</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="110.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>440</x>
+    <y>590</y>
+    <width>110</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="110.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:PMTLSRSH</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSymH.bob</file>
+    <x>740</x>
+    <y>650</y>
+    <width>40</width>
+    <height>20</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+    <tooltip>CLA-SFT-PSS-DNET-01:AR:PMTLSRSH</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1550</x>
+    <y>200</y>
+    <width>1</width>
+    <height>80</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="80.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1370</x>
+    <y>200</y>
+    <width>1</width>
+    <height>80</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="80.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1370</x>
+    <y>280</y>
+    <width>80</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1470</x>
+    <y>280</y>
+    <width>80</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALPMTGUNRF</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSymH.bob</file>
+    <x>740</x>
+    <y>480</y>
+    <width>40</width>
+    <height>20</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = CLA-SFT-PSS-DNET-01:ROOF:CALPMTGUNRF
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>CLA-SFT-PSS-DNET-01:ROOF:CALPMTGUNRF</pv_name>
+      </script>
+    </scripts>
+    <tooltip>CLA-SFT-PSS-DNET-01:ROOF:CALPMTGUNRF</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>RBO Complete</text>
+    <x>1410</x>
+    <y>230</y>
+    <width>110</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>40</x>
+    <y>320</y>
+    <width>1</width>
+    <height>270</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="270.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Air Pressure</text>
+    <x>80</x>
+    <y>350</y>
+    <width>90</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>40</x>
+    <y>420</y>
+    <width>70</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="70.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>830</x>
+    <y>200</y>
+    <width>70</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="70.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Perimeter
+Radiation
+Monitors Reset</text>
+    <x>1270</x>
+    <y>110</y>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>BA1
+Search
+Complete</text>
+    <x>260</x>
+    <y>110</y>
+    <width>80</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Beam Area 1
+Radiation
+Monitor (2)</text>
+    <x>580</x>
+    <y>120</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1130</x>
+    <y>200</y>
+    <width>80</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Radiation
+Monitor 6
+Reset</text>
+    <x>490</x>
+    <y>120</y>
+    <width>70</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Radiation
+Monitor 2
+Reset</text>
+    <x>680</x>
+    <y>120</y>
+    <width>80</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>920</x>
+    <y>200</y>
+    <width>80</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="80.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>1020</x>
+    <y>200</y>
+    <width>90</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="90.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>180</x>
+    <y>590</y>
+    <width>110</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="110.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>760</x>
+    <y>590</y>
+    <width>1</width>
+    <height>60</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="60.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:ROOF:RADMON9A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:ROOF:RADMON9A</GLB>
+          <module>Accelerator Enable - Radiation Monitor 9</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1210</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:RMRST</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:AR:RMRST</GLB>
+          <module>Accelerator Enable - Radiation Monitor Reset</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>510</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BA1:RADMON2A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BA1:RADMON2B</GLB>
+          <module>Accelerator Enable - Radiation Monitor 1</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>610</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:ROOF:PMTL1RFA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:ROOF:PMTL1RFB</GLB>
+          <module>Acc Enable - Permit LINAC 1 RF</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>880</x>
+    <y>480</y>
+    <width>40</width>
+    <height>20</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:ROOF:PMTVTDCRFA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:ROOF:PMTVTDCRFB</GLB>
+          <module>Acc Enable - Permit VELA TDC RF</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1020</x>
+    <y>480</y>
+    <width>40</width>
+    <height>20</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:ROOF:PMTGUNRFA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:ROOF:PMTGUNRFB</GLB>
+          <module>Acc Enable - Permit Gun RF</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>740</x>
+    <y>480</y>
+    <width>40</width>
+    <height>20</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:FIREON</GLA>
+          <GLB>AR:NOTFIREOFF</GLB>
+          <module>Acc Enable - Recorded Message</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1500</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:ROOF:RADMON1A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:ROOF:RADMON1B</GLB>
+          <module>Accelerator Enable - Radiation Monitor 1</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>810</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:ROOF:RADMON1A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:ROOF:RADMON1A</GLB>
+          <module>Accelerator Enable - Radiation Monitor 3</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>900</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:ROOF:RADMON7A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:ROOF:RADMON7B</GLB>
+          <module>Accelerator Enable - Radiation Monitor 7</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1000</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:ROOF:RADMON8A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:ROOF:RADMON8A</GLB>
+          <module>Accelerator Enable - Radiation Monitor 8</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1110</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:RADMON6A</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:AR:RADMON6A</GLB>
+          <module>Accelerator Enable - Radiation Monitor 6</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>400</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:ROOF:RMRST</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:ROOF:RMRST</GLB>
+          <module>Accelerator Enable - Radiation Monitor Reset</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1310</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BA1:SRCHCMPA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BA1:SRCHCMPB</GLB>
+          <module>Accelerator Enable - Beam Area 1 Search Complete</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>290</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BA1:RMRST</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BA1:RMRST</GLB>
+          <module>Accelerator Enable - Radiation Monitor Reset</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>710</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_21</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALSRCHCMP</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>80</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_22</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:CALSRCHCMP</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>180</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_34</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:CALRBO</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>1450</x>
+    <y>270</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_36</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:CR:CALREQBO</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>1410</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:RBOA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:AR:RBOB</GLB>
+          <module>Acc Enable - Request Beam On</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1450</x>
+    <y>270</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:CR:REQBOA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:CR:REQBOB</GLB>
+          <module>Acc Enable - Request Beam On</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1410</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:SRCHCMPA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:BMT:SRCHCMPB</GLB>
+          <module>Accelerator Enable - Basement Search Complete</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>80</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:SRCHCMPA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:AR:SRCHCMPB</GLB>
+          <module>Acc Enable - Acc Search Complete</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>180</x>
+    <y>180</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_37</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:APRESS</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>110</x>
+    <y>400</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_38</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:CR:CALRFMODEKEY</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>230</x>
+    <y>400</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_39</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:CALSAS</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>360</x>
+    <y>400</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_40</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:CALINVFRACS</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>480</x>
+    <y>400</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_41</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:CALRFONS</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>600</x>
+    <y>400</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_42</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:BMT:CALBOS</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>550</x>
+    <y>570</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_43</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:CALBOS</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>420</x>
+    <y>570</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_44</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:CR:CALRUNKEY</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>290</x>
+    <y>570</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass_45</name>
+    <macros>
+      <pv_name>CLA-SFT-PSS-DNET-01:AR:CALINVUVLALKEY</pv_name>
+    </macros>
+    <file>../MISC(SYMBOLS)/pss_ILKSym.bob</file>
+    <x>160</x>
+    <y>570</y>
+    <width>20</width>
+    <height>40</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:APRESS</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:AR:APRESS</GLB>
+          <module>Acc Enable - Air Pressure</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>110</x>
+    <y>400</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:CR:RFMODEKEYA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:CR:RFMODEKEYB</GLB>
+          <module>Acc Enable - RF Mode Key</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>230</x>
+    <y>400</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:SASON</GLA>
+          <GLB>AR:NOTSASOFF</GLB>
+          <module>Acc Enable - Supervised Area S1 On</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>360</x>
+    <y>400</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:RFONSON</GLA>
+          <GLB>AR:NOTRFOSOFF</GLB>
+          <module>Acc Enable - 'RF On' Sign</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>600</x>
+    <y>400</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:CR:RUNKEYA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:CR:RUNKEYB</GLB>
+          <module>Acc Enable - Run Key</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>290</x>
+    <y>570</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:BOSON</GLA>
+          <GLB>AR:NOTBOSOFF</GLB>
+          <module>Acc Enable - Acc 'Beam On' Signs</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>420</x>
+    <y>570</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:BMT:BOSON</GLA>
+          <GLB>BMT:NOTBOSOFF</GLB>
+          <module>Acc Enable - Bmt 'Beam On' Sign</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>550</x>
+    <y>570</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:INVFRACSON</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:AR:NOTFRACSOFF</GLB>
+          <module>Acc Enable - NOT 'Free Access' Sign</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>480</x>
+    <y>400</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>guardLineInfo.bob</file>
+        <macros>
+          <GLA>CLA-SFT-PSS-DNET-01:AR:INVUVLALKEYA</GLA>
+          <GLB>CLA-SFT-PSS-DNET-01:AR:INVUVLALKEYB</GLB>
+          <module>Laser Alignment - UV Laser Alignment Key</module>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>160</x>
+    <y>570</y>
+    <width>20</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

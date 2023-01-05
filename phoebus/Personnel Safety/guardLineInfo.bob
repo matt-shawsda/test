@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>guardLineInfo</name>
+  <x>750</x>
+  <y>100</y>
+  <width>330</width>
+  <height>150</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <width>330</width>
+    <height>40</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="UNMS title" red="192" green="113" blue="126">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>$(module)</text>
+    <x>1</x>
+    <y>9</y>
+    <width>326</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Guard Line A</text>
+    <x>21</x>
+    <y>58</y>
+    <width>106</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Guard Line B</text>
+    <x>22</x>
+    <y>108</y>
+    <width>107</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(GLA)</pv_name>
+    <x>237</x>
+    <y>54</y>
+    <width>66</width>
+    <height>31</height>
+    <numBits>1</numBits>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Open/On" red="0" green="192" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(GLB)</pv_name>
+    <x>237</x>
+    <y>104</y>
+    <width>66</width>
+    <height>31</height>
+    <numBits>1</numBits>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Open/On" red="0" green="192" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+</display>

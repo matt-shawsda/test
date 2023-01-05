@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Danfysik System 9100 - Interlocks - $(device)</name>
+  <x>456</x>
+  <y>273</y>
+  <width>465</width>
+  <height>625</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>8</x>
+    <y>48</y>
+    <width>231</width>
+    <height>569</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>MPS Status</text>
+    <x>8</x>
+    <y>40</y>
+    <width>120</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Top Shadow" red="236" green="236" blue="236">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-8" red="133" green="133" blue="133">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>8</x>
+    <y>40</y>
+    <width>121</width>
+    <height>17</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>247</x>
+    <y>48</y>
+    <width>211</width>
+    <height>366</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Wid-alt/Anno-sec" red="174" green="174" blue="174">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>25</x>
+    <y>64</y>
+    <width>65</width>
+    <height>66</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>first</text>
+      <x>41</x>
+      <y>15</y>
+      <width>23</width>
+      <height>16</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>current</text>
+      <x>16</x>
+      <width>46</width>
+      <height>16</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 1</name>
+      <x>25</x>
+      <y>25</y>
+      <width>11</width>
+      <height>41</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>EDM activeRectangleClass</name>
+        <width>2</width>
+        <height>41</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="rectangle" version="2.0.0">
+        <name>EDM activeRectangleClass</name>
+        <width>11</width>
+        <height>2</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 2</name>
+      <y>10</y>
+      <width>11</width>
+      <height>41</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>EDM activeRectangleClass</name>
+        <width>2</width>
+        <height>41</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="rectangle" version="2.0.0">
+        <name>EDM activeRectangleClass</name>
+        <width>11</width>
+        <height>2</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>$(device)</text>
+    <width>465</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="FE title" red="183" green="164" blue="126">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Main Power Off</text>
+    <x>68</x>
+    <y>102</y>
+    <width>97</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):STA1</pv_name>
+    <x>16</x>
+    <y>99</y>
+    <width>20</width>
+    <height>140</height>
+    <startBit>1</startBit>
+    <numBits>7</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color name="Bottom Shadow" red="90" green="90" blue="90">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):FSTA1</pv_name>
+    <x>41</x>
+    <y>99</y>
+    <width>20</width>
+    <height>160</height>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color name="Bottom Shadow" red="90" green="90" blue="90">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Yellow LED: On" red="255" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):STA2</pv_name>
+    <x>16</x>
+    <y>259</y>
+    <width>20</width>
+    <height>320</height>
+    <numBits>16</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color name="Bottom Shadow" red="90" green="90" blue="90">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):FSTA2</pv_name>
+    <x>41</x>
+    <y>259</y>
+    <width>20</width>
+    <height>320</height>
+    <numBits>16</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color name="Bottom Shadow" red="90" green="90" blue="90">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Yellow LED: On" red="255" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Polarity Normal</text>
+    <x>68</x>
+    <y>122</y>
+    <width>96</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Polarity Reversed</text>
+    <x>68</x>
+    <y>142</y>
+    <width>113</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>-</text>
+    <x>69</x>
+    <y>162</y>
+    <width>5</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Crowbar On</text>
+    <x>68</x>
+    <y>182</y>
+    <width>77</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>I-Mode</text>
+    <x>68</x>
+    <y>202</y>
+    <width>47</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>% / Amps</text>
+    <x>68</x>
+    <y>222</y>
+    <width>62</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>External Interlock</text>
+    <x>68</x>
+    <y>242</y>
+    <width>112</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>-</text>
+    <x>68</x>
+    <y>262</y>
+    <width>5</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Sum - Interlock</text>
+    <x>68</x>
+    <y>282</y>
+    <width>97</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Over Voltage (OVP)</text>
+    <x>68</x>
+    <y>302</y>
+    <width>131</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>DC Over Current (OCP)</text>
+    <x>68</x>
+    <y>322</y>
+    <width>152</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>DC Under Voltage Fault</text>
+    <x>68</x>
+    <y>342</y>
+    <width>153</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>-</text>
+    <x>68</x>
+    <y>362</y>
+    <width>5</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Phase Failure</text>
+    <x>68</x>
+    <y>382</y>
+    <width>89</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>-</text>
+    <x>68</x>
+    <y>402</y>
+    <width>5</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Earth Leakage Fault</text>
+    <x>68</x>
+    <y>422</y>
+    <width>129</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Fan Fault</text>
+    <x>68</x>
+    <y>442</y>
+    <width>61</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>MPS Overtemperature</text>
+    <x>68</x>
+    <y>462</y>
+    <width>144</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>External Interlock 1</text>
+    <x>68</x>
+    <y>482</y>
+    <width>124</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>External Interlock 2</text>
+    <x>68</x>
+    <y>502</y>
+    <width>124</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>External Interlock 3</text>
+    <x>68</x>
+    <y>522</y>
+    <width>124</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>MPS Not Ready</text>
+    <x>68</x>
+    <y>542</y>
+    <width>101</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>-</text>
+    <x>68</x>
+    <y>562</y>
+    <width>5</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM activeMessageButtonClass</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(device):RESET</pv_name>
+        <value>Reset</value>
+        <description>Reset</description>
+      </action>
+    </actions>
+    <text>Reset</text>
+    <x>16</x>
+    <y>585</y>
+    <width>211</width>
+    <height>24</height>
+    <foreground_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Button: On" red="187" green="187" blue="187">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk1.DESC</pv_name>
+    <x>307</x>
+    <y>102</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk2.DESC</pv_name>
+    <x>307</x>
+    <y>122</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk3.DESC</pv_name>
+    <x>307</x>
+    <y>142</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk4.DESC</pv_name>
+    <x>307</x>
+    <y>162</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk5.DESC</pv_name>
+    <x>307</x>
+    <y>182</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk6.DESC</pv_name>
+    <x>307</x>
+    <y>202</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk7.DESC</pv_name>
+    <x>307</x>
+    <y>222</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk8.DESC</pv_name>
+    <x>307</x>
+    <y>242</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>External Interlocks</text>
+    <x>247</x>
+    <y>40</y>
+    <width>120</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Top Shadow" red="236" green="236" blue="236">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-8" red="133" green="133" blue="133">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>247</x>
+    <y>40</y>
+    <width>121</width>
+    <height>17</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 3</name>
+    <x>266</x>
+    <y>64</y>
+    <width>65</width>
+    <height>66</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>latched</text>
+      <x>41</x>
+      <y>15</y>
+      <width>47</width>
+      <height>16</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>current</text>
+      <x>16</x>
+      <width>46</width>
+      <height>16</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 4</name>
+      <x>25</x>
+      <y>25</y>
+      <width>11</width>
+      <height>41</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>EDM activeRectangleClass</name>
+        <width>2</width>
+        <height>41</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="rectangle" version="2.0.0">
+        <name>EDM activeRectangleClass</name>
+        <width>11</width>
+        <height>2</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 5</name>
+      <y>10</y>
+      <width>11</width>
+      <height>41</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>EDM activeRectangleClass</name>
+        <width>2</width>
+        <height>41</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+      <widget type="rectangle" version="2.0.0">
+        <name>EDM activeRectangleClass</name>
+        <width>11</width>
+        <height>2</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </line_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):Cmi</pv_name>
+    <x>255</x>
+    <y>99</y>
+    <width>20</width>
+    <height>240</height>
+    <numBits>12</numBits>
+    <bitReverse>true</bitReverse>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Monitor: alt" red="0" green="160" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 6</name>
+    <x>255</x>
+    <y>346</y>
+    <width>176</width>
+    <height>34</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <x>-1</x>
+      <y>-1</y>
+      <width>179</width>
+      <height>32</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <rules>
+        <rule name="EDM Status" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Red LED: On" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="Green LED: On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==2">
+            <value>
+              <color name="Yellow LED: On" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==3">
+            <value>
+              <color name="orange-41" red="224" green="154" blue="84">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==4">
+            <value>
+              <color name="purple-47" red="128" green="0" blue="128">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==5">
+            <value>
+              <color name="brown-44" red="128" green="88" blue="48">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==6">
+            <value>
+              <color name="grey-8" red="133" green="133" blue="133">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="true">
+            <value>
+              <color name="Disconn/Invalid" red="255" green="255" blue="255">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(device):Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 7</name>
+      <y>5</y>
+      <width>176</width>
+      <height>25</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM activeXTextDspClass</name>
+        <pv_name>$(device):Sta</pv_name>
+        <width>175</width>
+        <height>21</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="18.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="49" red="0" green="0" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Disconn/Invalid" red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):Cml</pv_name>
+    <x>280</x>
+    <y>99</y>
+    <width>20</width>
+    <height>240</height>
+    <numBits>12</numBits>
+    <bitReverse>true</bitReverse>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Monitor: alt" red="0" green="160" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>EDM activeButtonClass</name>
+    <pv_name>$(device):Rst</pv_name>
+    <x>377</x>
+    <y>382</y>
+    <width>55</width>
+    <height>24</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <on_color>
+      <color name="Button: On" red="187" green="187" blue="187">
+      </color>
+    </on_color>
+    <show_led>false</show_led>
+    <foreground_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="unknown" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <labels_from_pv>true</labels_from_pv>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>EDM activeButtonClass</name>
+    <pv_name>$(device):On</pv_name>
+    <x>316</x>
+    <y>382</y>
+    <width>55</width>
+    <height>24</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <on_color>
+      <color name="Button: On" red="187" green="187" blue="187">
+      </color>
+    </on_color>
+    <show_led>false</show_led>
+    <foreground_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="unknown" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <labels_from_pv>true</labels_from_pv>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>EDM activeButtonClass</name>
+    <pv_name>$(device):Off</pv_name>
+    <x>255</x>
+    <y>382</y>
+    <width>55</width>
+    <height>24</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <on_color>
+      <color name="Button: On" red="187" green="187" blue="187">
+      </color>
+    </on_color>
+    <show_led>false</show_led>
+    <foreground_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="unknown" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <labels_from_pv>true</labels_from_pv>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 8</name>
+    <x>185</x>
+    <y>249</y>
+    <width>71</width>
+    <height>35</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <x>44</x>
+      <y>112</y>
+      <width>27</width>
+      <height>3</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <x>44</x>
+      <width>3</width>
+      <height>113</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <x>-1</x>
+      <y>-1</y>
+      <width>47</width>
+      <height>3</height>
+      <line_width>2</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):STA1.B0</pv_name>
+    <x>16</x>
+    <y>239</y>
+    <width>20</width>
+    <numBits>1</numBits>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color name="Bottom Shadow" red="90" green="90" blue="90">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk9.DESC</pv_name>
+    <x>307</x>
+    <y>262</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk10.DESC</pv_name>
+    <x>307</x>
+    <y>282</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk11.DESC</pv_name>
+    <x>307</x>
+    <y>302</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>$(device):Ilk12.DESC</pv_name>
+    <x>307</x>
+    <y>322</y>
+    <width>150</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <show_units>false</show_units>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+</display>

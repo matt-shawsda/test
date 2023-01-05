@@ -1,0 +1,2400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>GUN Protection</name>
+  <x>1352</x>
+  <y>163</y>
+  <width>700</width>
+  <height>400</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <grid_step_x>4</grid_step_x>
+  <grid_step_y>4</grid_step_y>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>TDC</text>
+    <x>550</x>
+    <y>6</y>
+    <width>37</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <width>1311</width>
+    <height>29</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Monitor: MINOR" red="224" green="224" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Monitor: MINOR" red="224" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>CLARA VELA Gun RF Protection</text>
+    <x>188</x>
+    <y>2</y>
+    <width>280</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>General ILk's</text>
+    <x>16</x>
+    <y>186</y>
+    <width>82</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>46</x>
+    <y>218</y>
+    <width>21</width>
+    <height>21</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <rules>
+        <rule name="EDM Status" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Red LED: On" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="Green LED: On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==2">
+            <value>
+              <color name="Yellow LED: On" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==3">
+            <value>
+              <color name="orange-41" red="224" green="154" blue="84">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==4">
+            <value>
+              <color name="purple-47" red="128" green="0" blue="128">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==5">
+            <value>
+              <color name="brown-44" red="128" green="88" blue="48">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==6">
+            <value>
+              <color name="grey-8" red="133" green="133" blue="133">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="true">
+            <value>
+              <color name="Disconn/Invalid" red="255" green="255" blue="255">
+              </color>
+            </value>
+          </exp>
+          <pv_name>CLA-GUN-RF-PROTG-01:Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>Subscreens/StatusControl16.bob</file>
+          <macros>
+            <device>CLA-GUN-RF-PROTG</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>2</x>
+      <y>2</y>
+      <width>16</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>VELA LRRG</text>
+    <x>148</x>
+    <y>60</y>
+    <width>82</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 1</name>
+    <x>176</x>
+    <y>90</y>
+    <width>21</width>
+    <height>21</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <rules>
+        <rule name="EDM Status" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Red LED: On" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="Green LED: On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==2">
+            <value>
+              <color name="Yellow LED: On" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==3">
+            <value>
+              <color name="orange-41" red="224" green="154" blue="84">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==4">
+            <value>
+              <color name="purple-47" red="128" green="0" blue="128">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==5">
+            <value>
+              <color name="brown-44" red="128" green="88" blue="48">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==6">
+            <value>
+              <color name="grey-8" red="133" green="133" blue="133">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="true">
+            <value>
+              <color name="Disconn/Invalid" red="255" green="255" blue="255">
+              </color>
+            </value>
+          </exp>
+          <pv_name>CLA-GUN-RF-PROTVL-01:Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>Subscreens/StatusControl16.bob</file>
+          <macros>
+            <device>CLA-GUN-RF-PROTVL</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>2</x>
+      <y>2</y>
+      <width>16</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>VELA HRRG</text>
+    <x>148</x>
+    <y>122</y>
+    <width>82</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 2</name>
+    <x>176</x>
+    <y>152</y>
+    <width>21</width>
+    <height>21</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <rules>
+        <rule name="EDM Status" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Red LED: On" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="Green LED: On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==2">
+            <value>
+              <color name="Yellow LED: On" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==3">
+            <value>
+              <color name="orange-41" red="224" green="154" blue="84">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==4">
+            <value>
+              <color name="purple-47" red="128" green="0" blue="128">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==5">
+            <value>
+              <color name="brown-44" red="128" green="88" blue="48">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==6">
+            <value>
+              <color name="grey-8" red="133" green="133" blue="133">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="true">
+            <value>
+              <color name="Disconn/Invalid" red="255" green="255" blue="255">
+              </color>
+            </value>
+          </exp>
+          <pv_name>CLA-GUN-RF-PROTVH-01:Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>Subscreens/StatusControl16.bob</file>
+          <macros>
+            <device>CLA-GUN-RF-PROTVH</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>2</x>
+      <y>2</y>
+      <width>16</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>CLARA LRRG</text>
+    <x>144</x>
+    <y>188</y>
+    <width>82</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 3</name>
+    <x>176</x>
+    <y>218</y>
+    <width>21</width>
+    <height>21</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <rules>
+        <rule name="EDM Status" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Red LED: On" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="Green LED: On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==2">
+            <value>
+              <color name="Yellow LED: On" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==3">
+            <value>
+              <color name="orange-41" red="224" green="154" blue="84">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==4">
+            <value>
+              <color name="purple-47" red="128" green="0" blue="128">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==5">
+            <value>
+              <color name="brown-44" red="128" green="88" blue="48">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==6">
+            <value>
+              <color name="grey-8" red="133" green="133" blue="133">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="true">
+            <value>
+              <color name="Disconn/Invalid" red="255" green="255" blue="255">
+              </color>
+            </value>
+          </exp>
+          <pv_name>CLA-GUN-RF-PROTCL-01:Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>Subscreens/StatusControl16.bob</file>
+          <macros>
+            <device>CLA-GUN-RF-PROTCL</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>2</x>
+      <y>2</y>
+      <width>16</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>CLARA HRRG</text>
+    <x>144</x>
+    <y>252</y>
+    <width>82</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 4</name>
+    <x>176</x>
+    <y>280</y>
+    <width>21</width>
+    <height>21</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <rules>
+        <rule name="EDM Status" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Red LED: On" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="Green LED: On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==2">
+            <value>
+              <color name="Yellow LED: On" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==3">
+            <value>
+              <color name="orange-41" red="224" green="154" blue="84">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==4">
+            <value>
+              <color name="purple-47" red="128" green="0" blue="128">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==5">
+            <value>
+              <color name="brown-44" red="128" green="88" blue="48">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==6">
+            <value>
+              <color name="grey-8" red="133" green="133" blue="133">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="true">
+            <value>
+              <color name="Disconn/Invalid" red="255" green="255" blue="255">
+              </color>
+            </value>
+          </exp>
+          <pv_name>CLA-GUN-RF-PROTCH-01:Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>Subscreens/StatusControl16.bob</file>
+          <macros>
+            <device>CLA-GUN-RF-PROTCH</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>2</x>
+      <y>2</y>
+      <width>16</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>RF Test</text>
+    <x>164</x>
+    <y>316</y>
+    <width>82</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 5</name>
+    <x>176</x>
+    <y>342</y>
+    <width>21</width>
+    <height>21</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <rules>
+        <rule name="EDM Status" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Red LED: On" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="Green LED: On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==2">
+            <value>
+              <color name="Yellow LED: On" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==3">
+            <value>
+              <color name="orange-41" red="224" green="154" blue="84">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==4">
+            <value>
+              <color name="purple-47" red="128" green="0" blue="128">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==5">
+            <value>
+              <color name="brown-44" red="128" green="88" blue="48">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==6">
+            <value>
+              <color name="grey-8" red="133" green="133" blue="133">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="true">
+            <value>
+              <color name="Disconn/Invalid" red="255" green="255" blue="255">
+              </color>
+            </value>
+          </exp>
+          <pv_name>CLA-GUN-RF-PROTT-01:Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>Subscreens/StatusControl16.bob</file>
+          <macros>
+            <device>CLA-GUN-RF-PROTT</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>2</x>
+      <y>2</y>
+      <width>16</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>66</x>
+    <y>228</y>
+    <width>62</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="62.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>126</x>
+    <y>100</y>
+    <width>1</width>
+    <height>254</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="254.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>126</x>
+    <y>100</y>
+    <width>50</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="50.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>126</x>
+    <y>162</y>
+    <width>52</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="52.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>126</x>
+    <y>228</y>
+    <width>50</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="50.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>126</x>
+    <y>290</y>
+    <width>50</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="50.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>126</x>
+    <y>352</y>
+    <width>50</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="50.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>196</x>
+    <y>352</y>
+    <width>47</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="47.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>198</x>
+    <y>290</y>
+    <width>45</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="45.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>196</x>
+    <y>228</y>
+    <width>47</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="47.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>196</x>
+    <y>162</y>
+    <width>46</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="46.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>196</x>
+    <y>100</y>
+    <width>47</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="47.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>242</x>
+    <y>100</y>
+    <width>1</width>
+    <height>252</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="252.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>240</x>
+    <y>228</y>
+    <width>108</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="108.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 6</name>
+    <x>360</x>
+    <y>76</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-LRRG-03:RT.DESC</pv_name>
+      <x>90</x>
+      <y>2</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-LRRG-03:RT</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 7</name>
+    <x>360</x>
+    <y>98</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-LRRG-04:RT.DESC</pv_name>
+      <x>90</x>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-LRRG-04:RT</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 8</name>
+    <x>360</x>
+    <y>138</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-HRRG-01:RT.DESC</pv_name>
+      <x>90</x>
+      <y>2</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-HRRG-01:RT</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 9</name>
+    <x>360</x>
+    <y>160</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-IR-01:RB.DESC</pv_name>
+      <x>90</x>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-IR-01:RB</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 10</name>
+    <x>360</x>
+    <y>180</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-IR-02:RB.DESC</pv_name>
+      <x>90</x>
+      <y>2</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-IR-02:RB</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 11</name>
+    <x>360</x>
+    <y>202</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-IR-03:RB.DESC</pv_name>
+      <x>90</x>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-IR-03:RB</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 12</name>
+    <x>360</x>
+    <y>222</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-IR-04:RB.DESC</pv_name>
+      <x>90</x>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-IR-04:RB</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 13</name>
+    <x>360</x>
+    <y>242</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-SF6-01:RB.DESC</pv_name>
+      <x>90</x>
+      <y>2</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-SF6-01:RB</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 14</name>
+    <x>360</x>
+    <y>264</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-SF6-02:RB.DESC</pv_name>
+      <x>90</x>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-SF6-02:RB</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 15</name>
+    <x>360</x>
+    <y>284</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-SF6-03:RB.DESC</pv_name>
+      <x>90</x>
+      <y>2</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-SF6-03:RB</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 16</name>
+    <x>360</x>
+    <y>304</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-WAT-01:RB.DESC</pv_name>
+      <x>90</x>
+      <y>2</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-WAT-01:RB</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 17</name>
+    <x>274</x>
+    <y>218</y>
+    <width>21</width>
+    <height>21</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <rules>
+        <rule name="EDM Status" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0==0">
+            <value>
+              <color name="Red LED: On" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==1">
+            <value>
+              <color name="Green LED: On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==2">
+            <value>
+              <color name="Yellow LED: On" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==3">
+            <value>
+              <color name="orange-41" red="224" green="154" blue="84">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==4">
+            <value>
+              <color name="purple-47" red="128" green="0" blue="128">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==5">
+            <value>
+              <color name="brown-44" red="128" green="88" blue="48">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0==6">
+            <value>
+              <color name="grey-8" red="133" green="133" blue="133">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="true">
+            <value>
+              <color name="Disconn/Invalid" red="255" green="255" blue="255">
+              </color>
+            </value>
+          </exp>
+          <pv_name>CLA-GUN-RF-PROTE-01:Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>Subscreens/StatusControl16.bob</file>
+          <macros>
+            <device>CLA-GUN-RF-PROTE</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <x>2</x>
+      <y>2</y>
+      <width>16</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>RF Enable</text>
+    <x>260</x>
+    <y>190</y>
+    <width>82</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 18</name>
+    <x>32</x>
+    <y>376</y>
+    <width>271</width>
+    <height>15</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Ilk1.DESC</pv_name>
+      <x>20</x>
+      <y>2</y>
+      <width>250</width>
+      <height>12</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>EDM ByteClass</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Cmi</pv_name>
+      <width>14</width>
+      <height>14</height>
+      <numBits>1</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <square>true</square>
+      <off_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="Monitor: alt" red="0" green="160" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 19</name>
+    <x>156</x>
+    <y>376</y>
+    <width>271</width>
+    <height>15</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Ilk2.DESC</pv_name>
+      <x>20</x>
+      <y>2</y>
+      <width>250</width>
+      <height>12</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>EDM ByteClass</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Cmi</pv_name>
+      <width>14</width>
+      <height>14</height>
+      <startBit>1</startBit>
+      <numBits>1</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <square>true</square>
+      <off_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="Monitor: alt" red="0" green="160" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 20</name>
+    <x>360</x>
+    <y>56</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-LRRG-02:RT.DESC</pv_name>
+      <x>90</x>
+      <y>1</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-LRRG-02:RT</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 21</name>
+    <x>360</x>
+    <y>34</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-LRRG-01:RT.DESC</pv_name>
+      <x>90</x>
+      <y>2</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-LRRG-01:RT</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 22</name>
+    <x>360</x>
+    <y>116</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-LRRG-05:RT.DESC</pv_name>
+      <x>90</x>
+      <y>2</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-LRRG-05:RT</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 23</name>
+    <x>360</x>
+    <y>326</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-WAT-02:RB.DESC</pv_name>
+      <x>90</x>
+      <y>2</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-WAT-02:RB</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 24</name>
+    <x>360</x>
+    <y>348</y>
+    <width>338</width>
+    <height>19</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-WAT-03:RB.DESC</pv_name>
+      <x>90</x>
+      <y>2</y>
+      <width>247</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-GUN-RF-WAT-03:RB</pv_name>
+      <x>1</x>
+      <y>1</y>
+      <width>80</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Open/On" red="0" green="192" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 25</name>
+    <x>320</x>
+    <y>376</y>
+    <width>271</width>
+    <height>15</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Ilk4.DESC</pv_name>
+      <x>20</x>
+      <y>2</y>
+      <width>250</width>
+      <height>12</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>EDM ByteClass</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Cmi</pv_name>
+      <width>14</width>
+      <height>14</height>
+      <startBit>3</startBit>
+      <numBits>1</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <square>true</square>
+      <off_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="Monitor: alt" red="0" green="160" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 26</name>
+    <x>396</x>
+    <y>376</y>
+    <width>271</width>
+    <height>15</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Ilk5.DESC</pv_name>
+      <x>20</x>
+      <y>2</y>
+      <width>250</width>
+      <height>12</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>EDM ByteClass</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Cmi</pv_name>
+      <width>14</width>
+      <height>14</height>
+      <startBit>4</startBit>
+      <numBits>1</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <square>true</square>
+      <off_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="Monitor: alt" red="0" green="160" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 27</name>
+    <x>476</x>
+    <y>376</y>
+    <width>271</width>
+    <height>15</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Ilk6.DESC</pv_name>
+      <x>20</x>
+      <y>2</y>
+      <width>250</width>
+      <height>12</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>EDM ByteClass</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Cmi</pv_name>
+      <width>14</width>
+      <height>14</height>
+      <startBit>5</startBit>
+      <numBits>1</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <square>true</square>
+      <off_color>
+        <color name="Monitor: alt" red="0" green="160" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 28</name>
+    <x>552</x>
+    <y>376</y>
+    <width>271</width>
+    <height>15</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Ilk7.DESC</pv_name>
+      <x>20</x>
+      <y>2</y>
+      <width>250</width>
+      <height>12</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="byte_monitor" version="2.0.0">
+      <name>EDM ByteClass</name>
+      <pv_name>CLA-GUN-RF-SPARE-01:Cmi</pv_name>
+      <width>14</width>
+      <height>14</height>
+      <startBit>6</startBit>
+      <numBits>1</numBits>
+      <bitReverse>true</bitReverse>
+      <horizontal>false</horizontal>
+      <square>true</square>
+      <off_color>
+        <color name="Monitor: alt" red="0" green="160" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+    </widget>
+  </widget>
+</display>

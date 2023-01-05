@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>SCU Gauge Commissioning</name>
+  <x>88</x>
+  <y>254</y>
+  <width>300</width>
+  <height>480</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCU  Vacuum Gauges</text>
+    <width>300</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>5</x>
+    <y>425</y>
+    <width>286</width>
+    <height>48</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 1</name>
+      <y>25</y>
+      <width>286</width>
+      <height>23</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>CLA-SCU-VAC-IMG-04:SP2:ONPRES_RB</pv_name>
+        <x>207</x>
+        <y>2</y>
+        <width>76</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../agilentXgs600Spt.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IMG-04:SP2</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text>CLA-SCU-VAC-IMG-04:SP2</text>
+        <width>200</width>
+        <height>22</height>
+        <foreground_color>
+          <color name="Related display" red="160" green="110" blue="60">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 2</name>
+      <width>286</width>
+      <height>23</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>CLA-SCU-VAC-IMG-04:SP1:ONPRES_RB</pv_name>
+        <x>207</x>
+        <y>2</y>
+        <width>76</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../agilentXgs600Spt.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IMG-04:SP1</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text>CLA-SCU-VAC-IMG-04:SP1</text>
+        <width>200</width>
+        <height>22</height>
+        <foreground_color>
+          <color name="Related display" red="160" green="110" blue="60">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 3</name>
+    <x>5</x>
+    <y>375</y>
+    <width>286</width>
+    <height>48</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 4</name>
+      <y>25</y>
+      <width>286</width>
+      <height>23</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>CLA-SCU-VAC-IMG-03:SP2:ONPRES_RB</pv_name>
+        <x>207</x>
+        <y>2</y>
+        <width>76</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../agilentXgs600Spt.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IMG-03:SP2</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text>CLA-SCU-VAC-IMG-03:SP2</text>
+        <width>200</width>
+        <height>22</height>
+        <foreground_color>
+          <color name="Related display" red="160" green="110" blue="60">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 5</name>
+      <width>286</width>
+      <height>23</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>CLA-SCU-VAC-IMG-03:SP1:ONPRES_RB</pv_name>
+        <x>207</x>
+        <y>2</y>
+        <width>76</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../agilentXgs600Spt.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IMG-03:SP1</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text>CLA-SCU-VAC-IMG-03:SP1</text>
+        <width>200</width>
+        <height>22</height>
+        <foreground_color>
+          <color name="Related display" red="160" green="110" blue="60">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 6</name>
+    <x>5</x>
+    <y>325</y>
+    <width>286</width>
+    <height>48</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 7</name>
+      <y>25</y>
+      <width>286</width>
+      <height>23</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>CLA-SCU-VAC-IMG-02:SP2:ONPRES_RB</pv_name>
+        <x>207</x>
+        <y>2</y>
+        <width>76</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../agilentXgs600Spt.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IMG-02:SP2</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text>CLA-SCU-VAC-IMG-02:SP2</text>
+        <width>200</width>
+        <height>22</height>
+        <foreground_color>
+          <color name="Related display" red="160" green="110" blue="60">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 8</name>
+      <width>286</width>
+      <height>23</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>CLA-SCU-VAC-IMG-02:SP1:ONPRES_RB</pv_name>
+        <x>207</x>
+        <y>2</y>
+        <width>76</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../agilentXgs600Spt.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IMG-02:SP1</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text>CLA-SCU-VAC-IMG-02:SP1</text>
+        <width>200</width>
+        <height>22</height>
+        <foreground_color>
+          <color name="Related display" red="160" green="110" blue="60">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 9</name>
+    <x>5</x>
+    <y>275</y>
+    <width>286</width>
+    <height>48</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 10</name>
+      <y>25</y>
+      <width>286</width>
+      <height>23</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>CLA-SCU-VAC-IMG-01:SP2:ONPRES_RB</pv_name>
+        <x>207</x>
+        <y>2</y>
+        <width>76</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../agilentXgs600Spt.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IMG-01:SP2</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text>CLA-SCU-VAC-IMG-01:SP2</text>
+        <width>200</width>
+        <height>22</height>
+        <foreground_color>
+          <color name="Related display" red="160" green="110" blue="60">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 11</name>
+      <width>286</width>
+      <height>23</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>CLA-SCU-VAC-IMG-01:SP1:ONPRES_RB</pv_name>
+        <x>207</x>
+        <y>2</y>
+        <width>76</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../agilentXgs600Spt.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IMG-01:SP1</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text>CLA-SCU-VAC-IMG-01:SP1</text>
+        <width>200</width>
+        <height>22</height>
+        <foreground_color>
+          <color name="Related display" red="160" green="110" blue="60">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Canvas" red="200" green="200" blue="200">
+          </color>
+        </background_color>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 12</name>
+    <x>5</x>
+    <y>245</y>
+    <width>286</width>
+    <height>23</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-PIRG-04:PRES</pv_name>
+      <x>207</x>
+      <y>2</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilentXgs600Cnv.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-PIRG-04</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-PIRG-04</text>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 13</name>
+    <x>5</x>
+    <y>220</y>
+    <width>286</width>
+    <height>23</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-PIRG-03:PRES</pv_name>
+      <x>207</x>
+      <y>2</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilentXgs600Cnv.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-PIRG-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-PIRG-03</text>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 14</name>
+    <x>5</x>
+    <y>195</y>
+    <width>286</width>
+    <height>23</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-PIRG-02:PRES</pv_name>
+      <x>207</x>
+      <y>2</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilentXgs600Cnv.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-PIRG-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-PIRG-02</text>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 15</name>
+    <x>5</x>
+    <y>170</y>
+    <width>286</width>
+    <height>23</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-PIRG-01:PRES</pv_name>
+      <x>207</x>
+      <y>2</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilentXgs600Cnv.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-PIRG-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-PIRG-01</text>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 16</name>
+    <x>5</x>
+    <y>140</y>
+    <width>286</width>
+    <height>23</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-IMG-04:PRES</pv_name>
+      <x>207</x>
+      <y>2</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilentXgs600Img.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-IMG-04</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-IMG-04</text>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 17</name>
+    <x>5</x>
+    <y>115</y>
+    <width>286</width>
+    <height>23</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-IMG-03:PRES</pv_name>
+      <x>207</x>
+      <y>2</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilentXgs600Img.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-IMG-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-IMG-03</text>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 18</name>
+    <x>5</x>
+    <y>90</y>
+    <width>286</width>
+    <height>23</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-IMG-02:PRES</pv_name>
+      <x>207</x>
+      <y>2</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilentXgs600Img.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-IMG-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-IMG-02</text>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 19</name>
+    <x>5</x>
+    <y>65</y>
+    <width>286</width>
+    <height>23</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-IMG-01:PRES</pv_name>
+      <x>207</x>
+      <y>2</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilentXgs600Img.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-IMG-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-IMG-01</text>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-SCU-VAC-GCTLR-01:UNIT_RB</pv_name>
+    <x>212</x>
+    <y>37</y>
+    <width>76</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../agilentXgs600Ctlr.bob</file>
+        <macros>
+          <device>CLA-SCU-VAC-GCTLR-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-SCU-VAC-GCTLR-01</text>
+    <x>5</x>
+    <y>35</y>
+    <width>200</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

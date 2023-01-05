@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Rapiscan</name>
+  <x>818</x>
+  <y>87</y>
+  <width>230</width>
+  <height>300</height>
+  <background_color>
+    <color name="Title" red="158" green="158" blue="158">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Rapiscan</text>
+    <x>5</x>
+    <y>9</y>
+    <width>222</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>SmartMotorClass5.bob</file>
+        <macros>
+          <device>EBT-BA1-RPS-COL-01:R</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Columator</text>
+    <x>26</x>
+    <y>67</y>
+    <width>177</width>
+    <height>26</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>SmartMotorClass5.bob</file>
+        <macros>
+          <device>EBT-BA1-RPS-DET-01:H</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Detector H</text>
+    <x>26</x>
+    <y>101</y>
+    <width>177</width>
+    <height>26</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>SmartMotorClass5.bob</file>
+        <macros>
+          <device>EBT-BA1-RPS-DET-01:V</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Detector V</text>
+    <x>26</x>
+    <y>137</y>
+    <width>177</width>
+    <height>26</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>SmartMotorClass5.bob</file>
+        <macros>
+          <device>EBT-BA1-RPS-SAM-01:H</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Sample H</text>
+    <x>26</x>
+    <y>174</y>
+    <width>177</width>
+    <height>26</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>SmartMotorClass5.bob</file>
+        <macros>
+          <device>EBT-BA1-RPS-SAM-01:V</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Sample V</text>
+    <x>26</x>
+    <y>210</y>
+    <width>177</width>
+    <height>26</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+</display>

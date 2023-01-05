@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>GUN-HIGH-RATE</name>
+  <x>1744</x>
+  <y>452</y>
+  <width>300</width>
+  <height>400</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>117</x>
+    <y>199</y>
+    <width>0</width>
+    <height>110</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="110.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>66</x>
+    <y>162</y>
+    <width>0</width>
+    <height>66</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="66.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>57</x>
+    <y>144</y>
+    <width>120</width>
+    <height>56</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>167</x>
+    <y>176</y>
+    <width>0</width>
+    <height>49</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="49.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>$(GUN)-HRG1-VAC-PIRG-01:PRES</pv_name>
+    <x>103</x>
+    <y>33</y>
+    <width>76</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>$(GUN)-HRG1-VAC-IMG-01:PRES</pv_name>
+    <x>101</x>
+    <y>93</y>
+    <width>76</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>78</x>
+    <y>117</y>
+    <width>0</width>
+    <height>30</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="30.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Gun</text>
+    <x>106</x>
+    <y>163</y>
+    <width>24</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>GUN-IONP-01</text>
+    <x>14</x>
+    <y>281</y>
+    <width>83</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>$(GUN)-HRG1-VAC-IONP-02:PRES</pv_name>
+    <x>127</x>
+    <y>257</y>
+    <width>96</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>GUN-IONP-02</text>
+    <x>130</x>
+    <y>282</y>
+    <width>83</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>GUN-PIRG-01</text>
+    <x>45</x>
+    <y>8</y>
+    <width>83</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>GUN-IMG-01</text>
+    <x>49</x>
+    <y>63</y>
+    <width>77</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>agilentXgs600ImgSymbol.bob</file>
+    <x>63</x>
+    <y>85</y>
+    <width>33</width>
+    <height>33</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = $(GUN)-HRG1-VAC-IMG-01:EMIS_RB
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+elif 2.0 <= val < 3.0:
+    widget.setPropertyValue('group_name', 'EDM Group 3')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>$(GUN)-HRG1-VAC-IMG-01:EMIS_RB</pv_name>
+      </script>
+    </scripts>
+    <tooltip>$(GUN)-HRG1-VAC-IMG-01:EMIS_RB</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>agilent4uhvSymbol.bob</file>
+    <x>153</x>
+    <y>216</y>
+    <width>33</width>
+    <height>33</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = $(GUN)-HRG1-VAC-IONP-02:STATE_RB
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>$(GUN)-HRG1-VAC-IONP-02:STATE_RB</pv_name>
+      </script>
+    </scripts>
+    <tooltip>$(GUN)-HRG1-VAC-IONP-02:STATE_RB</tooltip>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>$(GUN)-HRG1-VAC-IONP-01:PRES</pv_name>
+    <x>9</x>
+    <y>257</y>
+    <width>96</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>agilent4uhvSymbol.bob</file>
+    <x>49</x>
+    <y>217</y>
+    <width>33</width>
+    <height>33</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = $(GUN)-HRG1-VAC-IONP-01:STATE_RB
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>$(GUN)-HRG1-VAC-IONP-01:STATE_RB</pv_name>
+      </script>
+    </scripts>
+    <tooltip>$(GUN)-HRG1-VAC-IONP-01:STATE_RB</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>agilentXgs600PirgSymbol.bob</file>
+    <x>63</x>
+    <y>25</y>
+    <width>33</width>
+    <height>33</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = $(GUN)-HRG1-VAC-PIRG-01:PRES
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 1200.0 <= val < 10000.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0E-6 <= val < 1200.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>$(GUN)-HRG1-VAC-PIRG-01:PRES</pv_name>
+      </script>
+    </scripts>
+    <tooltip>$(GUN)-HRG1-VAC-PIRG-01:PRES</tooltip>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>$(GUN)-HRG1-VAC-RGA-01:TOTP</pv_name>
+    <x>88</x>
+    <y>342</y>
+    <width>76</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EDM activeSymbolClass</name>
+    <file>rgaSymbol.bob</file>
+    <x>102</x>
+    <y>301</y>
+    <width>33</width>
+    <height>33</height>
+    <resize>3</resize>
+    <group_name>EDM Group 0</group_name>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# pvs[0] = $(GUN)-HRG1-VAC-RGA-01:HEADSTA
+# pvs[1] = $(GUN)-HRG1-VAC-RGA-01:ILK
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = 0
+if PVUtil.getInt(pvs[0]) != 0:
+    val += 1
+if PVUtil.getInt(pvs[1]) != 0:
+    val += 2
+if 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 2.0 <= val < 5.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+        <pv_name>$(GUN)-HRG1-VAC-RGA-01:HEADSTA</pv_name>
+        <pv_name>$(GUN)-HRG1-VAC-RGA-01:ILK</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>LRG1-RGA-01</text>
+    <x>84</x>
+    <y>364</y>
+    <width>84</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-HRG1-VAC-IMG-01:RA</pv_name>
+    <x>100</x>
+    <y>117</y>
+    <width>76</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Serial Readback</text>
+    <x>182</x>
+    <y>97</y>
+    <width>96</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Analogue Readback</text>
+    <x>181</x>
+    <y>119</y>
+    <width>115</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>18</x>
+    <y>236</y>
+    <width>29</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>StatusControl.bob</file>
+          <macros>
+            <device>CLA-GUN-VAC-IMG-01:IONP:ILK</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <width>26</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 1</name>
+    <x>190</x>
+    <y>235</y>
+    <width>29</width>
+    <height>17</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>StatusControl.bob</file>
+          <macros>
+            <device>CLA-GUN-VAC-IMG-01:IONP:ILK</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <width>26</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>agilentXgs600Img.bob</file>
+        <macros>
+          <device>$(GUN)-HRG1-VAC-IMG-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>63</x>
+    <y>84</y>
+    <width>32</width>
+    <height>35</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>agilent4uhv.bob</file>
+        <macros>
+          <device>$(GUN)-HRG1-VAC-IONP-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>151</x>
+    <y>215</y>
+    <width>38</width>
+    <height>38</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="brown-44" red="128" green="88" blue="48">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>agilentXgs600Cnv.bob</file>
+        <macros>
+          <device>$(GUN)-HRG1-VAC-PIRG-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>63</x>
+    <y>26</y>
+    <width>36</width>
+    <height>32</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>agilent4uhv.bob</file>
+        <macros>
+          <device>$(GUN)-HRG1-VAC-IONP-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>47</x>
+    <y>216</y>
+    <width>38</width>
+    <height>38</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="brown-44" red="128" green="88" blue="48">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>rga.bob</file>
+        <macros>
+          <device>$(GUN)-HRG1-VAC-RGA-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>100</x>
+    <y>300</y>
+    <width>41</width>
+    <height>39</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+</display>

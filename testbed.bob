@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse</name>
+    <x>100</x>
+    <y>40</y>
+    <width>550</width>
+    <height>20</height>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="New Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 = 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 = 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>sim://flipflop(0.5)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="scaledslider" version="2.0.0">
+    <name>Scaled Slider</name>
+    <x>130</x>
+    <y>70</y>
+    <width>490</width>
+    <height>40</height>
+    <background_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </background_color>
+    <show_hihi>false</show_hihi>
+    <show_high>false</show_high>
+    <show_low>false</show_low>
+    <show_lolo>false</show_lolo>
+    <rules>
+      <rule name="Hi" prop_id="maximum" out_exp="true">
+        <exp bool_exp="true">
+          <expression>pv0</expression>
+        </exp>
+        <pv_name>EBT-BA1-MOT-COFF-V-01:PROTL-HL</pv_name>
+      </rule>
+    </rules>
+    <tooltip></tooltip>
+    <minimum></minimum>
+    <maximum></maximum>
+    <limits_from_pv>false</limits_from_pv>
+  </widget>
+  <widget type="spinner" version="2.0.0">
+    <name>Spinner</name>
+    <pv_name>TEST</pv_name>
+    <x>310</x>
+    <y>270</y>
+    <width>240</width>
+    <height>160</height>
+    <rules>
+      <rule name="INC" prop_id="increment" out_exp="true">
+        <exp bool_exp="true">
+          <expression>pv0</expression>
+        </exp>
+        <pv_name>loc://number(0)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>loc://number(0)</pv_name>
+    <x>360</x>
+    <y>200</y>
+    <width>160</width>
+    <height>50</height>
+  </widget>
+</display>

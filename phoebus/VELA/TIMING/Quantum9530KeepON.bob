@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Quantum9530KeepON</name>
+  <x>254</x>
+  <y>86</y>
+  <width>340</width>
+  <height>150</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM activeExitButtonClass</name>
+    <actions>
+      <action type="execute">
+        <script file="EmbeddedPy">
+          <text><![CDATA[from org.csstudio.display.builder.runtime.script import ScriptUtil
+ScriptUtil.closeDisplay(widget)
+]]></text>
+        </script>
+        <description>close</description>
+      </action>
+    </actions>
+    <text>EXIT</text>
+    <x>109</x>
+    <y>119</y>
+    <width>115</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Mono" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="blue-27" red="0" green="0" blue="192">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>85</x>
+    <y>35</y>
+    <width>146</width>
+    <height>25</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>Mod1AStatusText</pv_name>
+      <width>145</width>
+      <height>24</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="24.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="49" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>85</x>
+    <y>30</y>
+    <width>147</width>
+    <height>34</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="EDM Status" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0==0">
+          <value>
+            <color name="Red LED: On" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==1">
+          <value>
+            <color name="Green LED: On" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==2">
+          <value>
+            <color name="Yellow LED: On" red="255" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==3">
+          <value>
+            <color name="orange-41" red="224" green="154" blue="84">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==4">
+          <value>
+            <color name="purple-47" red="128" green="0" blue="128">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==5">
+          <value>
+            <color name="brown-44" red="128" green="88" blue="48">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==6">
+          <value>
+            <color name="grey-8" red="133" green="133" blue="133">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color name="Disconn/Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <pv_name>EBT-INJ-TIM-DLY-01:S:STATE</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Keep the Quantum Armed</text>
+    <x>54</x>
+    <y>4</y>
+    <width>229</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>EDM activeButtonClass</name>
+    <pv_name>EBT-INJ-TIM-DLY-01:T:SETSTATE</pv_name>
+    <x>235</x>
+    <y>31</y>
+    <width>82</width>
+    <height>34</height>
+    <off_label></off_label>
+    <off_color>
+      <color red="0" green="0" blue="204">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <on_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </on_color>
+    <show_led>false</show_led>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="unknown" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <labels_from_pv>true</labels_from_pv>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 1</name>
+    <x>85</x>
+    <y>34</y>
+    <width>146</width>
+    <height>25</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-INJ-TIM-DLY-01:S:STATE</pv_name>
+      <width>145</width>
+      <height>24</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="24.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="49" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>EDM activeButtonClass</name>
+    <pv_name>EBT-INJ-TIM-DLY-01:KEEPON</pv_name>
+    <x>234</x>
+    <y>68</y>
+    <width>83</width>
+    <height>33</height>
+    <off_label></off_label>
+    <off_color>
+      <color red="0" green="0" blue="204">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <on_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </on_color>
+    <show_led>false</show_led>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="unknown" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <labels_from_pv>true</labels_from_pv>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Quantum</text>
+    <x>17</x>
+    <y>39</y>
+    <width>54</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 2</name>
+    <x>85</x>
+    <y>73</y>
+    <width>146</width>
+    <height>25</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>Mod1AStatusText</pv_name>
+      <width>145</width>
+      <height>24</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="24.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="49" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>85</x>
+    <y>68</y>
+    <width>147</width>
+    <height>34</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="EDM Status" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0==0">
+          <value>
+            <color name="Red LED: On" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==1">
+          <value>
+            <color name="Green LED: On" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==2">
+          <value>
+            <color name="Yellow LED: On" red="255" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==3">
+          <value>
+            <color name="orange-41" red="224" green="154" blue="84">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==4">
+          <value>
+            <color name="purple-47" red="128" green="0" blue="128">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==5">
+          <value>
+            <color name="brown-44" red="128" green="88" blue="48">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==6">
+          <value>
+            <color name="grey-8" red="133" green="133" blue="133">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color name="Disconn/Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <pv_name>EBT-INJ-TIM-DLY-01:KEEPON</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 3</name>
+    <x>85</x>
+    <y>72</y>
+    <width>146</width>
+    <height>25</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-INJ-TIM-DLY-01:KEEPON</pv_name>
+      <width>145</width>
+      <height>24</height>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="24.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="49" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Keep Armed</text>
+    <x>6</x>
+    <y>78</y>
+    <width>72</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+</display>

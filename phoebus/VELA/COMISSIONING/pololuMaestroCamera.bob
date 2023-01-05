@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Camera Control - $(device)</name>
+  <macros>
+    <device>EBT-BA1-DIA-CAM-01</device>
+  </macros>
+  <x>226</x>
+  <y>315</y>
+  <width>680</width>
+  <height>140</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>$(device)</text>
+    <width>680</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Title" red="158" green="158" blue="158">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Position</text>
+    <x>80</x>
+    <y>40</y>
+    <width>80</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Zoom</text>
+    <x>10</x>
+    <y>115</y>
+    <width>36</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Aperture</text>
+    <x>10</x>
+    <y>90</y>
+    <width>54</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Focus</text>
+    <x>10</x>
+    <y>65</y>
+    <width>39</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Target</text>
+    <x>420</x>
+    <y>40</y>
+    <width>80</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Speed</text>
+    <x>505</x>
+    <y>40</y>
+    <width>80</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Acceleration</text>
+    <x>589</x>
+    <y>40</y>
+    <width>82</width>
+    <height>16</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>80</x>
+    <y>60</y>
+    <width>591</width>
+    <height>26</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):F:SETACL</pv_name>
+      <x>510</x>
+      <y>1</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):F:SETSPD</pv_name>
+      <x>425</x>
+      <y>1</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):F:SETTGT</pv_name>
+      <x>340</x>
+      <y>1</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="scaledslider" version="2.0.0">
+      <name>EDM activeMotifSliderClass</name>
+      <pv_name>$(device):F:SETTGT</pv_name>
+      <x>85</x>
+      <width>250</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>$(device):F:POS</pv_name>
+      <x>2</x>
+      <y>3</y>
+      <width>76</width>
+      <height>17</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 1</name>
+    <x>80</x>
+    <y>85</y>
+    <width>591</width>
+    <height>26</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):A:SETACL</pv_name>
+      <x>510</x>
+      <y>1</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):A:SETSPD</pv_name>
+      <x>425</x>
+      <y>1</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):A:SETTGT</pv_name>
+      <x>340</x>
+      <y>1</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="scaledslider" version="2.0.0">
+      <name>EDM activeMotifSliderClass</name>
+      <pv_name>$(device):A:SETTGT</pv_name>
+      <x>85</x>
+      <width>250</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>$(device):A:POS</pv_name>
+      <x>2</x>
+      <y>3</y>
+      <width>76</width>
+      <height>17</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 2</name>
+    <x>80</x>
+    <y>110</y>
+    <width>591</width>
+    <height>26</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):Z:SETACL</pv_name>
+      <x>510</x>
+      <y>1</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):Z:SETSPD</pv_name>
+      <x>425</x>
+      <y>1</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):Z:SETTGT</pv_name>
+      <x>340</x>
+      <y>1</y>
+      <width>80</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="scaledslider" version="2.0.0">
+      <name>EDM activeMotifSliderClass</name>
+      <pv_name>$(device):Z:SETTGT</pv_name>
+      <x>85</x>
+      <width>250</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>$(device):Z:POS</pv_name>
+      <x>2</x>
+      <y>3</y>
+      <width>76</width>
+      <height>17</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+</display>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>CLARA LED</name>
+  <x>1211</x>
+  <y>243</y>
+  <width>200</width>
+  <height>100</height>
+  <background_color>
+    <color name="grey-7" red="145" green="145" blue="145">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="bool_button" version="2.0.0">
+    <name>EDM activeButtonClass</name>
+    <pv_name>CLA-LAS-DIA-LED-01:On</pv_name>
+    <x>67</x>
+    <y>44</y>
+    <width>42</width>
+    <off_label></off_label>
+    <off_color>
+      <color red="0" green="0" blue="204">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <on_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </on_color>
+    <show_led>false</show_led>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="unknown" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <labels_from_pv>true</labels_from_pv>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>EDM activeButtonClass</name>
+    <pv_name>CLA-LAS-DIA-LED-01:Off</pv_name>
+    <x>18</x>
+    <y>44</y>
+    <width>42</width>
+    <off_label></off_label>
+    <off_color>
+      <color red="0" green="0" blue="204">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <on_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </on_color>
+    <show_led>false</show_led>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="unknown" red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <labels_from_pv>true</labels_from_pv>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>121</x>
+    <y>43</y>
+    <width>27</width>
+    <height>28</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="EDM Status" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0==0">
+          <value>
+            <color name="Red LED: On" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==1">
+          <value>
+            <color name="Green LED: On" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==2">
+          <value>
+            <color name="Yellow LED: On" red="255" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==3">
+          <value>
+            <color name="orange-41" red="224" green="154" blue="84">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==4">
+          <value>
+            <color name="purple-47" red="128" green="0" blue="128">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==5">
+          <value>
+            <color name="brown-44" red="128" green="88" blue="48">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0==6">
+          <value>
+            <color name="grey-8" red="133" green="133" blue="133">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="true">
+          <value>
+            <color name="Disconn/Invalid" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <pv_name>CLA-LAS-DIA-LED-01:Sta</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>-1</x>
+    <y>-1</y>
+    <width>203</width>
+    <height>27</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>CLARA LED's</text>
+    <x>40</x>
+    <y>2</y>
+    <width>111</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+</display>

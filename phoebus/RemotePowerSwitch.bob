@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Remote Power Unit</name>
+  <x>1190</x>
+  <y>272</y>
+  <width>450</width>
+  <height>800</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>$(device)</text>
+    <width>417</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="FE title" red="183" green="164" blue="126">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>6</x>
+    <y>41</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):A1:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):A1:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(a1)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):A1:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):A1:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 1</name>
+    <x>7</x>
+    <y>88</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):A2:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):A2:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(a2)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):A2:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):A2:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 2</name>
+    <x>6</x>
+    <y>135</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):A3:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):A3:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(a3)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):A3:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):A3:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 3</name>
+    <x>6</x>
+    <y>182</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):A4:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):A4:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(a4)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):A4:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):A4:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 4</name>
+    <x>6</x>
+    <y>228</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):B1:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):B1:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(b1)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):B1:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):B1:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 5</name>
+    <x>7</x>
+    <y>275</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):B2:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):B2:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(b2)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):B2:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):B2:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 6</name>
+    <x>6</x>
+    <y>322</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):B3:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):B3:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(b3)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):B3:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):B3:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 7</name>
+    <x>6</x>
+    <y>369</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):B4:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):B4:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(b4)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):B4:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):B4:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 8</name>
+    <x>6</x>
+    <y>416</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):D1:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):D1:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(d1)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):D1:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):D1:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 9</name>
+    <x>7</x>
+    <y>463</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):D2:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):D2:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(d2)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):D2:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):D2:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 10</name>
+    <x>6</x>
+    <y>510</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):D3:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):D3:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(d3)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):D3:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):D3:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 11</name>
+    <x>6</x>
+    <y>557</y>
+    <width>411</width>
+    <height>44</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>$(device):D4:W</pv_name>
+      <x>139</x>
+      <y>8</y>
+      <width>80</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM RegTextupdateClass</name>
+      <pv_name>$(device):D4:W.DESC</pv_name>
+      <x>5</x>
+      <y>8</y>
+      <width>129</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>$(d4)</text>
+      <x>226</x>
+      <y>9</y>
+      <width>148</width>
+      <height>23</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FE title" red="183" green="164" blue="126">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-32769.0 &amp;&amp; pv0&lt;-32767.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):D4:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>377</x>
+      <y>12</y>
+      <width>20</width>
+      <height>22</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>$(device):D4:R</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>411</width>
+      <height>44</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):D:RLS</pv_name>
+    <x>42</x>
+    <y>681</y>
+    <width>317</width>
+    <height>27</height>
+    <numBits>16</numBits>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):A:RLS</pv_name>
+    <x>41</x>
+    <y>615</y>
+    <width>317</width>
+    <height>27</height>
+    <numBits>16</numBits>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):B:RLS</pv_name>
+    <x>42</x>
+    <y>648</y>
+    <width>317</width>
+    <height>27</height>
+    <numBits>16</numBits>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>$(device):P:RLAS</pv_name>
+    <x>42</x>
+    <y>713</y>
+    <width>317</width>
+    <height>27</height>
+    <numBits>16</numBits>
+    <square>true</square>
+    <off_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+</display>

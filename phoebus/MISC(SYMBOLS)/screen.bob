@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <width>360</width>
+  <height>200</height>
+  <widget type="group" version="2.0.0">
+    <name>EDM_Group_0</name>
+    <width>170</width>
+    <height>190</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_7</name>
+      <width>170</width>
+      <height>190</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle</name>
+      <x>68</x>
+      <y>14</y>
+      <width>40</width>
+      <height>69</height>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="COLOUR RULE" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0 = 0">
+            <value>
+              <color name="STOP" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 1">
+            <value>
+              <color name="On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 2">
+            <value>
+              <color name="ActiveText" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 3 ">
+            <value>
+              <color name="Attention" red="255" green="160" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 4">
+            <value>
+              <color name="INVALID" red="255" green="0" blue="255">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 5">
+            <value>
+              <color red="153" green="102" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 6">
+            <value>
+              <color name="Grid" red="128" green="128" blue="128">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(device):Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_4</name>
+      <x>10</x>
+      <y>80</y>
+      <width>150</width>
+      <height>100</height>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="COLOUR RULE" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0 = 0">
+            <value>
+              <color name="STOP" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 1">
+            <value>
+              <color name="On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 2">
+            <value>
+              <color name="ActiveText" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 3 ">
+            <value>
+              <color name="Attention" red="255" green="160" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 4">
+            <value>
+              <color name="INVALID" red="255" green="0" blue="255">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 5">
+            <value>
+              <color red="153" green="102" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 6">
+            <value>
+              <color name="Grid" red="128" green="128" blue="128">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(device):Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM_Group_1</name>
+    <x>180</x>
+    <width>170</width>
+    <height>190</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_8</name>
+      <width>170</width>
+      <height>190</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_6</name>
+      <x>10</x>
+      <y>14</y>
+      <width>150</width>
+      <height>166</height>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="COLOUR RULE" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0 = 0">
+            <value>
+              <color name="STOP" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 1">
+            <value>
+              <color name="On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 2">
+            <value>
+              <color name="ActiveText" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 3 ">
+            <value>
+              <color name="Attention" red="255" green="160" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 4">
+            <value>
+              <color name="INVALID" red="255" green="0" blue="255">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 5">
+            <value>
+              <color red="153" green="102" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 6">
+            <value>
+              <color name="Grid" red="128" green="128" blue="128">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(device):Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_5</name>
+      <x>60</x>
+      <y>14</y>
+      <width>50</width>
+      <height>166</height>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="COLOUR RULE" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pv0 = 0">
+            <value>
+              <color name="STOP" red="255" green="0" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 1">
+            <value>
+              <color name="On" red="0" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 2">
+            <value>
+              <color name="ActiveText" red="255" green="255" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 3 ">
+            <value>
+              <color name="Attention" red="255" green="160" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 4">
+            <value>
+              <color name="INVALID" red="255" green="0" blue="255">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 5">
+            <value>
+              <color red="153" green="102" blue="0">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pv0 = 6">
+            <value>
+              <color name="Grid" red="128" green="128" blue="128">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(device):Sta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+</display>

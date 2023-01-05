@@ -1,0 +1,3646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>VelaDiffractionChamber</name>
+  <x>1063</x>
+  <y>172</y>
+  <width>1120</width>
+  <height>420</height>
+  <background_color>
+    <color name="Title" red="158" green="158" blue="158">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>18</x>
+    <y>48</y>
+    <width>160</width>
+    <height>361</height>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>562</x>
+    <y>41</y>
+    <width>554</width>
+    <height>374</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>569</x>
+    <y>49</y>
+    <width>160</width>
+    <height>361</height>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>579</x>
+    <y>104</y>
+    <width>138</width>
+    <height>240</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>85</x>
+      <y>223</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-50.0 &amp;&amp; pv0&lt;-30.0">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>85</x>
+      <y>185</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-96.3 &amp;&amp; pv0&lt;-94.3">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>85</x>
+      <y>151</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-109.3 &amp;&amp; pv0&lt;-107.3">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>119</x>
+      <y>2</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-136.3 &amp;&amp; pv0&lt;-134.3">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>119</x>
+      <y>38</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-130.3 &amp;&amp; pv0&lt;-128.3">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>119</x>
+      <y>76</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-124.3 &amp;&amp; pv0&lt;-122.3">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>120</x>
+      <y>112</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-118.3 &amp;&amp; pv0&lt;-116.3">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>1</x>
+      <y>108</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-118.3 &amp;&amp; pv0&lt;-116.3">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <y>74</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-124.3 &amp;&amp; pv0&lt;-122.3">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>1</x>
+      <y>36</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-130.3 &amp;&amp; pv0&lt;-128.3">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-136.3 &amp;&amp; pv0&lt;-134.3">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 1</name>
+    <x>613</x>
+    <y>105</y>
+    <width>54</width>
+    <height>238</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <y>221</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=5.14 &amp;&amp; pv0&lt;7.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <y>183</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=5.14 &amp;&amp; pv0&lt;7.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <y>149</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=5.14 &amp;&amp; pv0&lt;7.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>36</x>
+      <y>108</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=9.14 &amp;&amp; pv0&lt;11.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>15</x>
+      <y>108</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.14 &amp;&amp; pv0&lt;3.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>35</x>
+      <y>73</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=9.14 &amp;&amp; pv0&lt;11.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>14</x>
+      <y>74</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.14 &amp;&amp; pv0&lt;3.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>35</x>
+      <y>36</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=9.14 &amp;&amp; pv0&lt;11.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>15</x>
+      <y>36</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.14 &amp;&amp; pv0&lt;3.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>35</x>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=9.14 &amp;&amp; pv0&lt;11.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <x>14</x>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=1.14 &amp;&amp; pv0&lt;3.14">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 2</name>
+    <x>599</x>
+    <y>99</y>
+    <width>97</width>
+    <height>253</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>EDM activeLineClass</name>
+      <x>35</x>
+      <y>218</y>
+      <width>0</width>
+      <height>0</height>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <arrow_length>15</arrow_length>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>2.14</value>
+          <description>S9</description>
+        </action>
+      </actions>
+      <text>S9</text>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>10.14</value>
+          <description>S10</description>
+        </action>
+      </actions>
+      <text>S10</text>
+      <x>69</x>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>2.14</value>
+          <description>S7</description>
+        </action>
+      </actions>
+      <text>S7</text>
+      <y>36</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>10.14</value>
+          <description>S8</description>
+        </action>
+      </actions>
+      <text>S8</text>
+      <x>69</x>
+      <y>37</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>2.14</value>
+          <description>S5</description>
+        </action>
+      </actions>
+      <text>S5</text>
+      <y>72</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>10.14</value>
+          <description>S6</description>
+        </action>
+      </actions>
+      <text>S6</text>
+      <x>69</x>
+      <y>74</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>2.14</value>
+          <description>S3</description>
+        </action>
+      </actions>
+      <text>S3</text>
+      <y>109</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>10.14</value>
+          <description>S4</description>
+        </action>
+      </actions>
+      <text>S4</text>
+      <x>69</x>
+      <y>110</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>6.14</value>
+          <description>SB2</description>
+        </action>
+      </actions>
+      <text>SB2</text>
+      <x>35</x>
+      <y>150</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>6.14</value>
+          <description>SB1</description>
+        </action>
+      </actions>
+      <text>SB1</text>
+      <x>35</x>
+      <y>184</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+          <value>6.14</value>
+          <description>Y</description>
+        </action>
+      </actions>
+      <text>Y</text>
+      <x>35</x>
+      <y>222</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>9</x>
+    <y>42</y>
+    <width>550</width>
+    <height>373</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>VELA Diffraction Chamber</text>
+    <x>392</x>
+    <y>8</y>
+    <width>297</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="24.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-EDC-MOT-04:RPOSS</pv_name>
+    <x>250</x>
+    <y>117</y>
+    <width>116</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Position</text>
+    <x>191</x>
+    <y>119</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-EDC-MOT-04:SSTA</pv_name>
+    <x>248</x>
+    <y>148</y>
+    <width>119</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: alt" red="0" green="160" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM activeMessageButtonClass</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>EBT-EDC-MOT-04:ABRT</pv_name>
+        <value>1</value>
+        <description>Abort</description>
+      </action>
+    </actions>
+    <text>Abort</text>
+    <x>284</x>
+    <y>182</y>
+    <width>80</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Button: On" red="187" green="187" blue="187">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>EDM activeXTextDspClass</name>
+    <pv_name>EBT-EDC-MOT-04:MABSS</pv_name>
+    <x>266</x>
+    <y>84</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <precision>2</precision>
+    <show_units>false</show_units>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Set Position</text>
+    <x>191</x>
+    <y>87</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Status</text>
+    <x>194</x>
+    <y>148</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-EDC-MOT-05:RPOSS</pv_name>
+    <x>254</x>
+    <y>303</y>
+    <width>116</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Position</text>
+    <x>195</x>
+    <y>305</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-EDC-MOT-05:SSTA</pv_name>
+    <x>252</x>
+    <y>334</y>
+    <width>119</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: alt" red="0" green="160" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM activeMessageButtonClass</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>EBT-EDC-MOT-05:ABRT</pv_name>
+        <value>1</value>
+        <description>Abort</description>
+      </action>
+    </actions>
+    <text>Abort</text>
+    <x>282</x>
+    <y>370</y>
+    <width>80</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Button: On" red="187" green="187" blue="187">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>EDM activeXTextDspClass</name>
+    <pv_name>EBT-EDC-MOT-05:MABSS</pv_name>
+    <x>270</x>
+    <y>270</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <precision>2</precision>
+    <show_units>false</show_units>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Set Position</text>
+    <x>195</x>
+    <y>273</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Status</text>
+    <x>198</x>
+    <y>334</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Aperture Plate M4 Horizontal</text>
+    <x>232</x>
+    <y>54</y>
+    <width>275</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Aperture Plate M5 Vertical</text>
+    <x>238</x>
+    <y>240</y>
+    <width>229</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>183</x>
+    <y>237</y>
+    <width>0</width>
+    <height>0</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+    <x>798</x>
+    <y>120</y>
+    <width>116</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Position</text>
+    <x>739</x>
+    <y>122</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-EDC-MOT-03:SSTA</pv_name>
+    <x>796</x>
+    <y>151</y>
+    <width>119</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: alt" red="0" green="160" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM activeMessageButtonClass</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>EBT-EDC-MOT-03:ABRT</pv_name>
+        <value>1</value>
+        <description>Abort</description>
+      </action>
+    </actions>
+    <text>Abort</text>
+    <x>832</x>
+    <y>185</y>
+    <width>80</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Button: On" red="187" green="187" blue="187">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>EDM activeXTextDspClass</name>
+    <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+    <x>814</x>
+    <y>87</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <precision>2</precision>
+    <show_units>false</show_units>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Set Position</text>
+    <x>739</x>
+    <y>90</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Status</text>
+    <x>742</x>
+    <y>151</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-EDC-MOT-02:RPOSS</pv_name>
+    <x>804</x>
+    <y>306</y>
+    <width>116</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Position</text>
+    <x>745</x>
+    <y>308</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-EDC-MOT-02:SSTA</pv_name>
+    <x>802</x>
+    <y>337</y>
+    <width>119</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: alt" red="0" green="160" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM activeMessageButtonClass</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>EBT-EDC-MOT-02:ABRT</pv_name>
+        <value>1</value>
+        <description>Abort</description>
+      </action>
+    </actions>
+    <text>Abort</text>
+    <x>832</x>
+    <y>373</y>
+    <width>80</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Button: On" red="187" green="187" blue="187">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>EDM activeXTextDspClass</name>
+    <pv_name>EBT-EDC-MOT-02:MABSS</pv_name>
+    <x>820</x>
+    <y>273</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <precision>2</precision>
+    <show_units>false</show_units>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Set Position</text>
+    <x>745</x>
+    <y>276</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Status</text>
+    <x>748</x>
+    <y>337</y>
+    <width>90</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Sample M3 Vertical</text>
+    <x>832</x>
+    <y>53</y>
+    <width>185</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Sample M2 Horizontal</text>
+    <x>820</x>
+    <y>242</y>
+    <width>201</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-04:STAT</pv_name>
+    <x>460</x>
+    <y>101</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>6</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Error</text>
+    <x>482</x>
+    <y>101</y>
+    <width>52</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-04:STAT</pv_name>
+    <x>460</x>
+    <y>122</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>5</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Inner Limit</text>
+    <x>482</x>
+    <y>122</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-04:STAT</pv_name>
+    <x>460</x>
+    <y>143</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>4</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Outer Limit</text>
+    <x>482</x>
+    <y>143</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-04:STAT</pv_name>
+    <x>460</x>
+    <y>163</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>3</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Jogging</text>
+    <x>482</x>
+    <y>163</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-05:STAT</pv_name>
+    <x>458</x>
+    <y>294</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>6</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Error</text>
+    <x>480</x>
+    <y>294</y>
+    <width>52</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-05:STAT</pv_name>
+    <x>458</x>
+    <y>315</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>5</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Inner Limit</text>
+    <x>480</x>
+    <y>315</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-05:STAT</pv_name>
+    <x>458</x>
+    <y>336</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>4</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Outer Limit</text>
+    <x>480</x>
+    <y>336</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-05:STAT</pv_name>
+    <x>458</x>
+    <y>356</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>3</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Jogging</text>
+    <x>480</x>
+    <y>356</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-03:STAT</pv_name>
+    <x>1009</x>
+    <y>108</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>6</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Error</text>
+    <x>1031</x>
+    <y>108</y>
+    <width>52</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-03:STAT</pv_name>
+    <x>1009</x>
+    <y>129</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>5</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Upper Limit</text>
+    <x>1031</x>
+    <y>129</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-03:STAT</pv_name>
+    <x>1009</x>
+    <y>150</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>4</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Lower Limit</text>
+    <x>1031</x>
+    <y>150</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-03:STAT</pv_name>
+    <x>1009</x>
+    <y>170</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>3</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Jogging</text>
+    <x>1031</x>
+    <y>170</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-02:STAT</pv_name>
+    <x>1010</x>
+    <y>296</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>6</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Error</text>
+    <x>1032</x>
+    <y>296</y>
+    <width>52</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-02:STAT</pv_name>
+    <x>1010</x>
+    <y>317</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>5</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Right Limit</text>
+    <x>1032</x>
+    <y>317</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-02:STAT</pv_name>
+    <x>1010</x>
+    <y>338</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>4</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Left Limit</text>
+    <x>1032</x>
+    <y>338</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>EBT-EDC-MOT-02:STAT</pv_name>
+    <x>1010</x>
+    <y>358</y>
+    <width>19</width>
+    <height>18</height>
+    <startBit>3</startBit>
+    <numBits>1</numBits>
+    <bitReverse>true</bitReverse>
+    <square>true</square>
+    <off_color>
+      <color name="grey-7" red="145" green="145" blue="145">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Jogging</text>
+    <x>1032</x>
+    <y>358</y>
+    <width>79</width>
+    <height>19</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 3</name>
+    <x>600</x>
+    <y>98</y>
+    <width>97</width>
+    <height>253</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>EDM activeLineClass</name>
+      <x>35</x>
+      <y>218</y>
+      <width>0</width>
+      <height>0</height>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <arrow_length>15</arrow_length>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-135.3</value>
+          <description>S9</description>
+        </action>
+      </actions>
+      <text>S9</text>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-135.3</value>
+          <description>S10</description>
+        </action>
+      </actions>
+      <text>S10</text>
+      <x>69</x>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-129.30</value>
+          <description>S7</description>
+        </action>
+      </actions>
+      <text>S7</text>
+      <y>36</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-129.30</value>
+          <description>S8</description>
+        </action>
+      </actions>
+      <text>S8</text>
+      <x>69</x>
+      <y>37</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-123.3</value>
+          <description>S5</description>
+        </action>
+      </actions>
+      <text>S5</text>
+      <y>72</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-123.3</value>
+          <description>S6</description>
+        </action>
+      </actions>
+      <text>S6</text>
+      <x>69</x>
+      <y>74</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-117.30</value>
+          <description>S3</description>
+        </action>
+      </actions>
+      <text>S3</text>
+      <y>109</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-117.30</value>
+          <description>S4</description>
+        </action>
+      </actions>
+      <text>S4</text>
+      <x>69</x>
+      <y>110</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-108.29</value>
+          <description>SB2</description>
+        </action>
+      </actions>
+      <text>SB2</text>
+      <x>35</x>
+      <y>150</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-95.3</value>
+          <description>SB1</description>
+        </action>
+      </actions>
+      <text>SB1</text>
+      <x>35</x>
+      <y>184</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+          <value>-45</value>
+          <description>Y</description>
+        </action>
+      </actions>
+      <text>Y</text>
+      <x>35</x>
+      <y>222</y>
+      <width>27</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>588</x>
+    <y>360</y>
+    <width>16</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>588</x>
+    <y>381</y>
+    <width>16</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Vertical</text>
+    <x>610</x>
+    <y>358</y>
+    <width>103</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Horizontal</text>
+    <x>611</x>
+    <y>381</y>
+    <width>102</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM activeMessageButtonClass</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>EBT-EDC-MOT-03:MABSS</pv_name>
+        <value>0</value>
+        <description>OUT</description>
+      </action>
+    </actions>
+    <text>OUT</text>
+    <x>604</x>
+    <y>60</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 4</name>
+    <x>66</x>
+    <y>113</y>
+    <width>49</width>
+    <height>137</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-05:MABSS</pv_name>
+          <value>0</value>
+          <description>0.5mm</description>
+        </action>
+      </actions>
+      <text>0.5mm</text>
+      <y>106</y>
+      <width>48</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-05:MABSS</pv_name>
+          <value>0</value>
+          <description>1mm</description>
+        </action>
+      </actions>
+      <text>1mm</text>
+      <y>70</y>
+      <width>48</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-05:MABSS</pv_name>
+          <value>0</value>
+          <description>2mm</description>
+        </action>
+      </actions>
+      <text>2mm</text>
+      <y>35</y>
+      <width>48</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-05:MABSS</pv_name>
+          <value>0</value>
+          <description>5mm</description>
+        </action>
+      </actions>
+      <text>5mm</text>
+      <width>48</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 5</name>
+    <x>66</x>
+    <y>112</y>
+    <width>49</width>
+    <height>137</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-04:MABSS</pv_name>
+          <value>106.69</value>
+          <description>5mm</description>
+        </action>
+      </actions>
+      <text>5mm</text>
+      <width>48</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-04:MABSS</pv_name>
+          <value>93.69</value>
+          <description>2mm</description>
+        </action>
+      </actions>
+      <text>2mm</text>
+      <y>35</y>
+      <width>48</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-04:MABSS</pv_name>
+          <value>80.69</value>
+          <description>1mm</description>
+        </action>
+      </actions>
+      <text>1mm</text>
+      <y>70</y>
+      <width>48</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-EDC-MOT-04:MABSS</pv_name>
+          <value>67.69</value>
+          <description>0.5mm</description>
+        </action>
+      </actions>
+      <text>0.5mm</text>
+      <y>106</y>
+      <width>48</width>
+      <font>
+        <font family="Liberation Mono" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Red LED: On" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>59</x>
+    <y>451</y>
+    <width>17</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="EDM visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=-50.0 &amp;&amp; pv0&lt;-30.0">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 6</name>
+    <x>45</x>
+    <y>118</y>
+    <width>18</width>
+    <height>125</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <y>108</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-0.1 &amp;&amp; pv0&lt;0.1">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-05:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <y>72</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-0.1 &amp;&amp; pv0&lt;0.1">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-05:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <y>36</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-0.1 &amp;&amp; pv0&lt;0.1">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-05:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: Off" red="0" green="128" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=-0.1 &amp;&amp; pv0&lt;0.1">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-05:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 7</name>
+    <x>118</x>
+    <y>119</y>
+    <width>18</width>
+    <height>125</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <y>108</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=66.69 &amp;&amp; pv0&lt;68.69">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-04:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <y>72</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=79.69 &amp;&amp; pv0&lt;81.68">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-04:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <y>36</y>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=92.69 &amp;&amp; pv0&lt;94.69">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-04:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>EDM activeCircleClass</name>
+      <width>17</width>
+      <height>16</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Green LED: On" red="0" green="255" blue="0">
+        </color>
+      </background_color>
+      <rules>
+        <rule name="EDM visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0&gt;=105.69 &amp;&amp; pv0&lt;107.69">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="true">
+            <value>false</value>
+          </exp>
+          <pv_name>EBT-EDC-MOT-04:RPOSS</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Horizontal</text>
+    <x>61</x>
+    <y>377</y>
+    <width>102</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Vertical</text>
+    <x>60</x>
+    <y>354</y>
+    <width>103</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>38</x>
+    <y>356</y>
+    <width>16</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>38</x>
+    <y>377</y>
+    <width>16</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>144</x>
+    <y>62</y>
+    <width>17</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green LED: On" red="0" green="255" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="EDM visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.1 &amp;&amp; pv0&lt;0.1">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>EBT-EDC-MOT-04:RPOSS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>282</x>
+    <y>592</y>
+    <width>17</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="EDM visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.1 &amp;&amp; pv0&lt;0.1">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>EBT-EDC-MOT-05:RPOSS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>282</x>
+    <y>556</y>
+    <width>17</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="EDM visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.1 &amp;&amp; pv0&lt;0.1">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>EBT-EDC-MOT-05:RPOSS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>282</x>
+    <y>520</y>
+    <width>17</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="EDM visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.1 &amp;&amp; pv0&lt;0.1">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>EBT-EDC-MOT-05:RPOSS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>EDM activeCircleClass</name>
+    <x>699</x>
+    <y>64</y>
+    <width>17</width>
+    <height>16</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Green LED: Off" red="0" green="128" blue="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="EDM visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=-0.1 &amp;&amp; pv0&lt;0.1">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>EBT-EDC-MOT-03:RPOSS</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM activeMessageButtonClass</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>EBT-EDC-MOT-05:MABS</pv_name>
+        <value>0</value>
+        <description>OUT</description>
+      </action>
+      <action type="write_pv">
+        <pv_name>EBT-EDC-MOT-04:MABS</pv_name>
+        <value>0</value>
+        <description>OUT</description>
+      </action>
+    </actions>
+    <text>OUT</text>
+    <x>50</x>
+    <y>59</y>
+    <width>90</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Red LED: On" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Controller" red="0" green="0" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>CheckBox.bob</file>
+        <macros>
+          <description1>Motor Position will be reset</description1>
+          <description2>Drive to positive to the Upper Limit</description2>
+          <description3>Set Zero then -0.01 and Set Zero again</description3>
+          <device>EBT-EDC-MOT-03:ZERO</device>
+          <press>Set Zero</press>
+          <title>To Home the Motor</title>
+          <value>0</value>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Home</text>
+    <x>747</x>
+    <y>186</y>
+    <width>81</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="blue-27" red="0" green="0" blue="192">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>CheckBox.bob</file>
+        <macros>
+          <description1>Motor Position will be reset</description1>
+          <description2>Drive to negative to the Left Limit</description2>
+          <description3>Press Set Zero</description3>
+          <device>EBT-EDC-MOT-02:ZERO</device>
+          <press>Set Zero</press>
+          <title>To Home The Motor</title>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Home</text>
+    <x>745</x>
+    <y>373</y>
+    <width>81</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="blue-27" red="0" green="0" blue="192">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>CheckBox.bob</file>
+        <macros>
+          <description1>Motor Position will be reset</description1>
+          <description2>Drive to negative to the Outer Limit</description2>
+          <description3>Set Zero</description3>
+          <device>EBT-EDC-MOT-04:ZERO</device>
+          <press>Set Zero</press>
+          <title>To Home The Motor</title>
+          <value>0</value>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Home</text>
+    <x>197</x>
+    <y>182</y>
+    <width>81</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="blue-27" red="0" green="0" blue="192">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>CheckBox.bob</file>
+        <macros>
+          <description1>Motor Position will be reset</description1>
+          <description2>Drive to negative to the Outer Limit</description2>
+          <description3>Set Zero then drive to 3.29 and Set Zero again</description3>
+          <device>EBT-EDC-MOT-05:ZERO</device>
+          <press>Set Zero</press>
+          <title>To Home The Motor</title>
+          <value>0</value>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Home</text>
+    <x>195</x>
+    <y>370</y>
+    <width>81</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="blue-27" red="0" green="0" blue="192">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+  </widget>
+</display>

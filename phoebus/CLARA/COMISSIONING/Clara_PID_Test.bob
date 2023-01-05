@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>CLARA PID Test</name>
+  <x>877</x>
+  <y>225</y>
+  <width>200</width>
+  <height>400</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>L01 PID Test</text>
+    <y>134</y>
+    <width>215</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>EPID_test.bob</file>
+        <macros>
+          <device>CLA-L01-LRF-CTRL-01:AMP:PID</device>
+          <input>CLA-L01-LRF-CTRL-01:AMP:PID:IP</input>
+          <readback>CLA-L01-LRF-CTRL-01:vm:dsp:sp_amp:amplitude</readback>
+          <title>L01 Amplitude</title>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Amplitude</text>
+    <x>6</x>
+    <y>178</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>EPID_test.bob</file>
+        <macros>
+          <device>CLA-L01-LRF-CTRL-01:PHA:PID</device>
+          <input>CLA-L01-LRF-CTRL-01:PHA:PID:IP.OVAL</input>
+          <readback>CLA-L01-LRF-CTRL-01:vm:dsp:sp_ph:phase</readback>
+          <title>L01 Phase</title>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Phase</text>
+    <x>6</x>
+    <y>205</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>GUN PID Test</text>
+    <y>1</y>
+    <width>215</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>EPID_test.bob</file>
+        <macros>
+          <device>CLA-GUN-LRF-CTRL-01:AMP:PID</device>
+          <input>CLA-GUN-LRF-CTRL-01:AMP:PID:IP</input>
+          <readback>CLA-GUN-LRF-CTRL-01:vm:dsp:sp_amp:amplitude</readback>
+          <title>GUN Amplitude</title>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Amplitude</text>
+    <x>5</x>
+    <y>45</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>EPID_test.bob</file>
+        <macros>
+          <device>CLA-GUN-LRF-CTRL-01:PHA:PID</device>
+          <input>CLA-GUN-LRF-CTRL-01:PHA:PID:IP.OVAL</input>
+          <readback>CLA-GUN-LRF-CTRL-01:vm:dsp:sp_ph:phase</readback>
+          <title>GUN Phase</title>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Phase</text>
+    <x>6</x>
+    <y>72</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>L01 PID Test AVE</text>
+    <y>235</y>
+    <width>215</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>EPID_test_ave.bob</file>
+        <macros>
+          <device>CLA-L01-LRF-CTRL-01:PHAA:PID</device>
+          <input>CLA-L01-LRF-CTRL-01:PHAA:PID:IP.OVAL</input>
+          <readback>CLA-L01-LRF-CTRL-01:vm:dsp:sp_ph:phase</readback>
+          <title>L01 Phase Average</title>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Phase</text>
+    <x>6</x>
+    <y>275</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>L01 PID Test New</text>
+    <y>305</y>
+    <width>215</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>EPID_test_new.bob</file>
+        <macros>
+          <device>CLA-L01-LRF-CTRL-01</device>
+          <title>L01 Phase Wrapped</title>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Phase</text>
+    <x>6</x>
+    <y>346</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>EPID_test.bob</file>
+        <macros>
+          <device>CLA-GUN-LRF-CTRL-02:AMP:PID</device>
+          <input>CLA-GUN-LRF-CTRL-02:AMP:PID:IP</input>
+          <readback>CLA-GUN-LRF-CTRL-02:vm:dsp:sp_amp:amplitude</readback>
+          <title>GUN Amplitude</title>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Klystron Amplitude</text>
+    <x>6</x>
+    <y>101</y>
+    <width>190</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

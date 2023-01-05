@@ -1,0 +1,2413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>CLARA MAG MAIN</name>
+  <x>186</x>
+  <y>390</y>
+  <width>1500</width>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_13</name>
+    <x>1035</x>
+    <y>186</y>
+    <width>1</width>
+    <height>97</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="145.5">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="128" green="0" blue="128">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_18</name>
+    <macros>
+      <ID>H_03.1</ID>
+      <desc>HCOR 03</desc>
+      <device>CLA-S02-MAG-HCOR-03</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>818</x>
+    <y>195</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass_10</name>
+    <x>816</x>
+    <y>193</y>
+    <width>132</width>
+    <height>87</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="purple-47" red="128" green="0" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>527</x>
+    <y>143</y>
+    <width>414</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="176.0" y="0.0">
+      </point>
+      <point x="206.0" y="0.0">
+      </point>
+      <point x="266.0" y="0.0">
+      </point>
+      <point x="325.0" y="0.0">
+      </point>
+      <point x="414.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_13</name>
+    <macros>
+      <ID>Q_03</ID>
+      <desc>QUAD 03</desc>
+      <device>CLA-S02-MAG-QUAD-03</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>818</x>
+    <y>106</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>75</x>
+    <y>143</y>
+    <width>500</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="215.0" y="0.0">
+      </point>
+      <point x="250.0" y="0.0">
+      </point>
+      <point x="322.0" y="0.0">
+      </point>
+      <point x="393.0" y="0.0">
+      </point>
+      <point x="500.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_12</name>
+    <macros>
+      <ID>S_02.1</ID>
+      <desc>SOL 02</desc>
+      <device>CLA-L01-MAG-SOL-02</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>397</x>
+    <y>103</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass_9</name>
+    <x>494</x>
+    <y>193</y>
+    <width>132</width>
+    <height>87</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="purple-47" red="128" green="0" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass_8</name>
+    <x>632</x>
+    <y>193</y>
+    <width>132</width>
+    <height>87</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="purple-47" red="128" green="0" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_6</name>
+    <macros>
+      <ID>V_02.1</ID>
+      <desc>VCOR 02</desc>
+      <device>CLA-S02-MAG-VCOR-02</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>702</x>
+    <y>195</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass_7</name>
+    <x>92</x>
+    <y>193</y>
+    <width>132</width>
+    <height>87</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="purple-47" red="128" green="0" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_3</name>
+    <macros>
+      <ID>V_01</ID>
+      <desc>VCOR 01</desc>
+      <device>CLA-S01-MAG-VCOR-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>162</x>
+    <y>195</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <macros>
+      <ID>S_01</ID>
+      <desc>SOL 01</desc>
+      <device>CLA-LRG1-MAG-SOL-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>94</x>
+    <y>103</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>693</x>
+    <y>449</y>
+    <width>766</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="331.0" y="0.0">
+      </point>
+      <point x="384.0" y="0.0">
+      </point>
+      <point x="501.0" y="0.0">
+      </point>
+      <point x="598.0" y="0.0">
+      </point>
+      <point x="766.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>977</x>
+    <y>141</y>
+    <width>365</width>
+    <height>319</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="365.0" y="319.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>5</x>
+    <y>110</y>
+    <width>84</width>
+    <height>58</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>937</x>
+    <y>143</y>
+    <width>563</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="243.0" y="0.0">
+      </point>
+      <point x="283.0" y="0.0">
+      </point>
+      <point x="369.0" y="0.0">
+      </point>
+      <point x="438.0" y="0.0">
+      </point>
+      <point x="563.0" y="0.0">
+      </point>
+    </points>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>207</x>
+    <y>135</y>
+    <width>2</width>
+    <height>2</height>
+    <line_width>10</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>14</x>
+    <y>44</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>77</x>
+    <y>305</y>
+    <width>312</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="312.0" y="0.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>S01</text>
+    <x>195</x>
+    <y>315</y>
+    <width>33</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>579</x>
+    <y>90</y>
+    <width>750</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="750.0" y="0.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>S02</text>
+    <x>922</x>
+    <y>68</y>
+    <width>33</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>C2V</text>
+    <x>1083</x>
+    <y>327</y>
+    <width>36</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>328</x>
+    <y>90</y>
+    <width>127</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="127.0" y="0.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>L01</text>
+    <x>379</x>
+    <y>68</y>
+    <width>31</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Low Rate Gun</text>
+    <x>96</x>
+    <y>50</y>
+    <width>116</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>81</x>
+    <y>76</y>
+    <width>154</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="154.0" y="0.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>GUN</text>
+    <x>32</x>
+    <y>135</y>
+    <width>27</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>948</x>
+    <y>332</y>
+    <width>88</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="88.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="purple-47" red="128" green="0" blue="128">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>VELA BEAM LINE</text>
+    <x>940</x>
+    <y>417</y>
+    <width>153</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>706</x>
+    <y>109</y>
+    <height>58</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>High Energy
+COLLIMATOR</text>
+    <x>718</x>
+    <y>127</y>
+    <width>80</width>
+    <height>31</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>1</x>
+    <width>1499</width>
+    <height>37</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>CLARA MAGNETS AND CORRECTORS</text>
+    <x>1</x>
+    <y>9</y>
+    <width>1498</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text></text>
+    <x>517</x>
+    <y>198</y>
+    <width>0</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="-1.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Bucking Coil</text>
+    <x>87</x>
+    <y>89</y>
+    <width>56</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>46</x>
+    <y>348</y>
+    <width>370</width>
+    <height>250</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>EDM activeLineClass</name>
+    <x>214</x>
+    <y>439</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <arrow_length>15</arrow_length>
+  </widget>
+  <widget type="radio" version="2.0.0">
+    <name>EDM activeRadioButtonClass</name>
+    <pv_name>EBT-MAG-SOL-SW-01:Set</pv_name>
+    <x>61</x>
+    <y>436</y>
+    <width>90</width>
+    <height>47</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <horizontal>false</horizontal>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Contactor B Current Position CLARA</text>
+    <x>214</x>
+    <y>404</y>
+    <width>164</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>A &amp; B Requested Position CLARA</text>
+    <x>214</x>
+    <y>421</y>
+    <width>152</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Contactor A Current Position CLARA</text>
+    <x>214</x>
+    <y>387</y>
+    <width>164</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Contactor A Position change request</text>
+    <x>213</x>
+    <y>440</y>
+    <width>163</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Contactor B Position change request</text>
+    <x>214</x>
+    <y>461</y>
+    <width>163</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Current &lt; 0.5A</text>
+    <x>214</x>
+    <y>553</y>
+    <width>66</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>EDM ByteClass</name>
+    <pv_name>CLA-CS-MAG-STAT-01:RB</pv_name>
+    <x>171</x>
+    <y>386</y>
+    <width>37</width>
+    <height>181</height>
+    <startBit>5</startBit>
+    <numBits>10</numBits>
+    <bitReverse>true</bitReverse>
+    <horizontal>false</horizontal>
+    <square>true</square>
+    <off_color>
+      <color name="Red LED: Off" red="128" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </on_color>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-MAG-SOL-SW-01:RI</pv_name>
+    <x>70</x>
+    <y>565</y>
+    <width>83</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Open/On" red="0" green="192" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Top Shadow" red="236" green="236" blue="236">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Bucking Coil Change Over</text>
+    <x>122</x>
+    <y>368</y>
+    <width>177</width>
+    <height>16</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Contactor A VELA</text>
+    <x>213</x>
+    <y>479</y>
+    <width>82</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Contactor A CLARA</text>
+    <x>213</x>
+    <y>498</y>
+    <width>89</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Contactor B CLARA</text>
+    <x>214</x>
+    <y>534</y>
+    <width>89</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Contactor B VELA</text>
+    <x>214</x>
+    <y>515</y>
+    <width>82</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_1</name>
+    <macros>
+      <ID>S_02</ID>
+      <desc>SOL 02</desc>
+      <device>CLA-GUN-MAG-SOL-02</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>162</x>
+    <y>103</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-GUN-MAG-SOL-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>163</x>
+    <y>103</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>238</x>
+    <y>124</y>
+    <width>89</width>
+    <height>37</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>LIGHT BOX</text>
+    <x>247</x>
+    <y>135</y>
+    <width>66</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S01-MAG-VCOR-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>162</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_4</name>
+    <macros>
+      <ID>H_01</ID>
+      <desc>HCOR 01</desc>
+      <device>CLA-S01-MAG-HCOR-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>94</x>
+    <y>195</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S01-MAG-VCOR-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>94</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_2</name>
+    <x>158</x>
+    <y>189</y>
+    <width>1</width>
+    <height>5</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="5.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="128" green="0" blue="128">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_3</name>
+    <x>229</x>
+    <y>148</y>
+    <width>1</width>
+    <height>40</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="40.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="128" green="0" blue="128">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_4</name>
+    <x>157</x>
+    <y>189</y>
+    <width>73</width>
+    <height>1</height>
+    <points>
+      <point x="73.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="128" green="0" blue="128">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass_2</name>
+    <actions>
+      <action type="open_display">
+        <file>ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S01-MAG-HCOR-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>702</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_5</name>
+    <macros>
+      <ID>H_02.1</ID>
+      <desc>HCOR 02</desc>
+      <device>CLA-S02-MAG-HCOR-02</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>634</x>
+    <y>195</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass_3</name>
+    <actions>
+      <action type="open_display">
+        <file>ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S01-MAG-VCOR-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>634</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-L01-MAG-SOL-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>397</x>
+    <y>103</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>97</x>
+    <y>106</y>
+    <width>54</width>
+    <height>57</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color red="224" green="224" blue="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Switch
+set to
+_VELA_</text>
+    <x>97</x>
+    <y>106</y>
+    <width>52</width>
+    <height>54</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <rules>
+      <rule name="EDM visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;0.5">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>CLA-GUN-MAG-SOL-01:WRI-COSW-CLARA</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-LRG1-MAG-SOL-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>97</x>
+    <y>106</y>
+    <width>54</width>
+    <height>20</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>462</x>
+    <y>124</y>
+    <width>92</width>
+    <height>37</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="cyan-32" red="0" green="192" blue="192">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>LINAC</text>
+    <x>485</x>
+    <y>135</y>
+    <width>37</width>
+    <height>14</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass_4</name>
+    <actions>
+      <action type="open_display">
+        <file>ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S01-MAG-HCOR-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>496</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_7</name>
+    <macros>
+      <ID>V_01.1</ID>
+      <desc>VCOR 01</desc>
+      <device>CLA-S02-MAG-VCOR-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>564</x>
+    <y>195</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass_5</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-VCOR-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>564</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_8</name>
+    <macros>
+      <ID>H_01.1</ID>
+      <desc>HCOR 01</desc>
+      <device>CLA-S02-MAG-HCOR-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>496</x>
+    <y>195</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_1</name>
+    <text></text>
+    <x>761</x>
+    <y>195</y>
+    <width>0</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="-1.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_7</name>
+    <x>560</x>
+    <y>148</y>
+    <width>1</width>
+    <height>45</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="45.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="128" green="0" blue="128">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-HCOR-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>496</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-VCOR-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>702</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-HCOR-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>634</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_9</name>
+    <x>699</x>
+    <y>148</y>
+    <width>1</width>
+    <height>30</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="45.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="128" green="0" blue="128">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_9</name>
+    <macros>
+      <ID>Q_01</ID>
+      <desc>QUAD 01</desc>
+      <device>CLA-S02-MAG-QUAD-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>564</x>
+    <y>104</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-QUAD-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>564</x>
+    <y>104</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_10</name>
+    <macros>
+      <ID>Q_02</ID>
+      <desc>QUAD 02</desc>
+      <device>CLA-S02-MAG-QUAD-02</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>634</x>
+    <y>104</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-QUAD-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>634</x>
+    <y>104</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_11</name>
+    <macros>
+      <ID>S_01.1</ID>
+      <desc>SOL 01</desc>
+      <device>CLA-L01-MAG-SOL-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>332</x>
+    <y>103</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-L01-MAG-SOL-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>332</x>
+    <y>103</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-QUAD-03</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>818</x>
+    <y>106</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_14</name>
+    <macros>
+      <ID>Q_04</ID>
+      <desc>QUAD 04</desc>
+      <device>CLA-S02-MAG-QUAD-04</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>886</x>
+    <y>106</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-QUAD-04</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>886</x>
+    <y>106</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_11</name>
+    <x>812</x>
+    <y>148</y>
+    <width>1</width>
+    <height>60</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="90.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="128" green="0" blue="128">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass_2</name>
+    <text></text>
+    <x>877</x>
+    <y>195</y>
+    <width>0</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="-1.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_17</name>
+    <macros>
+      <ID>V_03.1</ID>
+      <desc>VCOR 03</desc>
+      <device>CLA-S02-MAG-VCOR-03</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>886</x>
+    <y>195</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass_10</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S01-MAG-VCOR-03</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>886</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass_11</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraItest.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-HCOR-03</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>818</x>
+    <y>195</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_12</name>
+    <x>812</x>
+    <y>237</y>
+    <width>4</width>
+    <height>1</height>
+    <points>
+      <point x="4.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="128" green="0" blue="128">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_19</name>
+    <macros>
+      <ID>D_01</ID>
+      <desc>DIP 01</desc>
+      <device>CLA-C2V-MAG-DIP-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>970</x>
+    <y>106</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-C2V-MAG-DIP-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>970</x>
+    <y>106</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_20</name>
+    <macros>
+      <ID>Q_05</ID>
+      <desc>QUAD 05</desc>
+      <device>CLA-S02-MAG-QUAD-05</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>1130</x>
+    <y>106</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-S02-MAG-QUAD-05</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1130</x>
+    <y>106</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_21</name>
+    <macros>
+      <ID>D_02</ID>
+      <desc>DIP 02</desc>
+      <device>CLA-C2V-MAG-DIP-02</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>1290</x>
+    <y>400</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-C2V-MAG-DIP-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1290</x>
+    <y>400</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_22</name>
+    <macros>
+      <ID>Q_01.1</ID>
+      <desc>QUAD 01</desc>
+      <device>CLA-C2V-MAG-QUAD-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>1043</x>
+    <y>193</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_23</name>
+    <macros>
+      <ID>Q_02.1</ID>
+      <desc>QUAD 02</desc>
+      <device>CLA-C2V-MAG-QUAD-02</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>1130</x>
+    <y>276</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_24</name>
+    <macros>
+      <ID>Q_03.1</ID>
+      <desc>QUAD 03</desc>
+      <device>CLA-C2V-MAG-QUAD-03</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>1210</x>
+    <y>348</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-C2V-MAG-QUAD-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1043</x>
+    <y>193</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-C2V-MAG-QUAD-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1130</x>
+    <y>276</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraMps9100.bob</file>
+        <macros>
+          <device>CLA-C2V-MAG-QUAD-03</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>1210</x>
+    <y>348</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass_12</name>
+    <x>816</x>
+    <y>286</y>
+    <width>132</width>
+    <height>87</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="purple-47" red="128" green="0" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_15</name>
+    <macros>
+      <ID>H_01.2</ID>
+      <desc>HCOR 01</desc>
+      <device>CLA-C2V-MAG-HCOR-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>818</x>
+    <y>288</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_16</name>
+    <macros>
+      <ID>V_01.2</ID>
+      <desc>VCOR 01</desc>
+      <device>CLA-C2V-MAG-VCOR-01</device>
+    </macros>
+    <file>../../VELA/MAGNETS/MAG_WIDGET.bob</file>
+    <x>886</x>
+    <y>288</y>
+    <width>60</width>
+    <height>83</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraItest.bob</file>
+        <macros>
+          <device>CLA-C2V-MAG-HCOR-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>818</x>
+    <y>288</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../VELA/MAGNETS/ClaraItest.bob</file>
+        <macros>
+          <device>CLA-C2V-MAG-VCOR-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>886</x>
+    <y>288</y>
+    <width>60</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Mono" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>HoldRFOn</name>
+  <macros>
+    <MOD_STATE>CLA-GUNS-HRF-MOD-01:State</MOD_STATE>
+    <RFsystem>CLA-GUNS</RFsystem>
+    <device>CLA-GUNS-RFHOLD</device>
+  </macros>
+  <x>825</x>
+  <y>77</y>
+  <width>600</width>
+  <height>300</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>1</x>
+    <y>1</y>
+    <width>599</width>
+    <height>41</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="RF title" red="222" green="196" blue="251">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>$(RFsystem) Hold RF On</text>
+    <x>1</x>
+    <y>14</y>
+    <width>598</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>14</x>
+    <y>103</y>
+    <width>541</width>
+    <height>157</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 1</name>
+      <x>1</x>
+      <width>540</width>
+      <height>29</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>$(device):FaultLog0</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>267</width>
+        <height>24</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>$(device):FaultTimes0</pv_name>
+        <x>276</x>
+        <y>2</y>
+        <width>261</width>
+        <height>24</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 2</name>
+      <x>1</x>
+      <y>32</y>
+      <width>540</width>
+      <height>29</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>$(device):FaultLog1</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>267</width>
+        <height>24</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>$(device):FaultTimes1</pv_name>
+        <x>276</x>
+        <y>2</y>
+        <width>261</width>
+        <height>24</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 3</name>
+      <x>1</x>
+      <y>64</y>
+      <width>540</width>
+      <height>29</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>$(device):FaultLog2</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>267</width>
+        <height>24</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>$(device):FaultTimes2</pv_name>
+        <x>276</x>
+        <y>2</y>
+        <width>261</width>
+        <height>24</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 4</name>
+      <y>96</y>
+      <width>540</width>
+      <height>29</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>$(device):FaultLog3</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>267</width>
+        <height>24</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>$(device):FaultTimes3</pv_name>
+        <x>276</x>
+        <y>2</y>
+        <width>261</width>
+        <height>24</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 5</name>
+      <y>128</y>
+      <width>540</width>
+      <height>29</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>$(device):FaultLog4</pv_name>
+        <x>2</x>
+        <y>2</y>
+        <width>267</width>
+        <height>24</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM TextupdateClass</name>
+        <pv_name>$(device):FaultTimes4</pv_name>
+        <x>276</x>
+        <y>2</y>
+        <width>261</width>
+        <height>24</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="grey-12" red="70" green="70" blue="70">
+          </color>
+        </background_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 6</name>
+    <x>61</x>
+    <y>50</y>
+    <width>401</width>
+    <height>33</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>$(device):OpMode</pv_name>
+      <x>229</x>
+      <y>4</y>
+      <width>169</width>
+      <height>24</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>EDM activeMenuButtonClass</name>
+      <pv_name>$(device):OpMode</pv_name>
+      <width>221</width>
+      <height>32</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>$(device):LogIndx</pv_name>
+    <x>560</x>
+    <y>74</y>
+    <width>39</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>$(device):NumFaults</pv_name>
+    <x>560</x>
+    <y>262</y>
+    <width>40</width>
+    <height>24</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Scroll Indx</text>
+    <x>489</x>
+    <y>80</y>
+    <width>57</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Number of Faults</text>
+    <x>452</x>
+    <y>269</y>
+    <width>93</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Modulator OFF</text>
+    <x>225</x>
+    <y>268</y>
+    <width>122</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="49" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Pedigree Chum" red="255" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <auto_size>true</auto_size>
+    <rules>
+      <rule name="EDM visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0&gt;=0.0 &amp;&amp; pv0&lt;1.0">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="true">
+          <value>false</value>
+        </exp>
+        <pv_name>$(MOD_STATE)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="spinner" version="2.0.0">
+    <name>Spinner</name>
+    <pv_name>$(device):LogIndx</pv_name>
+    <x>559</x>
+    <y>98</y>
+    <width>20</width>
+    <height>164</height>
+    <buttons_on_left>true</buttons_on_left>
+  </widget>
+</display>

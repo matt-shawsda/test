@@ -1,0 +1,2939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>BA1 Motors</name>
+  <x>668</x>
+  <y>431</y>
+  <width>1270</width>
+  <height>770</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <grid_step_x>4</grid_step_x>
+  <grid_step_y>4</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>5</x>
+    <y>623</y>
+    <width>1001</width>
+    <height>111</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Bottom Shadow" red="90" green="90" blue="90">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="grey-2" red="218" green="218" blue="218">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_15</name>
+    <x>15</x>
+    <y>633</y>
+    <width>149</width>
+    <height>92</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>5</x>
+    <y>503</y>
+    <width>1001</width>
+    <height>111</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Bottom Shadow" red="90" green="90" blue="90">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="grey-2" red="218" green="218" blue="218">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_16</name>
+    <x>15</x>
+    <y>513</y>
+    <width>149</width>
+    <height>92</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>5</x>
+    <y>377</y>
+    <width>1210</width>
+    <height>120</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Bottom Shadow" red="90" green="90" blue="90">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="grey-2" red="218" green="218" blue="218">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_14</name>
+    <x>15</x>
+    <y>391</y>
+    <width>149</width>
+    <height>92</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>5</x>
+    <y>257</y>
+    <width>587</width>
+    <height>111</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Bottom Shadow" red="90" green="90" blue="90">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="grey-2" red="218" green="218" blue="218">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_13</name>
+    <x>15</x>
+    <y>266</y>
+    <width>149</width>
+    <height>92</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>5</x>
+    <y>141</y>
+    <width>1001</width>
+    <height>111</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Bottom Shadow" red="90" green="90" blue="90">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="grey-2" red="218" green="218" blue="218">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>15</x>
+    <y>150</y>
+    <width>149</width>
+    <height>92</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+    <corner_width>10</corner_width>
+    <corner_height>10</corner_height>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_11</name>
+    <x>592</x>
+    <y>628</y>
+    <width>402</width>
+    <height>101</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_10</name>
+    <x>170</x>
+    <y>508</y>
+    <width>410</width>
+    <height>101</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_9</name>
+    <x>592</x>
+    <y>508</y>
+    <width>402</width>
+    <height>101</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_5</name>
+    <x>170</x>
+    <y>262</y>
+    <width>410</width>
+    <height>101</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_3</name>
+    <x>592</x>
+    <y>145</y>
+    <width>402</width>
+    <height>102</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>1015</x>
+    <y>226</y>
+    <width>251</width>
+    <height>145</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>251</width>
+      <height>145</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Bottom Shadow" red="90" green="90" blue="90">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-2" red="218" green="218" blue="218">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Beam Area 1 Chamber</text>
+      <x>50</x>
+      <y>2</y>
+      <width>150</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Tip-tilt Horizontal Back</text>
+      <x>8</x>
+      <y>26</y>
+      <width>121</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-PICO-1B-1-HB:POS</pv_name>
+      <x>142</x>
+      <y>22</y>
+      <width>96</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-PICO-1B-2-HF:POS</pv_name>
+      <x>142</x>
+      <y>52</y>
+      <width>96</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Tip-tilt Horizontal Front</text>
+      <x>8</x>
+      <y>58</y>
+      <width>122</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-PICO-1B-3-LONG:POS</pv_name>
+      <x>142</x>
+      <y>82</y>
+      <width>96</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Tip-tilt Lonitudinal</text>
+      <x>8</x>
+      <y>88</y>
+      <width>95</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-PICO-1B-4-VB:POS</pv_name>
+      <x>142</x>
+      <y>112</y>
+      <width>96</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Tip-tilt Vertical Back</text>
+      <x>8</x>
+      <y>116</y>
+      <width>107</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>Subscreens/pico8742.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-PICO-1B</device>
+            <motorA>1-HB</motorA>
+            <motorB>2-HF</motorB>
+            <motorC>3-LONG</motorC>
+            <motorD>4-VB</motorD>
+            <title>BA1</title>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <width>250</width>
+      <height>144</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 1</name>
+    <x>1015</x>
+    <y>74</y>
+    <width>249</width>
+    <height>145</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>EDM activeRectangleClass</name>
+      <width>249</width>
+      <height>145</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Bottom Shadow" red="90" green="90" blue="90">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="grey-2" red="218" green="218" blue="218">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Beam Area 1 Chamber</text>
+      <x>50</x>
+      <y>2</y>
+      <width>150</width>
+      <height>16</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Tip-tilt Vertical Front</text>
+      <x>8</x>
+      <y>24</y>
+      <width>108</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-PICO-1A-1-VF:POS</pv_name>
+      <x>140</x>
+      <y>22</y>
+      <width>96</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-PICO-1A-2-GB:POS</pv_name>
+      <x>140</x>
+      <y>52</y>
+      <width>96</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Pico #1</text>
+      <x>8</x>
+      <y>54</y>
+      <width>41</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-PICO-1A-3-GF:POS</pv_name>
+      <x>140</x>
+      <y>82</y>
+      <width>96</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Pico #2</text>
+      <x>8</x>
+      <y>84</y>
+      <width>41</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-PICO-1A-4-SPARE:POS</pv_name>
+      <x>140</x>
+      <y>112</y>
+      <width>96</width>
+      <height>22</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Spare</text>
+      <x>8</x>
+      <y>114</y>
+      <width>33</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>Subscreens/pico8742.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-PICO-1A</device>
+            <motorA>1-VF</motorA>
+            <motorB>2-GB</motorB>
+            <motorC>3-GF</motorC>
+            <motorD>4-SPARE</motorD>
+            <title>BA1</title>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text></text>
+      <width>248</width>
+      <height>144</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="16.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="brown-44" red="128" green="88" blue="48">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-MOT-COFF-S-01:NAME</pv_name>
+    <x>28</x>
+    <y>182</y>
+    <width>150</width>
+    <height>26</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Beam Area 1 Motors</text>
+    <width>1270</width>
+    <height>48</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Title" red="158" green="158" blue="158">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Horizontal Stages</text>
+    <x>250</x>
+    <y>101</y>
+    <width>200</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Title" red="158" green="158" blue="158">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Vertical Stages</text>
+    <x>695</x>
+    <y>101</y>
+    <width>200</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Title" red="158" green="158" blue="158">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Picomotors</text>
+    <x>1015</x>
+    <y>44</y>
+    <width>248</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Title" red="158" green="158" blue="158">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 2</name>
+    <x>592</x>
+    <y>145</y>
+    <width>402</width>
+    <height>101</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="group" version="2.0.0">
+      <name>EDM Slider/Indicator</name>
+      <width>402</width>
+      <height>100</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM Slider Indicator</name>
+        <pv_name>EBT-BA1-MOT-COFF-V-01:RPOSS</pv_name>
+        <x>208</x>
+        <y>64</y>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="OK" red="0" green="255" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+      </widget>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-BA1-MOT-COFF-V-01:STOP</pv_name>
+          <value>Soft</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <text>Stop</text>
+      <y>75</y>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-01:RPOSS</pv_name>
+      <x>2</x>
+      <y>52</y>
+      <width>81</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-01:MABSS</pv_name>
+      <y>25</y>
+      <width>85</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>standa8smc5usb.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-COFF-V-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>V1</text>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="scaledslider" version="2.0.0">
+      <name>EDM activeSliderClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-01:MABSS</pv_name>
+      <x>99</x>
+      <y>24</y>
+      <width>293</width>
+      <height>40</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <show_hihi>false</show_hihi>
+      <show_high>false</show_high>
+      <show_low>false</show_low>
+      <show_lolo>false</show_lolo>
+      <rules>
+        <rule name="LOW" prop_id="minimum" out_exp="true">
+          <exp bool_exp="true">
+            <expression>pv0</expression>
+          </exp>
+          <pv_name>EBT-BA1-MOT-COFF-V-01:PROTL-LL</pv_name>
+        </rule>
+        <rule name="HIGH" prop_id="maximum" out_exp="true">
+          <exp bool_exp="true">
+            <expression>pv0</expression>
+          </exp>
+          <pv_name>EBT-BA1-MOT-COFF-V-01:PROTL-HL</pv_name>
+        </rule>
+      </rules>
+      <minimum></minimum>
+      <maximum></maximum>
+      <limits_from_pv>false</limits_from_pv>
+      <enabled>false</enabled>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 3</name>
+    <x>592</x>
+    <y>508</y>
+    <width>286</width>
+    <height>101</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-BA1-MOT-COFF-V-04:STOP</pv_name>
+          <value>Soft</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <text>Stop</text>
+      <y>75</y>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-04:RPOSS</pv_name>
+      <x>2</x>
+      <y>52</y>
+      <width>81</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-04:MABSS</pv_name>
+      <y>25</y>
+      <width>85</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>standa8smc5usb.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-COFF-V-04</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>V4</text>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 4</name>
+    <x>529</x>
+    <y>385</y>
+    <width>336</width>
+    <height>101</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_7</name>
+      <width>336</width>
+      <height>101</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-BA1-MOT-COFF-V-03:STOP</pv_name>
+          <value>Soft</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <text>Stop</text>
+      <y>75</y>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-03:RPOSS</pv_name>
+      <x>2</x>
+      <y>52</y>
+      <width>81</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-03:MABSS</pv_name>
+      <y>25</y>
+      <width>85</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>standa8smc5usb.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-COFF-V-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>V3</text>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Slider/Indicator</name>
+      <x>85</x>
+      <width>251</width>
+      <height>100</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM Slider Indicator</name>
+        <pv_name>EBT-BA1-MOT-COFF-V-03:RPOSS</pv_name>
+        <x>98</x>
+        <y>68</y>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="On" red="0" green="255" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+      </widget>
+      <widget type="scaledslider" version="2.0.0">
+        <name>EDM activeSliderClass</name>
+        <pv_name>EBT-BA1-MOT-COFF-V-03:MABSS</pv_name>
+        <x>4</x>
+        <y>28</y>
+        <width>241</width>
+        <height>40</height>
+        <foreground_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Button: On" red="187" green="187" blue="187">
+          </color>
+        </background_color>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <show_hihi>false</show_hihi>
+        <show_high>false</show_high>
+        <show_low>false</show_low>
+        <show_lolo>false</show_lolo>
+        <rules>
+          <rule name="LOW" prop_id="minimum" out_exp="true">
+            <exp bool_exp="true">
+              <expression>pv0</expression>
+            </exp>
+            <pv_name>EBT-BA1-MOT-COFF-V-03:PROTL-LL</pv_name>
+          </rule>
+          <rule name="HIGH" prop_id="maximum" out_exp="true">
+            <exp bool_exp="true">
+              <expression>pv0</expression>
+            </exp>
+            <pv_name>EBT-BA1-MOT-COFF-V-03:PROTL-HL</pv_name>
+          </rule>
+        </rules>
+        <minimum></minimum>
+        <maximum></maximum>
+        <limits_from_pv>false</limits_from_pv>
+        <enabled>false</enabled>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 5</name>
+    <x>875</x>
+    <y>385</y>
+    <width>334</width>
+    <height>101</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_8</name>
+      <width>335</width>
+      <height>101</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-BA1-MOT-COFF-V-02:STOP</pv_name>
+          <value>1</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <text>Stop</text>
+      <y>75</y>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-02:RPOSS</pv_name>
+      <x>2</x>
+      <y>52</y>
+      <width>81</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-02:MABSS</pv_name>
+      <y>25</y>
+      <width>85</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>pm600_N.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-COFF-V-02</device>
+            <title>EBT-BA1-MOT-COFF-V-02</title>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>V2</text>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Slider/Indicator</name>
+      <x>85</x>
+      <width>250</width>
+      <height>100</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM Slider Indicator</name>
+        <pv_name>EBT-BA1-MOT-COFF-V-02:RPOSS</pv_name>
+        <x>97</x>
+        <y>69</y>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="OK" red="0" green="255" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+      </widget>
+      <widget type="scaledslider" version="2.0.0">
+        <name>EDM activeSliderClass</name>
+        <pv_name>EBT-BA1-MOT-COFF-V-02:MABSS</pv_name>
+        <x>9</x>
+        <y>35</y>
+        <width>233</width>
+        <height>15</height>
+        <foreground_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Button: On" red="187" green="187" blue="187">
+          </color>
+        </background_color>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <show_hihi>false</show_hihi>
+        <show_high>false</show_high>
+        <show_low>false</show_low>
+        <show_lolo>false</show_lolo>
+        <rules>
+          <rule name="LOW" prop_id="minimum" out_exp="true">
+            <exp bool_exp="true">
+              <expression>pv0</expression>
+            </exp>
+            <pv_name>EBT-BA1-MOT-COFF-V-02:PROTL-LL</pv_name>
+          </rule>
+          <rule name="HIGH" prop_id="maximum" out_exp="true">
+            <exp bool_exp="true">
+              <expression>pv0</expression>
+            </exp>
+            <pv_name>EBT-BA1-MOT-COFF-V-02:PROTL-HL</pv_name>
+          </rule>
+        </rules>
+        <minimum></minimum>
+        <maximum></maximum>
+        <limits_from_pv>false</limits_from_pv>
+        <enabled>false</enabled>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 6</name>
+    <x>592</x>
+    <y>628</y>
+    <width>386</width>
+    <height>101</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-BA1-MOT-COFF-V-05:STOP</pv_name>
+          <value>1</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <text>Stop</text>
+      <y>75</y>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-05:RPOSS</pv_name>
+      <x>2</x>
+      <y>52</y>
+      <width>81</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-05:MABSS</pv_name>
+      <y>25</y>
+      <width>85</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>pm600_N.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-COFF-V-05</device>
+            <title>EBT-BA1-MOT-COFF-V-05</title>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>V5</text>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM Slider Indicator</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-05:RPOSS</pv_name>
+      <x>208</x>
+      <y>65</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="On" red="0" green="255" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 7</name>
+    <x>170</x>
+    <y>145</y>
+    <width>410</width>
+    <height>101</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_4</name>
+      <width>410</width>
+      <height>101</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-BA1-MOT-COFF-H-01:STOP</pv_name>
+          <value>1</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <text>Stop</text>
+      <y>75</y>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-01:RPOSS</pv_name>
+      <x>2</x>
+      <y>52</y>
+      <width>81</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-01:MABSS</pv_name>
+      <y>25</y>
+      <width>85</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>pm600_N.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-COFF-H-01</device>
+            <title>EBT-BA1-MOT-COFF-H-01</title>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>H1</text>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Slider/Indicator</name>
+      <x>91</x>
+      <y>12</y>
+      <height>73</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="scaledslider" version="2.0.0">
+        <name>EDM activeSliderClass</name>
+        <pv_name>EBT-BA1-MOT-COFF-H-01:MABSS</pv_name>
+        <y>13</y>
+        <width>300</width>
+        <height>40</height>
+        <foreground_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Button: On" red="187" green="187" blue="187">
+          </color>
+        </background_color>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <show_hihi>false</show_hihi>
+        <show_high>false</show_high>
+        <show_low>false</show_low>
+        <show_lolo>false</show_lolo>
+        <rules>
+          <rule name="HIGH" prop_id="maximum" out_exp="true">
+            <exp bool_exp="true">
+              <expression>pv0</expression>
+            </exp>
+            <pv_name>EBT-BA1-MOT-COFF-H-01:PROTL-HL</pv_name>
+          </rule>
+          <rule name="LOW" prop_id="minimum" out_exp="true">
+            <exp bool_exp="true">
+              <expression>pv0</expression>
+            </exp>
+            <pv_name>EBT-BA1-MOT-COFF-H-01:PROTL-LL</pv_name>
+          </rule>
+        </rules>
+        <minimum></minimum>
+        <maximum></maximum>
+        <limits_from_pv>false</limits_from_pv>
+        <enabled>false</enabled>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM Slider Indicator</name>
+        <pv_name>EBT-BA1-MOT-COFF-H-01:RPOSS</pv_name>
+        <x>124</x>
+        <y>53</y>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="OK" red="0" green="255" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 8</name>
+    <x>170</x>
+    <y>262</y>
+    <width>386</width>
+    <height>101</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-BA1-MOT-COFF-H-02:STOP</pv_name>
+          <value>1</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <text>Stop</text>
+      <y>75</y>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-02:RPOSS</pv_name>
+      <x>2</x>
+      <y>52</y>
+      <width>81</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-02:MABSS</pv_name>
+      <y>25</y>
+      <width>85</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>pm600_N.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-COFF-H-02</device>
+            <title>EBT-BA1-MOT-COFF-H-02</title>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>H2</text>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM Slider Indicator</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-02:RPOSS</pv_name>
+      <x>215</x>
+      <y>65</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="On" red="0" green="255" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 9</name>
+    <x>170</x>
+    <y>508</y>
+    <width>386</width>
+    <height>101</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-BA1-MOT-COFF-H-04:STOP</pv_name>
+          <value>1</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <text>Stop</text>
+      <y>75</y>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-04:RPOSS</pv_name>
+      <x>2</x>
+      <y>52</y>
+      <width>81</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-04:MABSS</pv_name>
+      <y>25</y>
+      <width>85</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>pm600_N.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-COFF-H-04</device>
+            <title>EBT-BA1-MOT-COFF-H-04</title>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>H4</text>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 10</name>
+    <x>170</x>
+    <y>386</y>
+    <width>350</width>
+    <height>101</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_6</name>
+      <width>350</width>
+      <height>101</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-BA1-MOT-COFF-H-03:STOP</pv_name>
+          <value>Stop</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <text>Stop</text>
+      <y>75</y>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-03:RPOSS</pv_name>
+      <x>2</x>
+      <y>52</y>
+      <width>81</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-03:MABSS</pv_name>
+      <y>25</y>
+      <width>85</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>newportSmc100Scaled.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-COFF-H-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>H3</text>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Slider/Indicator</name>
+      <x>85</x>
+      <width>265</width>
+      <height>100</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>EDM Slider Indicator</name>
+        <pv_name>EBT-BA1-MOT-COFF-H-03:RPOSS</pv_name>
+        <x>96</x>
+        <y>64</y>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="OK" red="0" green="255" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+      </widget>
+      <widget type="scaledslider" version="2.0.0">
+        <name>EDM activeSliderClass</name>
+        <pv_name>EBT-BA1-MOT-COFF-H-03:MABSS</pv_name>
+        <x>6</x>
+        <y>26</y>
+        <width>255</width>
+        <height>40</height>
+        <foreground_color>
+          <color name="Black" red="0" green="0" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Button: On" red="187" green="187" blue="187">
+          </color>
+        </background_color>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <show_hihi>false</show_hihi>
+        <show_high>false</show_high>
+        <show_low>false</show_low>
+        <show_lolo>false</show_lolo>
+        <rules>
+          <rule name="HIGH" prop_id="maximum" out_exp="true">
+            <exp bool_exp="true">
+              <expression>pv0</expression>
+            </exp>
+            <pv_name>EBT-BA1-MOT-COFF-H-03:PROTL-HL</pv_name>
+          </rule>
+          <rule name="LOW" prop_id="minimum" out_exp="true">
+            <exp bool_exp="true">
+              <expression>pv0</expression>
+            </exp>
+            <pv_name>EBT-BA1-MOT-COFF-H-03:PROTL-LL</pv_name>
+          </rule>
+        </rules>
+        <minimum></minimum>
+        <maximum></maximum>
+        <limits_from_pv>false</limits_from_pv>
+        <enabled>false</enabled>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-MOT-COFF-S-02:NAME</pv_name>
+    <x>28</x>
+    <y>297</y>
+    <height>26</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-MOT-COFF-S-03:NAME</pv_name>
+    <x>28</x>
+    <y>421</y>
+    <height>26</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-MOT-COFF-S-04:NAME</pv_name>
+    <x>28</x>
+    <y>544</y>
+    <height>26</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>EBT-BA1-MOT-COFF-S-05:NAME</pv_name>
+    <x>28</x>
+    <y>667</y>
+    <width>141</width>
+    <height>26</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>VELA_BA1_StageName.bob</file>
+        <macros>
+          <device>EBT-BA1-MOT-COFF-S-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>15</x>
+    <y>150</y>
+    <width>149</width>
+    <height>92</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="brown-44" red="128" green="88" blue="48">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>VELA_BA1_StageName.bob</file>
+        <macros>
+          <device>EBT-BA1-MOT-COFF-S-02</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>15</x>
+    <y>266</y>
+    <width>149</width>
+    <height>92</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="brown-44" red="128" green="88" blue="48">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>VELA_BA1_StageName.bob</file>
+        <macros>
+          <device>EBT-BA1-MOT-COFF-S-03</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>15</x>
+    <y>391</y>
+    <width>149</width>
+    <height>92</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="brown-44" red="128" green="88" blue="48">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>VELA_BA1_StageName.bob</file>
+        <macros>
+          <device>EBT-BA1-MOT-COFF-S-04</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>15</x>
+    <y>513</y>
+    <width>149</width>
+    <height>92</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="brown-44" red="128" green="88" blue="48">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>VELA_BA1_StageName.bob</file>
+        <macros>
+          <device>EBT-BA1-MOT-COFF-S-05</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text></text>
+    <x>15</x>
+    <y>633</y>
+    <width>149</width>
+    <height>92</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="brown-44" red="128" green="88" blue="48">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_1</name>
+    <x>1016</x>
+    <y>639</y>
+    <width>230</width>
+    <height>39</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_2</name>
+    <x>1016</x>
+    <y>685</y>
+    <width>230</width>
+    <height>39</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="70" green="70" blue="70">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>USER INPUT</text>
+    <x>1051</x>
+    <y>646</y>
+    <width>230</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="24.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>ACTUAL VALUE</text>
+    <x>1034</x>
+    <y>691</y>
+    <width>230</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="24.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>Polygon</name>
+    <x>1292</x>
+    <y>213</y>
+    <width>1</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Slider/Indicator</name>
+    <x>286</x>
+    <y>287</y>
+    <width>275</width>
+    <height>40</height>
+    <style>3</style>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="scaledslider" version="2.0.0">
+    <name>EDM activeSliderClass</name>
+    <pv_name>EBT-BA1-MOT-COFF-H-02:MABSS</pv_name>
+    <x>261</x>
+    <y>287</y>
+    <width>300</width>
+    <height>40</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Button: On" red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <show_hihi>false</show_hihi>
+    <show_high>false</show_high>
+    <show_low>false</show_low>
+    <show_lolo>false</show_lolo>
+    <rules>
+      <rule name="HIGH" prop_id="maximum" out_exp="true">
+        <exp bool_exp="true">
+          <expression>pv0</expression>
+        </exp>
+        <pv_name>EBT-BA1-MOT-COFF-H-02:PROTL-HL</pv_name>
+      </rule>
+      <rule name="LOW" prop_id="minimum" out_exp="true">
+        <exp bool_exp="true">
+          <expression>pv0</expression>
+        </exp>
+        <pv_name>EBT-BA1-MOT-COFF-H-02:PROTL-LL</pv_name>
+      </rule>
+    </rules>
+    <minimum></minimum>
+    <maximum></maximum>
+    <limits_from_pv>false</limits_from_pv>
+    <enabled>false</enabled>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Slider/Indicator</name>
+    <x>677</x>
+    <y>508</y>
+    <width>317</width>
+    <height>100</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM Slider Indicator</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-04:RPOSS</pv_name>
+      <x>123</x>
+      <y>69</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="scaledslider" version="2.0.0">
+      <name>EDM activeSliderClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-04:MABSS</pv_name>
+      <x>5</x>
+      <y>33</y>
+      <width>307</width>
+      <height>40</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <show_hihi>false</show_hihi>
+      <show_high>false</show_high>
+      <show_low>false</show_low>
+      <show_lolo>false</show_lolo>
+      <rules>
+        <rule name="LOW" prop_id="minimum" out_exp="true">
+          <exp bool_exp="true">
+            <expression>pv0</expression>
+          </exp>
+          <pv_name>EBT-BA1-MOT-COFF-V-04:PROTL-LL</pv_name>
+        </rule>
+        <rule name="HIGH" prop_id="maximum" out_exp="true">
+          <exp bool_exp="true">
+            <expression>pv0</expression>
+          </exp>
+          <pv_name>EBT-BA1-MOT-COFF-V-04:PROTL-HL</pv_name>
+        </rule>
+      </rules>
+      <minimum></minimum>
+      <maximum></maximum>
+      <limits_from_pv>false</limits_from_pv>
+      <enabled>false</enabled>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Slider/Indicator</name>
+    <x>255</x>
+    <y>508</y>
+    <width>325</width>
+    <height>100</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="scaledslider" version="2.0.0">
+      <name>EDM activeSliderClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-04:MABSS</pv_name>
+      <y>25</y>
+      <width>306</width>
+      <height>40</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <show_hihi>false</show_hihi>
+      <show_high>false</show_high>
+      <show_low>false</show_low>
+      <show_lolo>false</show_lolo>
+      <maximum>85.0</maximum>
+      <limits_from_pv>false</limits_from_pv>
+      <enabled>false</enabled>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM Slider Indicator</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-04:RPOSS</pv_name>
+      <x>125</x>
+      <y>61</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>Choice Button</name>
+    <x>1090</x>
+    <y>623</y>
+    <width>4</width>
+    <height>1</height>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Slider/Indicator</name>
+    <x>686</x>
+    <y>628</y>
+    <width>308</width>
+    <height>100</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="scaledslider" version="2.0.0">
+      <name>EDM activeSliderClass</name>
+      <pv_name>EBT-BA1-MOT-COFF-V-05:MABSS</pv_name>
+      <y>25</y>
+      <width>300</width>
+      <height>40</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <show_hihi>false</show_hihi>
+      <show_high>false</show_high>
+      <show_low>false</show_low>
+      <show_lolo>false</show_lolo>
+      <rules>
+        <rule name="LOW" prop_id="minimum" out_exp="true">
+          <exp bool_exp="true">
+            <expression>pv0</expression>
+          </exp>
+          <pv_name>EBT-BA1-MOT-COFF-V-05:PROTL-LL</pv_name>
+        </rule>
+        <rule name="HIGH" prop_id="maximum" out_exp="true">
+          <exp bool_exp="true">
+            <expression>pv0</expression>
+          </exp>
+          <pv_name>EBT-BA1-MOT-COFF-V-05:PROTL-HL</pv_name>
+        </rule>
+      </rules>
+      <minimum></minimum>
+      <maximum></maximum>
+      <limits_from_pv>false</limits_from_pv>
+      <enabled>false</enabled>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_12</name>
+    <x>170</x>
+    <y>628</y>
+    <width>402</width>
+    <height>101</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 6_1</name>
+    <x>170</x>
+    <y>628</y>
+    <width>386</width>
+    <height>101</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM activeMessageButtonClass_1</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>EBT-BA1-MOT-COFF-V-05:STOP</pv_name>
+          <value>1</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <text>Stop</text>
+      <y>75</y>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Button: On" red="187" green="187" blue="187">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass_1</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-05:RPOSS</pv_name>
+      <x>2</x>
+      <y>52</y>
+      <width>81</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>EDM activeXTextDspClass_1</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-05:MABSS</pv_name>
+      <y>25</y>
+      <width>85</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Controller" red="0" green="0" blue="255">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </background_color>
+      <show_units>false</show_units>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass_1</name>
+      <actions>
+        <action type="open_display">
+          <file>pm600_N.bob</file>
+          <macros>
+            <device>EBT-BA1-MOT-COFF-V-05</device>
+            <title>EBT-BA1-MOT-COFF-V-05</title>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>H5</text>
+      <width>85</width>
+      <height>25</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM Slider Indicator_2</name>
+      <pv_name>EBT-BA1-MOT-COFF-H-05:RPOSS</pv_name>
+      <x>208</x>
+      <y>65</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="On" red="0" green="255" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Slider/Indicator_2</name>
+    <x>255</x>
+    <y>628</y>
+    <width>317</width>
+    <height>100</height>
+    <style>3</style>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="scaledslider" version="2.0.0">
+    <name>EDM activeSliderClass_2</name>
+    <pv_name>EBT-BA1-MOT-COFF-H-05:MABSS</pv_name>
+    <x>261</x>
+    <y>658</y>
+    <width>300</width>
+    <height>40</height>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Button: On" red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <show_hihi>false</show_hihi>
+    <show_high>false</show_high>
+    <show_low>false</show_low>
+    <show_lolo>false</show_lolo>
+    <rules>
+      <rule name="LOW" prop_id="minimum" out_exp="true">
+        <exp bool_exp="true">
+          <expression>pv0</expression>
+        </exp>
+        <pv_name>EBT-BA1-MOT-COFF-H-05:PROTL-LL</pv_name>
+      </rule>
+      <rule name="HIGH" prop_id="maximum" out_exp="true">
+        <exp bool_exp="true">
+          <expression>pv0</expression>
+        </exp>
+        <pv_name>EBT-BA1-MOT-COFF-H-05:PROTL-HL</pv_name>
+      </rule>
+    </rules>
+    <minimum></minimum>
+    <maximum></maximum>
+    <limits_from_pv>false</limits_from_pv>
+    <enabled>false</enabled>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <x>156</x>
+    <y>64</y>
+    <width>1</width>
+    <height>1</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

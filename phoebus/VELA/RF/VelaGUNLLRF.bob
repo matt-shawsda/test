@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>VelaGUNLLRF</name>
+  <x>966</x>
+  <y>49</y>
+  <width>492</width>
+  <height>860</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>275</x>
+    <y>48</y>
+    <width>200</width>
+    <height>71</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>VELA Gun LLRF Panel</text>
+    <x>17</x>
+    <y>14</y>
+    <width>456</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>VAC IMG-01</text>
+    <x>321</x>
+    <y>56</y>
+    <width>108</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM activeXTextDspClass_noedit</name>
+    <pv_name>CLA-LRG1-VAC-IMG-01:P</pv_name>
+    <x>302</x>
+    <y>82</y>
+    <width>146</width>
+    <height>25</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <format>2</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>EDM activeRectangleClass</name>
+    <x>16</x>
+    <y>124</y>
+    <width>459</width>
+    <height>140</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>Control</text>
+    <x>214</x>
+    <y>130</y>
+    <width>62</width>
+    <height>21</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Disconn/Invalid" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>30</x>
+    <y>162</y>
+    <width>430</width>
+    <height>27</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Amplitude</text>
+      <y>1</y>
+      <width>82</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="scaledslider" version="2.0.0">
+      <name>EDM activeMotifSliderClass</name>
+      <pv_name>CLA-GUNS-LRF-CTRL-01:vm:dsp:ff_amp:power</pv_name>
+      <x>93</x>
+      <width>232</width>
+      <height>26</height>
+      <foreground_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </font>
+      <maximum>1.0E7</maximum>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUNS-LRF-CTRL-01:vm:dsp:ff_amp:power</pv_name>
+      <x>338</x>
+      <y>1</y>
+      <width>91</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 1</name>
+    <x>30</x>
+    <y>194</y>
+    <width>401</width>
+    <height>27</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Phase</text>
+      <y>3</y>
+      <width>50</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="scaledslider" version="2.0.0">
+      <name>EDM activeMotifSliderClass</name>
+      <pv_name>CLA-GUNS-LRF-CTRL-01:vm:dsp:ff_ph:phase</pv_name>
+      <x>93</x>
+      <width>232</width>
+      <height>26</height>
+      <foreground_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </font>
+      <maximum>360.0</maximum>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUNS-LRF-CTRL-01:vm:dsp:ff_ph:phase</pv_name>
+      <x>338</x>
+      <y>3</y>
+      <width>62</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <precision>2</precision>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 2</name>
+    <x>30</x>
+    <y>227</y>
+    <width>401</width>
+    <height>27</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>EDM activeXTextClass</name>
+      <text>Duration</text>
+      <y>3</y>
+      <width>69</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <auto_size>true</auto_size>
+    </widget>
+    <widget type="scaledslider" version="2.0.0">
+      <name>EDM activeMotifSliderClass</name>
+      <pv_name>CLA-GUNS-LRF-CTRL-01:vm:feed_fwd:duration</pv_name>
+      <x>93</x>
+      <width>232</width>
+      <height>26</height>
+      <foreground_color>
+        <color name="Top Shadow" red="236" green="236" blue="236">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </font>
+      <maximum>9.2</maximum>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM activeXTextDspClass:noedit</name>
+      <pv_name>CLA-GUNS-LRF-CTRL-01:vm:feed_fwd:duration</pv_name>
+      <x>338</x>
+      <y>3</y>
+      <width>62</width>
+      <height>21</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <precision>2</precision>
+      <show_units>false</show_units>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 3</name>
+    <x>17</x>
+    <y>271</y>
+    <width>457</width>
+    <height>281</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="xyplot" version="2.0.0">
+      <name>EDM xyGraphClass</name>
+      <y>143</y>
+      <width>455</width>
+      <height>137</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <grid_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </grid_color>
+      <title>GUN REV Power</title>
+      <title_font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </title_font>
+      <show_legend>false</show_legend>
+      <x_axis>
+        <title></title>
+        <autoscale>false</autoscale>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <maximum>1017.0</maximum>
+        <show_grid>false</show_grid>
+        <title_font>
+          <font family="Liberation Sans" style="REGULAR" size="18.0">
+          </font>
+        </title_font>
+        <scale_font>
+          <font family="Liberation Sans" style="REGULAR" size="18.0">
+          </font>
+        </scale_font>
+        <visible>false</visible>
+      </x_axis>
+      <y_axes>
+        <y_axis>
+          <title></title>
+          <autoscale>true</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>0.0</minimum>
+          <maximum>100.0</maximum>
+          <show_grid>false</show_grid>
+          <title_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </scale_font>
+          <visible>false</visible>
+        </y_axis>
+        <y_axis>
+          <title></title>
+          <autoscale>true</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>0.0</minimum>
+          <maximum>100.0</maximum>
+          <show_grid>false</show_grid>
+          <title_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </scale_font>
+          <visible>false</visible>
+        </y_axis>
+      </y_axes>
+      <traces>
+        <trace>
+          <name></name>
+          <x_pv></x_pv>
+          <y_pv>CLA-GUNS-LRF-CTRL-01:ad1:ch4:power_remote</y_pv>
+          <err_pv></err_pv>
+          <axis>0</axis>
+          <trace_type>1</trace_type>
+          <color>
+            <color name="Red LED: On" red="255" green="0" blue="0">
+            </color>
+          </color>
+          <line_width>1</line_width>
+          <line_style>0</line_style>
+          <point_type>0</point_type>
+          <point_size>10</point_size>
+          <visible>true</visible>
+        </trace>
+      </traces>
+    </widget>
+    <widget type="xyplot" version="2.0.0">
+      <name>EDM xyGraphClass</name>
+      <width>455</width>
+      <height>137</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <grid_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </grid_color>
+      <title>GUN FWD Power</title>
+      <title_font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </title_font>
+      <show_legend>false</show_legend>
+      <x_axis>
+        <title></title>
+        <autoscale>false</autoscale>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <maximum>1017.0</maximum>
+        <show_grid>false</show_grid>
+        <title_font>
+          <font family="Liberation Sans" style="REGULAR" size="18.0">
+          </font>
+        </title_font>
+        <scale_font>
+          <font family="Liberation Sans" style="REGULAR" size="18.0">
+          </font>
+        </scale_font>
+        <visible>false</visible>
+      </x_axis>
+      <y_axes>
+        <y_axis>
+          <title></title>
+          <autoscale>true</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>0.0</minimum>
+          <maximum>100.0</maximum>
+          <show_grid>false</show_grid>
+          <title_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </scale_font>
+          <visible>false</visible>
+        </y_axis>
+        <y_axis>
+          <title></title>
+          <autoscale>true</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>0.0</minimum>
+          <maximum>100.0</maximum>
+          <show_grid>false</show_grid>
+          <title_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </scale_font>
+          <visible>false</visible>
+        </y_axis>
+      </y_axes>
+      <traces>
+        <trace>
+          <name></name>
+          <x_pv></x_pv>
+          <y_pv>CLA-GUNS-LRF-CTRL-01:ad1:ch3:power_remote</y_pv>
+          <err_pv></err_pv>
+          <axis>0</axis>
+          <trace_type>1</trace_type>
+          <color>
+            <color name="Red LED: On" red="255" green="0" blue="0">
+            </color>
+          </color>
+          <line_width>1</line_width>
+          <line_style>0</line_style>
+          <point_type>0</point_type>
+          <point_size>10</point_size>
+          <visible>true</visible>
+        </trace>
+      </traces>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 4</name>
+    <x>17</x>
+    <y>558</y>
+    <width>456</width>
+    <height>281</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="xyplot" version="2.0.0">
+      <name>EDM xyGraphClass</name>
+      <width>455</width>
+      <height>137</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <grid_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </grid_color>
+      <title>KLYSTRON FWD Power</title>
+      <title_font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </title_font>
+      <show_legend>false</show_legend>
+      <x_axis>
+        <title></title>
+        <autoscale>false</autoscale>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <maximum>1017.0</maximum>
+        <show_grid>false</show_grid>
+        <title_font>
+          <font family="Liberation Sans" style="REGULAR" size="18.0">
+          </font>
+        </title_font>
+        <scale_font>
+          <font family="Liberation Sans" style="REGULAR" size="18.0">
+          </font>
+        </scale_font>
+        <visible>false</visible>
+      </x_axis>
+      <y_axes>
+        <y_axis>
+          <title></title>
+          <autoscale>true</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>0.0</minimum>
+          <maximum>100.0</maximum>
+          <show_grid>false</show_grid>
+          <title_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </scale_font>
+          <visible>false</visible>
+        </y_axis>
+        <y_axis>
+          <title></title>
+          <autoscale>true</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>0.0</minimum>
+          <maximum>100.0</maximum>
+          <show_grid>false</show_grid>
+          <title_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </scale_font>
+          <visible>false</visible>
+        </y_axis>
+      </y_axes>
+      <traces>
+        <trace>
+          <name></name>
+          <x_pv></x_pv>
+          <y_pv>CLA-GUNS-LRF-CTRL-01:ad1:ch1:power_remote</y_pv>
+          <err_pv></err_pv>
+          <axis>0</axis>
+          <trace_type>1</trace_type>
+          <color>
+            <color name="Red LED: On" red="255" green="0" blue="0">
+            </color>
+          </color>
+          <line_width>1</line_width>
+          <line_style>0</line_style>
+          <point_type>0</point_type>
+          <point_size>10</point_size>
+          <visible>true</visible>
+        </trace>
+      </traces>
+    </widget>
+    <widget type="xyplot" version="2.0.0">
+      <name>EDM xyGraphClass</name>
+      <y>143</y>
+      <width>454</width>
+      <height>137</height>
+      <foreground_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Disconn/Invalid" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <grid_color>
+        <color name="Black" red="0" green="0" blue="0">
+        </color>
+      </grid_color>
+      <title>KLYSTRON REV Power</title>
+      <title_font>
+        <font family="Liberation Sans" style="REGULAR" size="18.0">
+        </font>
+      </title_font>
+      <show_legend>false</show_legend>
+      <x_axis>
+        <title></title>
+        <autoscale>false</autoscale>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <maximum>1017.0</maximum>
+        <show_grid>false</show_grid>
+        <title_font>
+          <font family="Liberation Sans" style="REGULAR" size="18.0">
+          </font>
+        </title_font>
+        <scale_font>
+          <font family="Liberation Sans" style="REGULAR" size="18.0">
+          </font>
+        </scale_font>
+        <visible>false</visible>
+      </x_axis>
+      <y_axes>
+        <y_axis>
+          <title></title>
+          <autoscale>true</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>0.0</minimum>
+          <maximum>100.0</maximum>
+          <show_grid>false</show_grid>
+          <title_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </scale_font>
+          <visible>false</visible>
+        </y_axis>
+        <y_axis>
+          <title></title>
+          <autoscale>true</autoscale>
+          <log_scale>false</log_scale>
+          <minimum>0.0</minimum>
+          <maximum>100.0</maximum>
+          <show_grid>false</show_grid>
+          <title_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </title_font>
+          <scale_font>
+            <font family="Liberation Sans" style="REGULAR" size="18.0">
+            </font>
+          </scale_font>
+          <visible>false</visible>
+        </y_axis>
+      </y_axes>
+      <traces>
+        <trace>
+          <name></name>
+          <x_pv></x_pv>
+          <y_pv>CLA-GUNS-LRF-CTRL-01:ad1:ch2:power_remote</y_pv>
+          <err_pv></err_pv>
+          <axis>0</axis>
+          <trace_type>1</trace_type>
+          <color>
+            <color name="Red LED: On" red="255" green="0" blue="0">
+            </color>
+          </color>
+          <line_width>1</line_width>
+          <line_style>0</line_style>
+          <point_type>0</point_type>
+          <point_size>10</point_size>
+          <visible>true</visible>
+        </trace>
+      </traces>
+    </widget>
+  </widget>
+</display>

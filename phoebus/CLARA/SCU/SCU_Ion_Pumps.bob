@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>SCU Ion Pump Commissioning</name>
+  <x>92</x>
+  <y>275</y>
+  <width>340</width>
+  <height>200</height>
+  <background_color>
+    <color name="Canvas" red="200" green="200" blue="200">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <widget type="label" version="2.0.0">
+    <name>EDM activeXTextClass</name>
+    <text>SCU Ion Pumps</text>
+    <width>340</width>
+    <height>32</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Black" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="VAC title" red="225" green="248" blue="177">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>EDM TextupdateClass</name>
+    <pv_name>CLA-SCU-VAC-IONP-01:UNIT_RB</pv_name>
+    <x>212</x>
+    <y>37</y>
+    <width>76</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="grey-12" red="70" green="70" blue="70">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>EDM relatedDisplayClass</name>
+    <actions>
+      <action type="open_display">
+        <file>../../agilentXgs600Ctlr.bob</file>
+        <macros>
+          <device>CLA-SCU-VAC-IONPC-01</device>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CLA-SCU-VAC-IONPC-01</text>
+    <x>5</x>
+    <y>35</y>
+    <width>200</width>
+    <height>22</height>
+    <foreground_color>
+      <color name="Related display" red="160" green="110" blue="60">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="Canvas" red="200" green="200" blue="200">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 0</name>
+    <x>5</x>
+    <y>70</y>
+    <width>329</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-IONP-01:PRES</pv_name>
+      <x>207</x>
+      <y>9</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 1</name>
+      <x>290</x>
+      <width>39</width>
+      <height>39</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="embedded" version="2.0.0">
+        <name>EDM activeSymbolClass</name>
+        <file>../../MISC(SYMBOLS)/agilent4uhvSymbol.bob</file>
+        <x>2</x>
+        <y>1</y>
+        <width>33</width>
+        <height>33</height>
+        <resize>3</resize>
+        <group_name>EDM Group 0</group_name>
+        <transparent>true</transparent>
+        <scripts>
+          <script file="EmbeddedPy">
+            <text><![CDATA[# pvs[0] = CLA-SCU-VAC-IONP-01:STATE_RB
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+            <pv_name>CLA-SCU-VAC-IONP-01:STATE_RB</pv_name>
+          </script>
+        </scripts>
+        <tooltip>CLA-SCU-VAC-IONP-01:STATE_RB</tooltip>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../VELA/VACUUM/agilent4uhv.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IONP-01</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text></text>
+        <width>38</width>
+        <height>38</height>
+        <font>
+          <font family="Liberation Sans" style="REGULAR" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="brown-44" red="128" green="88" blue="48">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilent4uhv.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-IONP-01</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-IONP-01</text>
+      <y>7</y>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 2</name>
+    <x>5</x>
+    <y>110</y>
+    <width>329</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-IONP-02:PRES</pv_name>
+      <x>207</x>
+      <y>9</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 3</name>
+      <x>290</x>
+      <width>39</width>
+      <height>39</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="embedded" version="2.0.0">
+        <name>EDM activeSymbolClass</name>
+        <file>../../MISC(SYMBOLS)/agilent4uhvSymbol.bob</file>
+        <x>2</x>
+        <y>1</y>
+        <width>33</width>
+        <height>33</height>
+        <resize>3</resize>
+        <group_name>EDM Group 0</group_name>
+        <transparent>true</transparent>
+        <scripts>
+          <script file="EmbeddedPy">
+            <text><![CDATA[# pvs[0] = CLA-SCU-VAC-IONP-02:STATE_RB
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+            <pv_name>CLA-SCU-VAC-IONP-02:STATE_RB</pv_name>
+          </script>
+        </scripts>
+        <tooltip>CLA-SCU-VAC-IONP-02:STATE_RB</tooltip>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../VELA/VACUUM/agilent4uhv.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IONP-02</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text></text>
+        <width>38</width>
+        <height>38</height>
+        <font>
+          <font family="Liberation Sans" style="REGULAR" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="brown-44" red="128" green="88" blue="48">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilent4uhv.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-IONP-02</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-IONP-02</text>
+      <y>7</y>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>EDM Group 4</name>
+    <x>5</x>
+    <y>150</y>
+    <width>329</width>
+    <height>39</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>EDM TextupdateClass</name>
+      <pv_name>CLA-SCU-VAC-IONP-03:PRES</pv_name>
+      <x>207</x>
+      <y>9</y>
+      <width>76</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Monitor: NORMAL" red="0" green="224" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="grey-12" red="70" green="70" blue="70">
+        </color>
+      </background_color>
+      <format>2</format>
+      <precision>1</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>EDM Group 5</name>
+      <x>290</x>
+      <width>39</width>
+      <height>39</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="embedded" version="2.0.0">
+        <name>EDM activeSymbolClass</name>
+        <file>../../MISC(SYMBOLS)/agilent4uhvSymbol.bob</file>
+        <x>2</x>
+        <y>1</y>
+        <width>33</width>
+        <height>33</height>
+        <resize>3</resize>
+        <group_name>EDM Group 0</group_name>
+        <transparent>true</transparent>
+        <scripts>
+          <script file="EmbeddedPy">
+            <text><![CDATA[# pvs[0] = CLA-SCU-VAC-IONP-03:STATE_RB
+from org.csstudio.display.builder.runtime.script import PVUtil
+val = PVUtil.getDouble(pvs[0])
+if 0.0 <= val < 0.0:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+elif 0.0 <= val < 1.0:
+    widget.setPropertyValue('group_name', 'EDM Group 1')
+elif 1.0 <= val < 2.0:
+    widget.setPropertyValue('group_name', 'EDM Group 2')
+else:
+    widget.setPropertyValue('group_name', 'EDM Group 0')
+]]></text>
+            <pv_name>CLA-SCU-VAC-IONP-03:STATE_RB</pv_name>
+          </script>
+        </scripts>
+        <tooltip>CLA-SCU-VAC-IONP-03:STATE_RB</tooltip>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>EDM relatedDisplayClass</name>
+        <actions>
+          <action type="open_display">
+            <file>../../VELA/VACUUM/agilent4uhv.bob</file>
+            <macros>
+              <device>CLA-SCU-VAC-IONP-03</device>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <text></text>
+        <width>38</width>
+        <height>38</height>
+        <font>
+          <font family="Liberation Sans" style="REGULAR" size="16.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="brown-44" red="128" green="88" blue="48">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+          </color>
+        </background_color>
+        <transparent>true</transparent>
+        <tooltip>$(actions)</tooltip>
+      </widget>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>EDM relatedDisplayClass</name>
+      <actions>
+        <action type="open_display">
+          <file>../../VELA/VACUUM/agilent4uhv.bob</file>
+          <macros>
+            <device>CLA-SCU-VAC-IONP-03</device>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>CLA-SCU-VAC-IONP-03</text>
+      <y>7</y>
+      <width>200</width>
+      <height>22</height>
+      <foreground_color>
+        <color name="Related display" red="160" green="110" blue="60">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="Canvas" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+</display>
